@@ -1,0 +1,13 @@
+dist: trusty
+language: go
+
+go:
+  - 1.8.x
+  - master
+
+before_install:
+  - wget https://github.com/Z3Prover/bin/raw/master/releases/z3-4.5.0-x64-ubuntu-14.04.zip
+  - unzip z3-4.5.0-x64-ubuntu-14.04.zip
+  - export CGO_CPPFLAGS="-I${PWD}/z3-4.5.0-x64-ubuntu-14.04/include"
+  - export CGO_LDFLAGS="-L${PWD}/z3-4.5.0-x64-ubuntu-14.04/bin"
+  - export LD_LIBRARY_PATH="${PWD}/z3-4.5.0-x64-ubuntu-14.04/bin"
