@@ -1,6 +1,8 @@
 MIT License
 
 Copyright (c) 2017 Alexander Kreuzer
+Copyright for parts of z3++.h are hold by the Microsoft Corporation
+as part of Z3 (https://github.com/Z3Prover/z3).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
