@@ -1,3 +1,5 @@
+// This package contains translation of examples in
+// https://github.com/Z3Prover/z3/blob/master/examples/c%2B%2B/example.cpp
 package main
 
 import (
@@ -50,6 +52,7 @@ func findModelExample1() {
 	fmt.Println(s.Check())
 
 	m := s.Get_model()
+
 	fmt.Println(m)
 	for i := 0; i < int(m.Size()); i++ {
 		v := m.Get(i)
@@ -60,7 +63,45 @@ func findModelExample1() {
 	}
 }
 
+func proveExample1() {
+	fmt.Println("prove_example1")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+
+	x := c.Int_const("x")
+	y := c.Int_const("y")
+	intSort := c.Int_sort()
+	g := z3.Function("g", intSort, intSort)
+
+	s := z3.NewSolver(c)
+	defer z3.DeleteSolver(s)
+
+	conjecture1 := z3.Implies(z3.Equals(x, y), z3.Equals(g.ApplyFct(x), g.ApplyFct(y)))
+	fmt.Printf("conjecture1\n%v\n", conjecture1)
+	s.Add(z3.Not(conjecture1))
+	if s.Check() == z3.Unsat {
+		fmt.Println("proved")
+	} else {
+		fmt.Println("failed to prove")
+	}
+	s.Reset()
+
+	conjecture2 := z3.Implies(z3.Equals(x, y), z3.Equals(g.ApplyFct(g.ApplyFct(x)), g.ApplyFct(y)))
+	fmt.Printf("conjecture2\n%v\n", conjecture2)
+	s.Add(z3.Not(conjecture2))
+	if s.Check() == z3.Unsat {
+		fmt.Println("proved")
+	} else {
+		fmt.Println("failed to prove")
+		m := s.Get_model()
+		fmt.Printf("counterexample: %v\n", m)
+		fmt.Printf("g(g(x)) = %v\n", m.Eval(g.ApplyFct(g.ApplyFct(x))))
+		fmt.Printf("g(y)    = %v\n", m.Eval(g.ApplyFct(y)))
+	}
+}
+
 func main() {
 	deMorgan()
 	findModelExample1()
+	proveExample1()
 }
