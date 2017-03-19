@@ -30,7 +30,7 @@ for the GO interface
 %rename(Greater) operator>;
 %rename(GreaterEq) operator>=;
 %rename(Add) operator+;
-%rename(Substract) operator-;
+%rename(Subtract) operator-;
 %rename(Mult) operator*;
 %rename(Div) operator/;
 %rename(Get) operator[];
