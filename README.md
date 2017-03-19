@@ -1,5 +1,7 @@
 # z3go: A Z3 wrapper for Golang
 
+[![Build Status](https://travis-ci.org/akreuzer/z3go.svg?branch=master)](https://travis-ci.org/akreuzer/z3go)
+
 z3go is a wrapper library for the [Z3 SMT-solver](https://github.com/Z3Prover/z3).
 
 ## Installation
@@ -35,7 +37,7 @@ We renamed operator that clashed with the Go-Syntax.
 | >        | Greater |
 | >=       | GreaterEq |
 | +        | Add    |
-| -        | Substract |
+| -        | Subtract |
 | *        | Mult   |
 | /        | Div    |
 | model[i] | model.Get(i) |

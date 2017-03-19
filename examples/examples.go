@@ -54,7 +54,7 @@ func findModelExample1() {
 	for i := 0; i < int(m.Size()); i++ {
 		v := m.Get(i)
 		if v.Arity() != 0 {
-			fmt.Println("This should not happend. This problems does only contain constants.")
+			fmt.Println("This should not happened. This problems does only contain constants.")
 		}
 		fmt.Printf("%v = %v\n", v.Name().Str(), m.Get_const_interp(v).Get_numeral_int())
 	}
