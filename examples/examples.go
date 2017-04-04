@@ -100,8 +100,54 @@ func proveExample1() {
 	}
 }
 
+func proveExample2() {
+	fmt.Println("prove_example2")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+
+	x := c.Int_const("x")
+	y := c.Int_const("y")
+	z := c.Int_const("z")
+	intSort := c.Int_sort()
+	g := z3.Function("g", intSort, intSort)
+
+	s := z3.NewSolver(c)
+	defer z3.DeleteSolver(s)
+
+	conjecture1 := z3.Implies(
+		z3.And(
+			z3.NotEquals(g.ApplyFct(z3.Subtract(g.ApplyFct(x), g.ApplyFct(y))), g.ApplyFct(z)),
+			z3.And(z3.LessEq(z3.Add(x, z), y), z3.LessEq(y, x))),
+		z3.Less(z, 0))
+
+	fmt.Printf("conjecture1\n%v\n", conjecture1)
+	s.Add(z3.Not(conjecture1))
+	if s.Check() == z3.Unsat {
+		fmt.Println("proved")
+	} else {
+		fmt.Println("failed to prove")
+	}
+	s.Reset()
+
+	conjecture2 := z3.Implies(
+		z3.And(
+			z3.NotEquals(g.ApplyFct(z3.Subtract(g.ApplyFct(x), g.ApplyFct(y))), g.ApplyFct(z)),
+			z3.And(z3.LessEq(z3.Add(x, z), y), z3.LessEq(y, x))),
+		z3.Less(z, -1))
+
+	fmt.Printf("conjecture1\n%v\n", conjecture1)
+	s.Add(z3.Not(conjecture2))
+	if s.Check() == z3.Unsat {
+		fmt.Println("proved")
+	} else {
+		fmt.Println("failed to prove")
+		fmt.Printf("counterexample: %v\n", s.Get_model())
+	}
+}
+
 func main() {
 	deMorgan()
 	findModelExample1()
 	proveExample1()
+	proveExample2()
 }
