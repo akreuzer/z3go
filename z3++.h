@@ -34,6 +34,7 @@ for the GO interface
 %rename(Mult) operator*;
 %rename(Div) operator/;
 %rename(Get) operator[];
+%rename(ApplyFct) operator();
 #endif
 
 #ifndef Z3PP_H_
@@ -445,7 +446,7 @@ namespace z3 {
         friend bool eq(ast const & a, ast const & b);
 
         // for the golang interface
-        inline std::string to_string() const { return Z3_ast_to_string(ctx(), m_ast); }
+        inline std::string String() const { return Z3_ast_to_string(ctx(), m_ast); }
     };
     inline std::ostream & operator<<(std::ostream & out, ast const & n) {
         out << Z3_ast_to_string(n.ctx(), n.m_ast); return out;

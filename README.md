@@ -41,6 +41,7 @@ We renamed operator that clashed with the Go-Syntax.
 | *        | Mult   |
 | /        | Div    |
 | model[i] | model.Get(i) |
+| f(x)     | f.ApplyFct(x) |
 
 The bitwise-(and/or/...) operator and comparison operators are still missing.
 
