@@ -145,9 +145,103 @@ func proveExample2() {
 	}
 }
 
+func nonlinear_example1() {
+	fmt.Println("nonlinear example 1")
+	cfg := z3.NewConfig()
+	defer z3.DeleteConfig(cfg)
+	cfg.Set("auto_config", true)
+	c := z3.NewContext(cfg)
+	defer z3.DeleteContext(c)
+
+	x := c.Real_const("x")
+	y := c.Real_const("y")
+	z := c.Real_const("z")
+
+	s := z3.NewSolver(c)
+	defer z3.DeleteSolver(s)
+
+	// x^2 + y^2 == 1
+	s.Add(z3.Equals(z3.Add(z3.Mult(x, x), z3.Mult(y, y)), 1))
+	// x^3 + z^3 < 1/2
+	s.Add(z3.Less(z3.Add(z3.Mult(x, z3.Mult(x, x)), z3.Mult(z, z3.Mult(z, z))), c.Real_val("1/2")))
+	s.Add(z3.NotEquals(z, 0))
+
+	fmt.Println(s.Check())
+	m := s.Get_model()
+	fmt.Println(m)
+	z3.Set_param("pp.decimal", true)
+	fmt.Println("model in decimal notation")
+	fmt.Println(m)
+	z3.Set_param("pp.decimal-precision", 50)
+	fmt.Println("model using 50 decimal places")
+	fmt.Println(m)
+}
+
+func prove(conjecture z3.Expr) {
+	c := conjecture.Ctx() // Get the context
+	s := z3.NewSolver(c)
+	defer z3.DeleteSolver(s)
+	s.Add(z3.Not(conjecture))
+	fmt.Printf("Conjecture: %v\n", conjecture)
+	if s.Check() == z3.Unsat {
+		fmt.Println("proved")
+		return
+	}
+	fmt.Println("failed to prove")
+	fmt.Printf("counterexample:\n%v\n", s.Get_model())
+}
+func proveWithCast(i interface{}) {
+	if expr, ok := i.(z3.Expr); ok {
+		prove(expr)
+		return
+	}
+	fmt.Println("error: can only try to prove expressions")
+}
+
+/* bitvector_example1
+ * Simple bit-vector example. This example disproves that x - 10 <= 0 IFF x <= 10 for (32-bit) machine integers
+ */
+func bitvector_example1() {
+	fmt.Println("bitvector example 1")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+	x := c.Bv_const("x", 32)
+
+	// using signed <=
+	proveWithCast(z3.Equals(z3.LessEq(z3.Subtract(x, 10), 0), z3.LessEq(x, 10)))
+
+	// using unsigned <=
+	proveWithCast(z3.Equals(z3.Ule(z3.Subtract(x, 10), 0), z3.Ule(x, 10)))
+
+	y := c.Bv_const("y", 32)
+	prove(z3.Implies(z3.Equals(z3.Concat(x, y), z3.Concat(y, x)), z3.Equals(x, y)))
+}
+
+/* bitvector_examples2
+ * Find x and y such that: x ^ y - 103 == x * y
+ */
+func bitvector_example2() {
+	fmt.Println("bitvector example 2")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+	x := c.Bv_const("x", 32)
+	y := c.Bv_const("y", 32)
+
+	s := z3.NewSolver(c)
+	defer z3.DeleteSolver(s)
+	conj := z3.Equals(z3.Subtract(z3.BXor(x, y), 103), z3.Mult(x, y))
+	s.Add(conj)
+	fmt.Println(s)
+	fmt.Println(s.Check())
+	fmt.Println(s.Get_model())
+}
+
 func main() {
 	deMorgan()
 	findModelExample1()
 	proveExample1()
 	proveExample2()
+	nonlinear_example1()
+	bitvector_example1()
+	bitvector_example2()
 }

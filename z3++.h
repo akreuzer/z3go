@@ -35,6 +35,12 @@ for the GO interface
 %rename(Div) operator/;
 %rename(Get) operator[];
 %rename(ApplyFct) operator();
+%rename(BXor) operator^;
+%rename(BOr) operator|;
+%rename(BAnd) operator&;
+%rename(BComp) operator~;
+
+%ignore operator<<; // We wrote extra string functions for that
 #endif
 
 #ifndef Z3PP_H_
