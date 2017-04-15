@@ -102,6 +102,20 @@ namespace z3 {
     typedef ast_vector_tpl<sort>      sort_vector;
     typedef ast_vector_tpl<func_decl> func_decl_vector;
 
+#ifdef SWIG
+%feature("valuewrapper") ast_vector_tpl<ast>;
+%template(AstVector) ast_vector_tpl<ast>;
+
+%feature("valuewrapper") ast_vector_tpl<expr>;
+%template(ExprVector) ast_vector_tpl<expr>;
+
+%feature("valuewrapper") ast_vector_tpl<sort>;
+%template(SortVector) ast_vector_tpl<expr>;
+
+%feature("valuewrapper") ast_vector_tpl<func_decl>;
+%template(FuncDeclVector) ast_vector_tpl<func_decl>;
+#endif
+
     inline void set_param(char const * param, char const * value) { Z3_global_param_set(param, value); }
     inline void set_param(char const * param, bool value) { Z3_global_param_set(param, value ? "true" : "false"); }
     inline void set_param(char const * param, int value) { std::ostringstream oss; oss << value; Z3_global_param_set(param, oss.str().c_str()); }
@@ -2046,11 +2060,12 @@ namespace z3 {
         Z3_probe r = Z3_probe_not(p.ctx(), p); p.check_error(); return probe(p.ctx(), r);
     }
 
-/* Not translated since SWIG has problems with it */
-#ifndef SWIG
     class optimize : public object {
         Z3_optimize m_opt;
     public:
+#ifdef SWIG
+        %feature("valuewrapper") handle;
+#endif
         class handle {
             unsigned m_h;
         public:
@@ -2108,7 +2123,6 @@ namespace z3 {
         std::string help() const { char const * r = Z3_optimize_get_help(ctx(), m_opt); check_error();  return r; }
     };
     inline std::ostream & operator<<(std::ostream & out, optimize const & s) { out << Z3_optimize_to_string(s.ctx(), s.m_opt); return out; }
-#endif
 
     inline tactic fail_if(probe const & p) {
         Z3_tactic r = Z3_tactic_fail_if(p.ctx(), p);
