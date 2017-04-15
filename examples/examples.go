@@ -267,6 +267,44 @@ func iteExample2() {
 	y := c.Int_const("y")
 	fmt.Println(z3.Greater(z3.Ite(b, x, y), 0))
 }
+
+func unsatCoreExample1() {
+	fmt.Println("unsat core example1")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+
+	p1 := c.Bool_const("p1")
+	p2 := c.Bool_const("p2")
+	p3 := c.Bool_const("p3")
+	x := c.Int_const("x")
+	y := c.Int_const("y")
+
+	s := z3.NewSolver(c)
+	defer z3.DeleteSolver(s)
+
+	s.Add(z3.Implies(p1, z3.Greater(x, 10))) // p1 => x > 10
+	s.Add(z3.Implies(p1, z3.Greater(y, x)))  // p1 => y > x
+	s.Add(z3.Implies(p2, z3.Less(y, 5)))     // p2 => y < 5
+	s.Add(z3.Implies(p3, z3.Greater(y, 0)))  // p3 => y > 0
+	assumptions1 := z3.NewExprVector(c)
+	defer z3.DeleteExprVector(assumptions1)
+	assumptions1.Push_back(p1)
+	assumptions1.Push_back(p2)
+	assumptions1.Push_back(p3)
+	fmt.Println(s.Check(assumptions1))
+	core := s.Unsat_core()
+	fmt.Println(core)
+	fmt.Printf("size: %v\n", core.Size())
+	for i := 0; uint(i) < core.Size(); i++ {
+		core.Get(i)
+	}
+	assumptions2 := z3.NewExprVector(c)
+	defer z3.DeleteExprVector(assumptions2)
+	assumptions2.Push_back(p1)
+	assumptions2.Push_back(p3)
+	fmt.Println(s.Check(assumptions2))
+}
+
 func main() {
 	deMorgan()
 	findModelExample1()
@@ -277,4 +315,5 @@ func main() {
 	bitvectorExample2()
 	errorExample()
 	iteExample2()
+	unsatCoreExample1()
 }
