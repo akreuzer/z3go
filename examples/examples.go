@@ -145,7 +145,7 @@ func proveExample2() {
 	}
 }
 
-func nonlinear_example1() {
+func nonlinearExample1() {
 	fmt.Println("nonlinear example 1")
 	cfg := z3.NewConfig()
 	defer z3.DeleteConfig(cfg)
@@ -201,7 +201,7 @@ func proveWithCast(i interface{}) {
 /* bitvector_example1
  * Simple bit-vector example. This example disproves that x - 10 <= 0 IFF x <= 10 for (32-bit) machine integers
  */
-func bitvector_example1() {
+func bitvectorExample1() {
 	fmt.Println("bitvector example 1")
 	c := z3.NewContext()
 	defer z3.DeleteContext(c)
@@ -220,7 +220,7 @@ func bitvector_example1() {
 /* bitvector_examples2
  * Find x and y such that: x ^ y - 103 == x * y
  */
-func bitvector_example2() {
+func bitvectorExample2() {
 	fmt.Println("bitvector example 2")
 	c := z3.NewContext()
 	defer z3.DeleteContext(c)
@@ -236,12 +236,45 @@ func bitvector_example2() {
 	fmt.Println(s.Get_model())
 }
 
+// capi_example skipped
+
+func errorExample() {
+	fmt.Println("error example")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+	x := c.Bool_const("x")
+
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Printf("Recovered from %v\n", r)
+		}
+	}()
+
+	// The next call fails because x is a Boolean.
+	expr := z3.Add(x, 1)
+	fmt.Println(expr)
+
+	// skiped other parts of the example since we do not have C api available
+}
+
+// skipped ite_example1 since it is c api
+func iteExample2() {
+	fmt.Println("if-then-else example2")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+	b := c.Bool_const("b")
+	x := c.Int_const("x")
+	y := c.Int_const("y")
+	fmt.Println(z3.Greater(z3.Ite(b, x, y), 0))
+}
 func main() {
 	deMorgan()
 	findModelExample1()
 	proveExample1()
 	proveExample2()
-	nonlinear_example1()
-	bitvector_example1()
-	bitvector_example2()
+	nonlinearExample1()
+	bitvectorExample1()
+	bitvectorExample2()
+	errorExample()
+	iteExample2()
 }

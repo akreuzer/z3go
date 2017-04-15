@@ -258,7 +258,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_z3go_2e73fdcd627f149e(void *_swig_go_0) {
+void _wrap_Swig_free_z3go_3c4af2efcdbd6479(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -268,7 +268,7 @@ void _wrap_Swig_free_z3go_2e73fdcd627f149e(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_z3go_2e73fdcd627f149e(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_z3go_3c4af2efcdbd6479(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -281,7 +281,7 @@ void *_wrap_Swig_malloc_z3go_2e73fdcd627f149e(intgo _swig_go_0) {
 }
 
 
-void _wrap_set_param__SWIG_0_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_set_param__SWIG_0_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, _gostring_ _swig_go_1) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -296,14 +296,21 @@ void _wrap_set_param__SWIG_0_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, _gostr
   arg2[_swig_go_1.n] = '\0';
   
   
-  z3::set_param((char const *)arg1,(char const *)arg2);
+  {
+    try {
+      z3::set_param((char const *)arg1,(char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg1); 
   free(arg2); 
 }
 
 
-void _wrap_set_param__SWIG_1_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, bool _swig_go_1) {
+void _wrap_set_param__SWIG_1_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, bool _swig_go_1) {
   char *arg1 = (char *) 0 ;
   bool arg2 ;
   
@@ -314,13 +321,20 @@ void _wrap_set_param__SWIG_1_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, bool _
   
   arg2 = (bool)_swig_go_1; 
   
-  z3::set_param((char const *)arg1,arg2);
+  {
+    try {
+      z3::set_param((char const *)arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg1); 
 }
 
 
-void _wrap_set_param__SWIG_2_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, intgo _swig_go_1) {
+void _wrap_set_param__SWIG_2_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, intgo _swig_go_1) {
   char *arg1 = (char *) 0 ;
   int arg2 ;
   
@@ -331,19 +345,33 @@ void _wrap_set_param__SWIG_2_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, intgo 
   
   arg2 = (int)_swig_go_1; 
   
-  z3::set_param((char const *)arg1,arg2);
+  {
+    try {
+      z3::set_param((char const *)arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg1); 
 }
 
 
-void _wrap_reset_params_z3go_2e73fdcd627f149e() {
-  z3::reset_params();
+void _wrap_reset_params_z3go_3c4af2efcdbd6479() {
+  {
+    try {
+      z3::reset_params();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::exception *_wrap_new_exception_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0) {
+z3::exception *_wrap_new_exception_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   z3::exception *result = 0 ;
   z3::exception *_swig_go_result;
@@ -354,58 +382,93 @@ z3::exception *_wrap_new_exception_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0) 
   arg1[_swig_go_0.n] = '\0';
   
   
-  result = (z3::exception *)new z3::exception((char const *)arg1);
+  {
+    try {
+      result = (z3::exception *)new z3::exception((char const *)arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::exception **)&_swig_go_result = (z3::exception *)result; 
   free(arg1); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_exception_msg_z3go_2e73fdcd627f149e(z3::exception *_swig_go_0) {
+_gostring_ _wrap_exception_msg_z3go_3c4af2efcdbd6479(z3::exception *_swig_go_0) {
   z3::exception *arg1 = (z3::exception *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::exception **)&_swig_go_0; 
   
-  result = (char *)((z3::exception const *)arg1)->msg();
+  {
+    try {
+      result = (char *)((z3::exception const *)arg1)->msg();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_exception_z3go_2e73fdcd627f149e(z3::exception *_swig_go_0) {
+void _wrap_delete_exception_z3go_3c4af2efcdbd6479(z3::exception *_swig_go_0) {
   z3::exception *arg1 = (z3::exception *) 0 ;
   
   arg1 = *(z3::exception **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::config *_wrap_new_config_z3go_2e73fdcd627f149e() {
+z3::config *_wrap_new_config_z3go_3c4af2efcdbd6479() {
   z3::config *result = 0 ;
   z3::config *_swig_go_result;
   
   
-  result = (z3::config *)new z3::config();
+  {
+    try {
+      result = (z3::config *)new z3::config();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::config **)&_swig_go_result = (z3::config *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_config_z3go_2e73fdcd627f149e(z3::config *_swig_go_0) {
+void _wrap_delete_config_z3go_3c4af2efcdbd6479(z3::config *_swig_go_0) {
   z3::config *arg1 = (z3::config *) 0 ;
   
   arg1 = *(z3::config **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_config_set__SWIG_0_z3go_2e73fdcd627f149e(z3::config *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_config_set__SWIG_0_z3go_3c4af2efcdbd6479(z3::config *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   z3::config *arg1 = (z3::config *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -422,14 +485,21 @@ void _wrap_config_set__SWIG_0_z3go_2e73fdcd627f149e(z3::config *_swig_go_0, _gos
   arg3[_swig_go_2.n] = '\0';
   
   
-  (arg1)->set((char const *)arg2,(char const *)arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,(char const *)arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
   free(arg3); 
 }
 
 
-void _wrap_config_set__SWIG_1_z3go_2e73fdcd627f149e(z3::config *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap_config_set__SWIG_1_z3go_3c4af2efcdbd6479(z3::config *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   z3::config *arg1 = (z3::config *) 0 ;
   char *arg2 = (char *) 0 ;
   bool arg3 ;
@@ -442,13 +512,20 @@ void _wrap_config_set__SWIG_1_z3go_2e73fdcd627f149e(z3::config *_swig_go_0, _gos
   
   arg3 = (bool)_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-void _wrap_config_set__SWIG_2_z3go_2e73fdcd627f149e(z3::config *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+void _wrap_config_set__SWIG_2_z3go_3c4af2efcdbd6479(z3::config *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   z3::config *arg1 = (z3::config *) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
@@ -461,49 +538,77 @@ void _wrap_config_set__SWIG_2_z3go_2e73fdcd627f149e(z3::config *_swig_go_0, _gos
   
   arg3 = (int)_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-intgo _wrap_unsat_z3go_2e73fdcd627f149e() {
+intgo _wrap_unsat_z3go_3c4af2efcdbd6479() {
   z3::check_result result;
   intgo _swig_go_result;
   
   
-  result = z3::unsat;
-  
+  {
+    try {
+      result = z3::unsat;
+      ;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_sat_z3go_2e73fdcd627f149e() {
+intgo _wrap_sat_z3go_3c4af2efcdbd6479() {
   z3::check_result result;
   intgo _swig_go_result;
   
   
-  result = z3::sat;
-  
+  {
+    try {
+      result = z3::sat;
+      ;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_unknown_z3go_2e73fdcd627f149e() {
+intgo _wrap_unknown_z3go_3c4af2efcdbd6479() {
   z3::check_result result;
   intgo _swig_go_result;
   
   
-  result = z3::unknown;
-  
+  {
+    try {
+      result = z3::unknown;
+      ;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_to_check_result_z3go_2e73fdcd627f149e(Z3_lbool *_swig_go_0) {
+intgo _wrap_to_check_result_z3go_3c4af2efcdbd6479(Z3_lbool *_swig_go_0) {
   Z3_lbool arg1 ;
   Z3_lbool *argp1 ;
   z3::check_result result;
@@ -517,37 +622,58 @@ intgo _wrap_to_check_result_z3go_2e73fdcd627f149e(Z3_lbool *_swig_go_0) {
   arg1 = (Z3_lbool)*argp1;
   
   
-  result = (z3::check_result)z3::to_check_result(arg1);
+  {
+    try {
+      result = (z3::check_result)z3::to_check_result(arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_new_context__SWIG_0_z3go_2e73fdcd627f149e() {
+z3::context *_wrap_new_context__SWIG_0_z3go_3c4af2efcdbd6479() {
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
   
   
-  result = (z3::context *)new z3::context();
+  {
+    try {
+      result = (z3::context *)new z3::context();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::context **)&_swig_go_result = (z3::context *)result; 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_new_context__SWIG_1_z3go_2e73fdcd627f149e(z3::config *_swig_go_0) {
+z3::context *_wrap_new_context__SWIG_1_z3go_3c4af2efcdbd6479(z3::config *_swig_go_0) {
   z3::config *arg1 = 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
   
   arg1 = *(z3::config **)&_swig_go_0; 
   
-  result = (z3::context *)new z3::context(*arg1);
+  {
+    try {
+      result = (z3::context *)new z3::context(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::context **)&_swig_go_result = (z3::context *)result; 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_new_context__SWIG_2_z3go_2e73fdcd627f149e(z3::config *_swig_go_0, z3::context::interpolation *_swig_go_1) {
+z3::context *_wrap_new_context__SWIG_2_z3go_3c4af2efcdbd6479(z3::config *_swig_go_0, z3::context::interpolation *_swig_go_1) {
   z3::config *arg1 = 0 ;
   z3::context::interpolation arg2 ;
   z3::context::interpolation *argp2 ;
@@ -563,33 +689,54 @@ z3::context *_wrap_new_context__SWIG_2_z3go_2e73fdcd627f149e(z3::config *_swig_g
   arg2 = (z3::context::interpolation)*argp2;
   
   
-  result = (z3::context *)new z3::context(*arg1,arg2);
+  {
+    try {
+      result = (z3::context *)new z3::context(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::context **)&_swig_go_result = (z3::context *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_context_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+void _wrap_delete_context_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = (z3::context *) 0 ;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_context_check_error_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+void _wrap_context_check_error_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = (z3::context *) 0 ;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  ((z3::context const *)arg1)->check_error();
+  {
+    try {
+      ((z3::context const *)arg1)->check_error();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_context_set__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_context_set__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -606,14 +753,21 @@ void _wrap_context_set__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _g
   arg3[_swig_go_2.n] = '\0';
   
   
-  (arg1)->set((char const *)arg2,(char const *)arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,(char const *)arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
   free(arg3); 
 }
 
 
-void _wrap_context_set__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap_context_set__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   bool arg3 ;
@@ -626,13 +780,20 @@ void _wrap_context_set__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _g
   
   arg3 = (bool)_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-void _wrap_context_set__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+void _wrap_context_set__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
@@ -645,23 +806,37 @@ void _wrap_context_set__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _g
   
   arg3 = (int)_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-void _wrap_context_interrupt_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+void _wrap_context_interrupt_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = (z3::context *) 0 ;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  (arg1)->interrupt();
+  {
+    try {
+      (arg1)->interrupt();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::symbol *_wrap_context_str_symbol_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::symbol *_wrap_context_str_symbol_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::symbol > result;
@@ -674,14 +849,21 @@ z3::symbol *_wrap_context_str_symbol_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->str_symbol((char const *)arg2);
+  {
+    try {
+      result = (arg1)->str_symbol((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::symbol **)&_swig_go_result = new z3::symbol(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::symbol *_wrap_context_int_symbol_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1) {
+z3::symbol *_wrap_context_int_symbol_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   int arg2 ;
   SwigValueWrapper< z3::symbol > result;
@@ -690,52 +872,80 @@ z3::symbol *_wrap_context_int_symbol_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = (arg1)->int_symbol(arg2);
+  {
+    try {
+      result = (arg1)->int_symbol(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::symbol **)&_swig_go_result = new z3::symbol(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_bool_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::sort *_wrap_context_bool_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = (z3::context *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (arg1)->bool_sort();
+  {
+    try {
+      result = (arg1)->bool_sort();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_int_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::sort *_wrap_context_int_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = (z3::context *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (arg1)->int_sort();
+  {
+    try {
+      result = (arg1)->int_sort();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_real_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::sort *_wrap_context_real_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = (z3::context *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (arg1)->real_sort();
+  {
+    try {
+      result = (arg1)->real_sort();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_bv_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1) {
+z3::sort *_wrap_context_bv_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::sort > result;
@@ -744,26 +954,40 @@ z3::sort *_wrap_context_bv_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, i
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (arg1)->bv_sort(arg2);
+  {
+    try {
+      result = (arg1)->bv_sort(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_string_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::sort *_wrap_context_string_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = (z3::context *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (arg1)->string_sort();
+  {
+    try {
+      result = (arg1)->string_sort();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_seq_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::sort *_swig_go_1) {
+z3::sort *_wrap_context_seq_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::sort *_swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::sort *arg2 = 0 ;
   SwigValueWrapper< z3::sort > result;
@@ -772,13 +996,20 @@ z3::sort *_wrap_context_seq_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = *(z3::sort **)&_swig_go_1; 
   
-  result = (arg1)->seq_sort(*arg2);
+  {
+    try {
+      result = (arg1)->seq_sort(*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_re_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::sort *_swig_go_1) {
+z3::sort *_wrap_context_re_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::sort *_swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::sort *arg2 = 0 ;
   SwigValueWrapper< z3::sort > result;
@@ -787,13 +1018,20 @@ z3::sort *_wrap_context_re_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = *(z3::sort **)&_swig_go_1; 
   
-  result = (arg1)->re_sort(*arg2);
+  {
+    try {
+      result = (arg1)->re_sort(*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_array_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2) {
+z3::sort *_wrap_context_array_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   SwigValueWrapper< z3::sort > arg2 ;
   SwigValueWrapper< z3::sort > arg3 ;
@@ -818,13 +1056,20 @@ z3::sort *_wrap_context_array_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg3 = (z3::sort)*argp3;
   
   
-  result = (arg1)->array_sort(arg2,arg3);
+  {
+    try {
+      result = (arg1)->array_sort(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_enumeration_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, _gostring_* _swig_go_3, z3::ast_vector_tpl< z3::func_decl > *_swig_go_4, z3::ast_vector_tpl< z3::func_decl > *_swig_go_5) {
+z3::sort *_wrap_context_enumeration_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, _gostring_* _swig_go_3, z3::ast_vector_tpl< z3::func_decl > *_swig_go_4, z3::ast_vector_tpl< z3::func_decl > *_swig_go_5) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   unsigned int arg3 ;
@@ -845,14 +1090,21 @@ z3::sort *_wrap_context_enumeration_sort_z3go_2e73fdcd627f149e(z3::context *_swi
   arg5 = *(z3::func_decl_vector **)&_swig_go_4; 
   arg6 = *(z3::func_decl_vector **)&_swig_go_5; 
   
-  result = (arg1)->enumeration_sort((char const *)arg2,arg3,(char const *const *)arg4,*arg5,*arg6);
+  {
+    try {
+      result = (arg1)->enumeration_sort((char const *)arg2,arg3,(char const *const *)arg4,*arg5,*arg6);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_uninterpreted_sort__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::sort *_wrap_context_uninterpreted_sort__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::sort > result;
@@ -865,14 +1117,21 @@ z3::sort *_wrap_context_uninterpreted_sort__SWIG_0_z3go_2e73fdcd627f149e(z3::con
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->uninterpreted_sort((char const *)arg2);
+  {
+    try {
+      result = (arg1)->uninterpreted_sort((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_context_uninterpreted_sort__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::symbol *_swig_go_1) {
+z3::sort *_wrap_context_uninterpreted_sort__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::symbol *_swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::symbol *arg2 = 0 ;
   SwigValueWrapper< z3::sort > result;
@@ -881,13 +1140,20 @@ z3::sort *_wrap_context_uninterpreted_sort__SWIG_1_z3go_2e73fdcd627f149e(z3::con
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = *(z3::symbol **)&_swig_go_1; 
   
-  result = (arg1)->uninterpreted_sort((z3::symbol const &)*arg2);
+  {
+    try {
+      result = (arg1)->uninterpreted_sort((z3::symbol const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::symbol *_swig_go_1, intgo _swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
+z3::func_decl *_wrap_context_function__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::symbol *_swig_go_1, intgo _swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::symbol *arg2 = 0 ;
   unsigned int arg3 ;
@@ -902,13 +1168,20 @@ z3::func_decl *_wrap_context_function__SWIG_0_z3go_2e73fdcd627f149e(z3::context 
   arg4 = *(z3::sort **)&_swig_go_3; 
   arg5 = *(z3::sort **)&_swig_go_4; 
   
-  result = (arg1)->function((z3::symbol const &)*arg2,arg3,(z3::sort const *)arg4,(z3::sort const &)*arg5);
+  {
+    try {
+      result = (arg1)->function((z3::symbol const &)*arg2,arg3,(z3::sort const *)arg4,(z3::sort const &)*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
+z3::func_decl *_wrap_context_function__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   unsigned int arg3 ;
@@ -927,14 +1200,21 @@ z3::func_decl *_wrap_context_function__SWIG_1_z3go_2e73fdcd627f149e(z3::context 
   arg4 = *(z3::sort **)&_swig_go_3; 
   arg5 = *(z3::sort **)&_swig_go_4; 
   
-  result = (arg1)->function((char const *)arg2,arg3,(z3::sort const *)arg4,(z3::sort const &)*arg5);
+  {
+    try {
+      result = (arg1)->function((char const *)arg2,arg3,(z3::sort const *)arg4,(z3::sort const &)*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::symbol *_swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::sort *_swig_go_3) {
+z3::func_decl *_wrap_context_function__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::symbol *_swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::sort *_swig_go_3) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::symbol *arg2 = 0 ;
   z3::sort_vector *arg3 = 0 ;
@@ -947,13 +1227,20 @@ z3::func_decl *_wrap_context_function__SWIG_2_z3go_2e73fdcd627f149e(z3::context 
   arg3 = *(z3::sort_vector **)&_swig_go_2; 
   arg4 = *(z3::sort **)&_swig_go_3; 
   
-  result = (arg1)->function((z3::symbol const &)*arg2,(z3::sort_vector const &)*arg3,(z3::sort const &)*arg4);
+  {
+    try {
+      result = (arg1)->function((z3::symbol const &)*arg2,(z3::sort_vector const &)*arg3,(z3::sort const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::sort *_swig_go_3) {
+z3::func_decl *_wrap_context_function__SWIG_3_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::sort *_swig_go_3) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort_vector *arg3 = 0 ;
@@ -970,14 +1257,21 @@ z3::func_decl *_wrap_context_function__SWIG_3_z3go_2e73fdcd627f149e(z3::context 
   arg3 = *(z3::sort_vector **)&_swig_go_2; 
   arg4 = *(z3::sort **)&_swig_go_3; 
   
-  result = (arg1)->function((char const *)arg2,(z3::sort_vector const &)*arg3,(z3::sort const &)*arg4);
+  {
+    try {
+      result = (arg1)->function((char const *)arg2,(z3::sort_vector const &)*arg3,(z3::sort const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
+z3::func_decl *_wrap_context_function__SWIG_4_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort *arg3 = 0 ;
@@ -994,14 +1288,21 @@ z3::func_decl *_wrap_context_function__SWIG_4_z3go_2e73fdcd627f149e(z3::context 
   arg3 = *(z3::sort **)&_swig_go_2; 
   arg4 = *(z3::sort **)&_swig_go_3; 
   
-  result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4);
+  {
+    try {
+      result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_5_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
+z3::func_decl *_wrap_context_function__SWIG_5_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort *arg3 = 0 ;
@@ -1020,14 +1321,21 @@ z3::func_decl *_wrap_context_function__SWIG_5_z3go_2e73fdcd627f149e(z3::context 
   arg4 = *(z3::sort **)&_swig_go_3; 
   arg5 = *(z3::sort **)&_swig_go_4; 
   
-  result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5);
+  {
+    try {
+      result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_6_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5) {
+z3::func_decl *_wrap_context_function__SWIG_6_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort *arg3 = 0 ;
@@ -1048,14 +1356,21 @@ z3::func_decl *_wrap_context_function__SWIG_6_z3go_2e73fdcd627f149e(z3::context 
   arg5 = *(z3::sort **)&_swig_go_4; 
   arg6 = *(z3::sort **)&_swig_go_5; 
   
-  result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6);
+  {
+    try {
+      result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_7_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5, z3::sort *_swig_go_6) {
+z3::func_decl *_wrap_context_function__SWIG_7_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5, z3::sort *_swig_go_6) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort *arg3 = 0 ;
@@ -1078,14 +1393,21 @@ z3::func_decl *_wrap_context_function__SWIG_7_z3go_2e73fdcd627f149e(z3::context 
   arg6 = *(z3::sort **)&_swig_go_5; 
   arg7 = *(z3::sort **)&_swig_go_6; 
   
-  result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6,(z3::sort const &)*arg7);
+  {
+    try {
+      result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6,(z3::sort const &)*arg7);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_context_function__SWIG_8_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5, z3::sort *_swig_go_6, z3::sort *_swig_go_7) {
+z3::func_decl *_wrap_context_function__SWIG_8_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5, z3::sort *_swig_go_6, z3::sort *_swig_go_7) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort *arg3 = 0 ;
@@ -1110,14 +1432,21 @@ z3::func_decl *_wrap_context_function__SWIG_8_z3go_2e73fdcd627f149e(z3::context 
   arg7 = *(z3::sort **)&_swig_go_6; 
   arg8 = *(z3::sort **)&_swig_go_7; 
   
-  result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6,(z3::sort const &)*arg7,(z3::sort const &)*arg8);
+  {
+    try {
+      result = (arg1)->function((char const *)arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6,(z3::sort const &)*arg7,(z3::sort const &)*arg8);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_constant__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::symbol *_swig_go_1, z3::sort *_swig_go_2) {
+z3::expr *_wrap_context_constant__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::symbol *_swig_go_1, z3::sort *_swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::symbol *arg2 = 0 ;
   z3::sort *arg3 = 0 ;
@@ -1128,13 +1457,20 @@ z3::expr *_wrap_context_constant__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swi
   arg2 = *(z3::symbol **)&_swig_go_1; 
   arg3 = *(z3::sort **)&_swig_go_2; 
   
-  result = (arg1)->constant((z3::symbol const &)*arg2,(z3::sort const &)*arg3);
+  {
+    try {
+      result = (arg1)->constant((z3::symbol const &)*arg2,(z3::sort const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_constant__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2) {
+z3::expr *_wrap_context_constant__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::sort *_swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort *arg3 = 0 ;
@@ -1149,14 +1485,21 @@ z3::expr *_wrap_context_constant__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swi
   
   arg3 = *(z3::sort **)&_swig_go_2; 
   
-  result = (arg1)->constant((char const *)arg2,(z3::sort const &)*arg3);
+  {
+    try {
+      result = (arg1)->constant((char const *)arg2,(z3::sort const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bool_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_bool_const_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1169,14 +1512,21 @@ z3::expr *_wrap_context_bool_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->bool_const((char const *)arg2);
+  {
+    try {
+      result = (arg1)->bool_const((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_int_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_int_const_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1189,14 +1539,21 @@ z3::expr *_wrap_context_int_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0,
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->int_const((char const *)arg2);
+  {
+    try {
+      result = (arg1)->int_const((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_real_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_real_const_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1209,14 +1566,21 @@ z3::expr *_wrap_context_real_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->real_const((char const *)arg2);
+  {
+    try {
+      result = (arg1)->real_const((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bv_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_context_bv_const_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   unsigned int arg3 ;
@@ -1231,14 +1595,21 @@ z3::expr *_wrap_context_bv_const_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = (arg1)->bv_const((char const *)arg2,arg3);
+  {
+    try {
+      result = (arg1)->bv_const((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bool_val_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, bool _swig_go_1) {
+z3::expr *_wrap_context_bool_val_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, bool _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   bool arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -1247,13 +1618,20 @@ z3::expr *_wrap_context_bool_val_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (bool)_swig_go_1; 
   
-  result = (arg1)->bool_val(arg2);
+  {
+    try {
+      result = (arg1)->bool_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_int_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_context_int_val__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -1262,13 +1640,20 @@ z3::expr *_wrap_context_int_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = (arg1)->int_val(arg2);
+  {
+    try {
+      result = (arg1)->int_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_int_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_context_int_val__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -1277,13 +1662,20 @@ z3::expr *_wrap_context_int_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (arg1)->int_val(arg2);
+  {
+    try {
+      result = (arg1)->int_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_int_val__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, __int64 *_swig_go_1) {
+z3::expr *_wrap_context_int_val__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, __int64 *_swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   __int64 arg2 ;
   __int64 *argp2 ;
@@ -1299,13 +1691,20 @@ z3::expr *_wrap_context_int_val__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig
   arg2 = (__int64)*argp2;
   
   
-  result = (arg1)->int_val(arg2);
+  {
+    try {
+      result = (arg1)->int_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_int_val__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, __uint64 *_swig_go_1) {
+z3::expr *_wrap_context_int_val__SWIG_3_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, __uint64 *_swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   __uint64 arg2 ;
   __uint64 *argp2 ;
@@ -1321,13 +1720,20 @@ z3::expr *_wrap_context_int_val__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig
   arg2 = (__uint64)*argp2;
   
   
-  result = (arg1)->int_val(arg2);
+  {
+    try {
+      result = (arg1)->int_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_int_val__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_int_val__SWIG_4_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1340,14 +1746,21 @@ z3::expr *_wrap_context_int_val__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->int_val((char const *)arg2);
+  {
+    try {
+      result = (arg1)->int_val((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_real_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_context_real_val__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -1358,13 +1771,20 @@ z3::expr *_wrap_context_real_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swi
   arg2 = (int)_swig_go_1; 
   arg3 = (int)_swig_go_2; 
   
-  result = (arg1)->real_val(arg2,arg3);
+  {
+    try {
+      result = (arg1)->real_val(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_real_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_context_real_val__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -1373,13 +1793,20 @@ z3::expr *_wrap_context_real_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swi
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = (arg1)->real_val(arg2);
+  {
+    try {
+      result = (arg1)->real_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_real_val__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_context_real_val__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -1388,13 +1815,20 @@ z3::expr *_wrap_context_real_val__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swi
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (arg1)->real_val(arg2);
+  {
+    try {
+      result = (arg1)->real_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_real_val__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, __int64 *_swig_go_1) {
+z3::expr *_wrap_context_real_val__SWIG_3_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, __int64 *_swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   __int64 arg2 ;
   __int64 *argp2 ;
@@ -1410,13 +1844,20 @@ z3::expr *_wrap_context_real_val__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swi
   arg2 = (__int64)*argp2;
   
   
-  result = (arg1)->real_val(arg2);
+  {
+    try {
+      result = (arg1)->real_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_real_val__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, __uint64 *_swig_go_1) {
+z3::expr *_wrap_context_real_val__SWIG_4_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, __uint64 *_swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   __uint64 arg2 ;
   __uint64 *argp2 ;
@@ -1432,13 +1873,20 @@ z3::expr *_wrap_context_real_val__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swi
   arg2 = (__uint64)*argp2;
   
   
-  result = (arg1)->real_val(arg2);
+  {
+    try {
+      result = (arg1)->real_val(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_real_val__SWIG_5_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_real_val__SWIG_5_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1451,14 +1899,21 @@ z3::expr *_wrap_context_real_val__SWIG_5_z3go_2e73fdcd627f149e(z3::context *_swi
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->real_val((char const *)arg2);
+  {
+    try {
+      result = (arg1)->real_val((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bv_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_context_bv_val__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   int arg2 ;
   unsigned int arg3 ;
@@ -1469,13 +1924,20 @@ z3::expr *_wrap_context_bv_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_
   arg2 = (int)_swig_go_1; 
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = (arg1)->bv_val(arg2,arg3);
+  {
+    try {
+      result = (arg1)->bv_val(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bv_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_context_bv_val__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   unsigned int arg2 ;
   unsigned int arg3 ;
@@ -1486,13 +1948,20 @@ z3::expr *_wrap_context_bv_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_
   arg2 = (unsigned int)_swig_go_1; 
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = (arg1)->bv_val(arg2,arg3);
+  {
+    try {
+      result = (arg1)->bv_val(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bv_val__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, __int64 *_swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_context_bv_val__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, __int64 *_swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   __int64 arg2 ;
   unsigned int arg3 ;
@@ -1510,13 +1979,20 @@ z3::expr *_wrap_context_bv_val__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_
   
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = (arg1)->bv_val(arg2,arg3);
+  {
+    try {
+      result = (arg1)->bv_val(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bv_val__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, __uint64 *_swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_context_bv_val__SWIG_3_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, __uint64 *_swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   __uint64 arg2 ;
   unsigned int arg3 ;
@@ -1534,13 +2010,20 @@ z3::expr *_wrap_context_bv_val__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_
   
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = (arg1)->bv_val(arg2,arg3);
+  {
+    try {
+      result = (arg1)->bv_val(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_bv_val__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_context_bv_val__SWIG_4_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   unsigned int arg3 ;
@@ -1555,14 +2038,21 @@ z3::expr *_wrap_context_bv_val__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_
   
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = (arg1)->bv_val((char const *)arg2,arg3);
+  {
+    try {
+      result = (arg1)->bv_val((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_string_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_string_val__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1575,14 +2065,21 @@ z3::expr *_wrap_context_string_val__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_s
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->string_val((char const *)arg2);
+  {
+    try {
+      result = (arg1)->string_val((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_string_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_string_val__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   std::string *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1594,13 +2091,20 @@ z3::expr *_wrap_context_string_val__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_s
   arg2 = &arg2_str;
   
   
-  result = (arg1)->string_val((std::string const &)*arg2);
+  {
+    try {
+      result = (arg1)->string_val((std::string const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_num_val_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, intgo _swig_go_1, z3::sort *_swig_go_2) {
+z3::expr *_wrap_context_num_val_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, intgo _swig_go_1, z3::sort *_swig_go_2) {
   z3::context *arg1 = (z3::context *) 0 ;
   int arg2 ;
   z3::sort *arg3 = 0 ;
@@ -1611,13 +2115,20 @@ z3::expr *_wrap_context_num_val_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, i
   arg2 = (int)_swig_go_1; 
   arg3 = *(z3::sort **)&_swig_go_2; 
   
-  result = (arg1)->num_val(arg2,(z3::sort const &)*arg3);
+  {
+    try {
+      result = (arg1)->num_val(arg2,(z3::sort const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_parse_string__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_parse_string__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1630,14 +2141,21 @@ z3::expr *_wrap_context_parse_string__SWIG_0_z3go_2e73fdcd627f149e(z3::context *
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->parse_string((char const *)arg2);
+  {
+    try {
+      result = (arg1)->parse_string((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_parse_file__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::expr *_wrap_context_parse_file__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -1650,38 +2168,21 @@ z3::expr *_wrap_context_parse_file__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_s
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->parse_file((char const *)arg2);
+  {
+    try {
+      result = (arg1)->parse_file((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_context_parse_string__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::ast_vector_tpl< z3::func_decl > *_swig_go_3) {
-  z3::context *arg1 = (z3::context *) 0 ;
-  char *arg2 = (char *) 0 ;
-  z3::sort_vector *arg3 = 0 ;
-  z3::func_decl_vector *arg4 = 0 ;
-  SwigValueWrapper< z3::expr > result;
-  z3::expr *_swig_go_result;
-  
-  arg1 = *(z3::context **)&_swig_go_0; 
-  
-  arg2 = (char *)malloc(_swig_go_1.n + 1);
-  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
-  arg2[_swig_go_1.n] = '\0';
-  
-  arg3 = *(z3::sort_vector **)&_swig_go_2; 
-  arg4 = *(z3::func_decl_vector **)&_swig_go_3; 
-  
-  result = (arg1)->parse_string((char const *)arg2,(z3::sort_vector const &)*arg3,(z3::func_decl_vector const &)*arg4);
-  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
-  free(arg2); 
-  return _swig_go_result;
-}
-
-
-z3::expr *_wrap_context_parse_file__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::ast_vector_tpl< z3::func_decl > *_swig_go_3) {
+z3::expr *_wrap_context_parse_string__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::ast_vector_tpl< z3::func_decl > *_swig_go_3) {
   z3::context *arg1 = (z3::context *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::sort_vector *arg3 = 0 ;
@@ -1698,14 +2199,52 @@ z3::expr *_wrap_context_parse_file__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_s
   arg3 = *(z3::sort_vector **)&_swig_go_2; 
   arg4 = *(z3::func_decl_vector **)&_swig_go_3; 
   
-  result = (arg1)->parse_file((char const *)arg2,(z3::sort_vector const &)*arg3,(z3::func_decl_vector const &)*arg4);
+  {
+    try {
+      result = (arg1)->parse_string((char const *)arg2,(z3::sort_vector const &)*arg3,(z3::func_decl_vector const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_context_compute_interpolant_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::expr *_swig_go_1, z3::params *_swig_go_2, z3::ast_vector_tpl< z3::expr > *_swig_go_3, z3::model *_swig_go_4) {
+z3::expr *_wrap_context_parse_file__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1, z3::ast_vector_tpl< z3::sort > *_swig_go_2, z3::ast_vector_tpl< z3::func_decl > *_swig_go_3) {
+  z3::context *arg1 = (z3::context *) 0 ;
+  char *arg2 = (char *) 0 ;
+  z3::sort_vector *arg3 = 0 ;
+  z3::func_decl_vector *arg4 = 0 ;
+  SwigValueWrapper< z3::expr > result;
+  z3::expr *_swig_go_result;
+  
+  arg1 = *(z3::context **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  arg3 = *(z3::sort_vector **)&_swig_go_2; 
+  arg4 = *(z3::func_decl_vector **)&_swig_go_3; 
+  
+  {
+    try {
+      result = (arg1)->parse_file((char const *)arg2,(z3::sort_vector const &)*arg3,(z3::func_decl_vector const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
+  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
+  free(arg2); 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_context_compute_interpolant_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::expr *_swig_go_1, z3::params *_swig_go_2, z3::ast_vector_tpl< z3::expr > *_swig_go_3, z3::model *_swig_go_4) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::params *arg3 = 0 ;
@@ -1720,13 +2259,20 @@ intgo _wrap_context_compute_interpolant_z3go_2e73fdcd627f149e(z3::context *_swig
   arg4 = *(z3::expr_vector **)&_swig_go_3; 
   arg5 = *(z3::model **)&_swig_go_4; 
   
-  result = (z3::check_result)(arg1)->compute_interpolant((z3::expr const &)*arg2,(z3::params const &)*arg3,*arg4,*arg5);
+  {
+    try {
+      result = (z3::check_result)(arg1)->compute_interpolant((z3::expr const &)*arg2,(z3::params const &)*arg3,*arg4,*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-z3::ast_vector_tpl< z3::expr > *_wrap_context_get_interpolant_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::params *_swig_go_3) {
+z3::ast_vector_tpl< z3::expr > *_wrap_context_get_interpolant_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::params *_swig_go_3) {
   z3::context *arg1 = (z3::context *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -1739,84 +2285,133 @@ z3::ast_vector_tpl< z3::expr > *_wrap_context_get_interpolant_z3go_2e73fdcd627f1
   arg3 = *(z3::expr **)&_swig_go_2; 
   arg4 = *(z3::params **)&_swig_go_3; 
   
-  result = (arg1)->get_interpolant((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::params const &)*arg4);
+  {
+    try {
+      result = (arg1)->get_interpolant((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::params const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr_vector **)&_swig_go_result = new z3::expr_vector(result); 
   return _swig_go_result;
 }
 
 
-z3::object *_wrap_new_object__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::object *_wrap_new_object__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::object *result = 0 ;
   z3::object *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::object *)new z3::object(*arg1);
+  {
+    try {
+      result = (z3::object *)new z3::object(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::object **)&_swig_go_result = (z3::object *)result; 
   return _swig_go_result;
 }
 
 
-z3::object *_wrap_new_object__SWIG_1_z3go_2e73fdcd627f149e(z3::object *_swig_go_0) {
+z3::object *_wrap_new_object__SWIG_1_z3go_3c4af2efcdbd6479(z3::object *_swig_go_0) {
   z3::object *arg1 = 0 ;
   z3::object *result = 0 ;
   z3::object *_swig_go_result;
   
   arg1 = *(z3::object **)&_swig_go_0; 
   
-  result = (z3::object *)new z3::object((z3::object const &)*arg1);
+  {
+    try {
+      result = (z3::object *)new z3::object((z3::object const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::object **)&_swig_go_result = (z3::object *)result; 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_object_ctx_z3go_2e73fdcd627f149e(z3::object *_swig_go_0) {
+z3::context *_wrap_object_ctx_z3go_3c4af2efcdbd6479(z3::object *_swig_go_0) {
   z3::object *arg1 = (z3::object *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
   
   arg1 = *(z3::object **)&_swig_go_0; 
   
-  result = (z3::context *) &((z3::object const *)arg1)->ctx();
+  {
+    try {
+      result = (z3::context *) &((z3::object const *)arg1)->ctx();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::context **)&_swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_object_check_error_z3go_2e73fdcd627f149e(z3::object *_swig_go_0) {
+void _wrap_object_check_error_z3go_3c4af2efcdbd6479(z3::object *_swig_go_0) {
   z3::object *arg1 = (z3::object *) 0 ;
   
   arg1 = *(z3::object **)&_swig_go_0; 
   
-  ((z3::object const *)arg1)->check_error();
+  {
+    try {
+      ((z3::object const *)arg1)->check_error();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_delete_object_z3go_2e73fdcd627f149e(z3::object *_swig_go_0) {
+void _wrap_delete_object_z3go_3c4af2efcdbd6479(z3::object *_swig_go_0) {
   z3::object *arg1 = (z3::object *) 0 ;
   
   arg1 = *(z3::object **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_check_context_z3go_2e73fdcd627f149e(z3::object *_swig_go_0, z3::object *_swig_go_1) {
+void _wrap_check_context_z3go_3c4af2efcdbd6479(z3::object *_swig_go_0, z3::object *_swig_go_1) {
   z3::object *arg1 = 0 ;
   z3::object *arg2 = 0 ;
   
   arg1 = *(z3::object **)&_swig_go_0; 
   arg2 = *(z3::object **)&_swig_go_1; 
   
-  z3::check_context((z3::object const &)*arg1,(z3::object const &)*arg2);
+  {
+    try {
+      z3::check_context((z3::object const &)*arg1,(z3::object const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::symbol *_wrap_new_symbol__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_symbol *_swig_go_1) {
+z3::symbol *_wrap_new_symbol__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_symbol *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_symbol arg2 ;
   Z3_symbol *argp2 ;
@@ -1832,75 +2427,117 @@ z3::symbol *_wrap_new_symbol__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg2 = (Z3_symbol)*argp2;
   
   
-  result = (z3::symbol *)new z3::symbol(*arg1,arg2);
+  {
+    try {
+      result = (z3::symbol *)new z3::symbol(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::symbol **)&_swig_go_result = (z3::symbol *)result; 
   return _swig_go_result;
 }
 
 
-z3::symbol *_wrap_new_symbol__SWIG_1_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
+z3::symbol *_wrap_new_symbol__SWIG_1_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0) {
   z3::symbol *arg1 = 0 ;
   z3::symbol *result = 0 ;
   z3::symbol *_swig_go_result;
   
   arg1 = *(z3::symbol **)&_swig_go_0; 
   
-  result = (z3::symbol *)new z3::symbol((z3::symbol const &)*arg1);
+  {
+    try {
+      result = (z3::symbol *)new z3::symbol((z3::symbol const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::symbol **)&_swig_go_result = (z3::symbol *)result; 
   return _swig_go_result;
 }
 
 
-Z3_symbol_kind *_wrap_symbol_kind_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
+Z3_symbol_kind *_wrap_symbol_kind_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0) {
   z3::symbol *arg1 = (z3::symbol *) 0 ;
   Z3_symbol_kind result;
   Z3_symbol_kind *_swig_go_result;
   
   arg1 = *(z3::symbol **)&_swig_go_0; 
   
-  result = ((z3::symbol const *)arg1)->kind();
+  {
+    try {
+      result = ((z3::symbol const *)arg1)->kind();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(Z3_symbol_kind **)&_swig_go_result = new Z3_symbol_kind(result); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_symbol_str_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
+_gostring_ _wrap_symbol_str_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0) {
   z3::symbol *arg1 = (z3::symbol *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::symbol **)&_swig_go_0; 
   
-  result = ((z3::symbol const *)arg1)->str();
+  {
+    try {
+      result = ((z3::symbol const *)arg1)->str();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_symbol_to_int_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
+intgo _wrap_symbol_to_int_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0) {
   z3::symbol *arg1 = (z3::symbol *) 0 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::symbol **)&_swig_go_0; 
   
-  result = (int)((z3::symbol const *)arg1)->to_int();
+  {
+    try {
+      result = (int)((z3::symbol const *)arg1)->to_int();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_symbol_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
+void _wrap_delete_symbol_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0) {
   z3::symbol *arg1 = (z3::symbol *) 0 ;
   
   arg1 = *(z3::symbol **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::context *_wrap_symbol_ctx_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
+z3::context *_wrap_symbol_ctx_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0) {
   z3::symbol *arg1 = (z3::symbol *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -1914,7 +2551,7 @@ z3::context *_wrap_symbol_ctx_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
 }
 
 
-void _wrap_symbol_check_error_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
+void _wrap_symbol_check_error_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0) {
   z3::symbol *arg1 = (z3::symbol *) 0 ;
   
   arg1 = *(z3::symbol **)&_swig_go_0; 
@@ -1925,7 +2562,7 @@ void _wrap_symbol_check_error_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0) {
 }
 
 
-z3::param_descrs *_wrap_new_param_descrs__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_param_descrs *_swig_go_1) {
+z3::param_descrs *_wrap_new_param_descrs__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_param_descrs *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_param_descrs arg2 ;
   Z3_param_descrs *argp2 ;
@@ -1941,62 +2578,97 @@ z3::param_descrs *_wrap_new_param_descrs__SWIG_0_z3go_2e73fdcd627f149e(z3::conte
   arg2 = (Z3_param_descrs)*argp2;
   
   
-  result = (z3::param_descrs *)new z3::param_descrs(*arg1,arg2);
+  {
+    try {
+      result = (z3::param_descrs *)new z3::param_descrs(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::param_descrs **)&_swig_go_result = (z3::param_descrs *)result; 
   return _swig_go_result;
 }
 
 
-z3::param_descrs *_wrap_new_param_descrs__SWIG_1_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0) {
+z3::param_descrs *_wrap_new_param_descrs__SWIG_1_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0) {
   z3::param_descrs *arg1 = 0 ;
   z3::param_descrs *result = 0 ;
   z3::param_descrs *_swig_go_result;
   
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
   
-  result = (z3::param_descrs *)new z3::param_descrs((z3::param_descrs const &)*arg1);
+  {
+    try {
+      result = (z3::param_descrs *)new z3::param_descrs((z3::param_descrs const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::param_descrs **)&_swig_go_result = (z3::param_descrs *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_param_descrs_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0) {
+void _wrap_delete_param_descrs_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::param_descrs *_wrap_param_descrs_simplify_param_descrs_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::param_descrs *_wrap_param_descrs_simplify_param_descrs_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   SwigValueWrapper< z3::param_descrs > result;
   z3::param_descrs *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = z3::param_descrs::simplify_param_descrs(*arg1);
+  {
+    try {
+      result = z3::param_descrs::simplify_param_descrs(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::param_descrs **)&_swig_go_result = new z3::param_descrs(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_param_descrs_size_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0) {
+intgo _wrap_param_descrs_size_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
   
-  result = (unsigned int)(arg1)->size();
+  {
+    try {
+      result = (unsigned int)(arg1)->size();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::symbol *_wrap_param_descrs_name_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0, intgo _swig_go_1) {
+z3::symbol *_wrap_param_descrs_name_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0, intgo _swig_go_1) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::symbol > result;
@@ -2005,13 +2677,20 @@ z3::symbol *_wrap_param_descrs_name_z3go_2e73fdcd627f149e(z3::param_descrs *_swi
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (arg1)->name(arg2);
+  {
+    try {
+      result = (arg1)->name(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::symbol **)&_swig_go_result = new z3::symbol(result); 
   return _swig_go_result;
 }
 
 
-Z3_param_kind *_wrap_param_descrs_kind_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0, z3::symbol *_swig_go_1) {
+Z3_param_kind *_wrap_param_descrs_kind_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0, z3::symbol *_swig_go_1) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   z3::symbol *arg2 = 0 ;
   Z3_param_kind result;
@@ -2020,13 +2699,20 @@ Z3_param_kind *_wrap_param_descrs_kind_z3go_2e73fdcd627f149e(z3::param_descrs *_
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
   arg2 = *(z3::symbol **)&_swig_go_1; 
   
-  result = (arg1)->kind((z3::symbol const &)*arg2);
+  {
+    try {
+      result = (arg1)->kind((z3::symbol const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(Z3_param_kind **)&_swig_go_result = new Z3_param_kind(result); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_param_descrs_documentation_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0, z3::symbol *_swig_go_1) {
+_gostring_ _wrap_param_descrs_documentation_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0, z3::symbol *_swig_go_1) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   z3::symbol *arg2 = 0 ;
   std::string result;
@@ -2035,26 +2721,40 @@ _gostring_ _wrap_param_descrs_documentation_z3go_2e73fdcd627f149e(z3::param_desc
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
   arg2 = *(z3::symbol **)&_swig_go_1; 
   
-  result = (arg1)->documentation((z3::symbol const &)*arg2);
+  {
+    try {
+      result = (arg1)->documentation((z3::symbol const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_param_descrs_to_string_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0) {
+_gostring_ _wrap_param_descrs_to_string_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
   
-  result = ((z3::param_descrs const *)arg1)->to_string();
+  {
+    try {
+      result = ((z3::param_descrs const *)arg1)->to_string();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_param_descrs_ctx_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0) {
+z3::context *_wrap_param_descrs_ctx_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -2068,7 +2768,7 @@ z3::context *_wrap_param_descrs_ctx_z3go_2e73fdcd627f149e(z3::param_descrs *_swi
 }
 
 
-void _wrap_param_descrs_check_error_z3go_2e73fdcd627f149e(z3::param_descrs *_swig_go_0) {
+void _wrap_param_descrs_check_error_z3go_3c4af2efcdbd6479(z3::param_descrs *_swig_go_0) {
   z3::param_descrs *arg1 = (z3::param_descrs *) 0 ;
   
   arg1 = *(z3::param_descrs **)&_swig_go_0; 
@@ -2079,43 +2779,64 @@ void _wrap_param_descrs_check_error_z3go_2e73fdcd627f149e(z3::param_descrs *_swi
 }
 
 
-z3::params *_wrap_new_params__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::params *_wrap_new_params__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::params *result = 0 ;
   z3::params *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::params *)new z3::params(*arg1);
+  {
+    try {
+      result = (z3::params *)new z3::params(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::params **)&_swig_go_result = (z3::params *)result; 
   return _swig_go_result;
 }
 
 
-z3::params *_wrap_new_params__SWIG_1_z3go_2e73fdcd627f149e(z3::params *_swig_go_0) {
+z3::params *_wrap_new_params__SWIG_1_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0) {
   z3::params *arg1 = 0 ;
   z3::params *result = 0 ;
   z3::params *_swig_go_result;
   
   arg1 = *(z3::params **)&_swig_go_0; 
   
-  result = (z3::params *)new z3::params((z3::params const &)*arg1);
+  {
+    try {
+      result = (z3::params *)new z3::params((z3::params const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::params **)&_swig_go_result = (z3::params *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_params_z3go_2e73fdcd627f149e(z3::params *_swig_go_0) {
+void _wrap_delete_params_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0) {
   z3::params *arg1 = (z3::params *) 0 ;
   
   arg1 = *(z3::params **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_params_set__SWIG_0_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap_params_set__SWIG_0_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   z3::params *arg1 = (z3::params *) 0 ;
   char *arg2 = (char *) 0 ;
   bool arg3 ;
@@ -2128,13 +2849,20 @@ void _wrap_params_set__SWIG_0_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gos
   
   arg3 = (bool)_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-void _wrap_params_set__SWIG_1_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+void _wrap_params_set__SWIG_1_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   z3::params *arg1 = (z3::params *) 0 ;
   char *arg2 = (char *) 0 ;
   unsigned int arg3 ;
@@ -2147,13 +2875,20 @@ void _wrap_params_set__SWIG_1_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gos
   
   arg3 = (unsigned int)_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-void _wrap_params_set__SWIG_2_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gostring_ _swig_go_1, double _swig_go_2) {
+void _wrap_params_set__SWIG_2_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0, _gostring_ _swig_go_1, double _swig_go_2) {
   z3::params *arg1 = (z3::params *) 0 ;
   char *arg2 = (char *) 0 ;
   double arg3 ;
@@ -2166,13 +2901,20 @@ void _wrap_params_set__SWIG_2_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gos
   
   arg3 = (double)_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-void _wrap_params_set__SWIG_3_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gostring_ _swig_go_1, z3::symbol *_swig_go_2) {
+void _wrap_params_set__SWIG_3_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0, _gostring_ _swig_go_1, z3::symbol *_swig_go_2) {
   z3::params *arg1 = (z3::params *) 0 ;
   char *arg2 = (char *) 0 ;
   z3::symbol *arg3 = 0 ;
@@ -2185,13 +2927,20 @@ void _wrap_params_set__SWIG_3_z3go_2e73fdcd627f149e(z3::params *_swig_go_0, _gos
   
   arg3 = *(z3::symbol **)&_swig_go_2; 
   
-  (arg1)->set((char const *)arg2,(z3::symbol const &)*arg3);
+  {
+    try {
+      (arg1)->set((char const *)arg2,(z3::symbol const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg2); 
 }
 
 
-z3::context *_wrap_params_ctx_z3go_2e73fdcd627f149e(z3::params *_swig_go_0) {
+z3::context *_wrap_params_ctx_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0) {
   z3::params *arg1 = (z3::params *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -2205,7 +2954,7 @@ z3::context *_wrap_params_ctx_z3go_2e73fdcd627f149e(z3::params *_swig_go_0) {
 }
 
 
-void _wrap_params_check_error_z3go_2e73fdcd627f149e(z3::params *_swig_go_0) {
+void _wrap_params_check_error_z3go_3c4af2efcdbd6479(z3::params *_swig_go_0) {
   z3::params *arg1 = (z3::params *) 0 ;
   
   arg1 = *(z3::params **)&_swig_go_0; 
@@ -2216,20 +2965,27 @@ void _wrap_params_check_error_z3go_2e73fdcd627f149e(z3::params *_swig_go_0) {
 }
 
 
-z3::ast *_wrap_new_ast__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::ast *_wrap_new_ast__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::ast *result = 0 ;
   z3::ast *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::ast *)new z3::ast(*arg1);
+  {
+    try {
+      result = (z3::ast *)new z3::ast(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::ast **)&_swig_go_result = (z3::ast *)result; 
   return _swig_go_result;
 }
 
 
-z3::ast *_wrap_new_ast__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_ast *_swig_go_1) {
+z3::ast *_wrap_new_ast__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_ast *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_ast arg2 ;
   Z3_ast *argp2 ;
@@ -2245,75 +3001,117 @@ z3::ast *_wrap_new_ast__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3
   arg2 = (Z3_ast)*argp2;
   
   
-  result = (z3::ast *)new z3::ast(*arg1,arg2);
+  {
+    try {
+      result = (z3::ast *)new z3::ast(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::ast **)&_swig_go_result = (z3::ast *)result; 
   return _swig_go_result;
 }
 
 
-z3::ast *_wrap_new_ast__SWIG_2_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
+z3::ast *_wrap_new_ast__SWIG_2_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0) {
   z3::ast *arg1 = 0 ;
   z3::ast *result = 0 ;
   z3::ast *_swig_go_result;
   
   arg1 = *(z3::ast **)&_swig_go_0; 
   
-  result = (z3::ast *)new z3::ast((z3::ast const &)*arg1);
+  {
+    try {
+      result = (z3::ast *)new z3::ast((z3::ast const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::ast **)&_swig_go_result = (z3::ast *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_ast_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
+void _wrap_delete_ast_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0) {
   z3::ast *arg1 = (z3::ast *) 0 ;
   
   arg1 = *(z3::ast **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-Z3_ast_kind *_wrap_ast_kind_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
+Z3_ast_kind *_wrap_ast_kind_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0) {
   z3::ast *arg1 = (z3::ast *) 0 ;
   Z3_ast_kind result;
   Z3_ast_kind *_swig_go_result;
   
   arg1 = *(z3::ast **)&_swig_go_0; 
   
-  result = ((z3::ast const *)arg1)->kind();
+  {
+    try {
+      result = ((z3::ast const *)arg1)->kind();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(Z3_ast_kind **)&_swig_go_result = new Z3_ast_kind(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_ast_hash_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
+intgo _wrap_ast_hash_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0) {
   z3::ast *arg1 = (z3::ast *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::ast **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::ast const *)arg1)->hash();
+  {
+    try {
+      result = (unsigned int)((z3::ast const *)arg1)->hash();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_ast_String_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
+_gostring_ _wrap_ast_String_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0) {
   z3::ast *arg1 = (z3::ast *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::ast **)&_swig_go_0; 
   
-  result = ((z3::ast const *)arg1)->String();
+  {
+    try {
+      result = ((z3::ast const *)arg1)->String();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_ast_ctx_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
+z3::context *_wrap_ast_ctx_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0) {
   z3::ast *arg1 = (z3::ast *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -2327,7 +3125,7 @@ z3::context *_wrap_ast_ctx_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
 }
 
 
-void _wrap_ast_check_error_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
+void _wrap_ast_check_error_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0) {
   z3::ast *arg1 = (z3::ast *) 0 ;
   
   arg1 = *(z3::ast **)&_swig_go_0; 
@@ -2338,7 +3136,7 @@ void _wrap_ast_check_error_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0) {
 }
 
 
-bool _wrap_eq_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0, z3::ast *_swig_go_1) {
+bool _wrap_eq_z3go_3c4af2efcdbd6479(z3::ast *_swig_go_0, z3::ast *_swig_go_1) {
   z3::ast *arg1 = 0 ;
   z3::ast *arg2 = 0 ;
   bool result;
@@ -2347,26 +3145,40 @@ bool _wrap_eq_z3go_2e73fdcd627f149e(z3::ast *_swig_go_0, z3::ast *_swig_go_1) {
   arg1 = *(z3::ast **)&_swig_go_0; 
   arg2 = *(z3::ast **)&_swig_go_1; 
   
-  result = (bool)z3::eq((z3::ast const &)*arg1,(z3::ast const &)*arg2);
+  {
+    try {
+      result = (bool)z3::eq((z3::ast const &)*arg1,(z3::ast const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_new_sort__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::sort *_wrap_new_sort__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::sort *result = 0 ;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::sort *)new z3::sort(*arg1);
+  {
+    try {
+      result = (z3::sort *)new z3::sort(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = (z3::sort *)result; 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_new_sort__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_sort *_swig_go_1) {
+z3::sort *_wrap_new_sort__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_sort *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_sort arg2 ;
   Z3_sort *argp2 ;
@@ -2382,244 +3194,377 @@ z3::sort *_wrap_new_sort__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg2 = (Z3_sort)*argp2;
   
   
-  result = (z3::sort *)new z3::sort(*arg1,arg2);
+  {
+    try {
+      result = (z3::sort *)new z3::sort(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = (z3::sort *)result; 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_new_sort__SWIG_2_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::sort *_wrap_new_sort__SWIG_2_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = 0 ;
   z3::sort *result = 0 ;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (z3::sort *)new z3::sort((z3::sort const &)*arg1);
+  {
+    try {
+      result = (z3::sort *)new z3::sort((z3::sort const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = (z3::sort *)result; 
   return _swig_go_result;
 }
 
 
-Z3_sort_kind *_wrap_sort_sort_kind_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+Z3_sort_kind *_wrap_sort_sort_kind_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   Z3_sort_kind result;
   Z3_sort_kind *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = ((z3::sort const *)arg1)->sort_kind();
+  {
+    try {
+      result = ((z3::sort const *)arg1)->sort_kind();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(Z3_sort_kind **)&_swig_go_result = new Z3_sort_kind(result); 
   return _swig_go_result;
 }
 
 
-z3::symbol *_wrap_sort_name_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::symbol *_wrap_sort_name_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   SwigValueWrapper< z3::symbol > result;
   z3::symbol *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = ((z3::sort const *)arg1)->name();
+  {
+    try {
+      result = ((z3::sort const *)arg1)->name();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::symbol **)&_swig_go_result = new z3::symbol(result); 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_bool_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_bool_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_bool();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_bool();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_int_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_int_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_int();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_int();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_real_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_real_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_real();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_real();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_arith_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_arith_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_arith();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_arith();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_bv_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_bv_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_bv();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_bv();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_array_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_array_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_array();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_array();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_datatype_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_datatype_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_datatype();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_datatype();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_relation_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_relation_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_relation();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_relation();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_seq_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_seq_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_seq();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_seq();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_re_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_re_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_re();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_re();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_sort_is_finite_domain_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+bool _wrap_sort_is_finite_domain_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (bool)((z3::sort const *)arg1)->is_finite_domain();
+  {
+    try {
+      result = (bool)((z3::sort const *)arg1)->is_finite_domain();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_sort_bv_size_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+intgo _wrap_sort_bv_size_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::sort const *)arg1)->bv_size();
+  {
+    try {
+      result = (unsigned int)((z3::sort const *)arg1)->bv_size();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_sort_array_domain_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::sort *_wrap_sort_array_domain_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = ((z3::sort const *)arg1)->array_domain();
+  {
+    try {
+      result = ((z3::sort const *)arg1)->array_domain();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_sort_array_range_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::sort *_wrap_sort_array_range_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = ((z3::sort const *)arg1)->array_range();
+  {
+    try {
+      result = ((z3::sort const *)arg1)->array_range();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_sort_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+void _wrap_delete_sort_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-Z3_ast_kind *_wrap_sort_kind_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+Z3_ast_kind *_wrap_sort_kind_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   Z3_ast_kind result;
   Z3_ast_kind *_swig_go_result;
@@ -2633,7 +3578,7 @@ Z3_ast_kind *_wrap_sort_kind_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
 }
 
 
-intgo _wrap_sort_hash_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+intgo _wrap_sort_hash_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -2647,7 +3592,7 @@ intgo _wrap_sort_hash_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
 }
 
 
-_gostring_ _wrap_sort_String_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+_gostring_ _wrap_sort_String_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -2661,7 +3606,7 @@ _gostring_ _wrap_sort_String_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
 }
 
 
-z3::context *_wrap_sort_ctx_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::context *_wrap_sort_ctx_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -2676,7 +3621,7 @@ z3::context *_wrap_sort_ctx_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
 }
 
 
-void _wrap_sort_check_error_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+void _wrap_sort_check_error_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = (z3::sort *) 0 ;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
@@ -2688,20 +3633,27 @@ void _wrap_sort_check_error_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
 }
 
 
-z3::func_decl *_wrap_new_func_decl__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::func_decl *_wrap_new_func_decl__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::func_decl *result = 0 ;
   z3::func_decl *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::func_decl *)new z3::func_decl(*arg1);
+  {
+    try {
+      result = (z3::func_decl *)new z3::func_decl(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = (z3::func_decl *)result; 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_new_func_decl__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_func_decl *_swig_go_1) {
+z3::func_decl *_wrap_new_func_decl__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_func_decl *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_func_decl arg2 ;
   Z3_func_decl *argp2 ;
@@ -2717,39 +3669,60 @@ z3::func_decl *_wrap_new_func_decl__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_s
   arg2 = (Z3_func_decl)*argp2;
   
   
-  result = (z3::func_decl *)new z3::func_decl(*arg1,arg2);
+  {
+    try {
+      result = (z3::func_decl *)new z3::func_decl(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = (z3::func_decl *)result; 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_new_func_decl__SWIG_2_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+z3::func_decl *_wrap_new_func_decl__SWIG_2_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = 0 ;
   z3::func_decl *result = 0 ;
   z3::func_decl *_swig_go_result;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  result = (z3::func_decl *)new z3::func_decl((z3::func_decl const &)*arg1);
+  {
+    try {
+      result = (z3::func_decl *)new z3::func_decl((z3::func_decl const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = (z3::func_decl *)result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_func_decl_arity_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+intgo _wrap_func_decl_arity_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::func_decl const *)arg1)->arity();
+  {
+    try {
+      result = (unsigned int)((z3::func_decl const *)arg1)->arity();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_func_decl_domain_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, intgo _swig_go_1) {
+z3::sort *_wrap_func_decl_domain_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, intgo _swig_go_1) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::sort > result;
@@ -2758,78 +3731,120 @@ z3::sort *_wrap_func_decl_domain_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = ((z3::func_decl const *)arg1)->domain(arg2);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->domain(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_func_decl_Xrange_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+z3::sort *_wrap_func_decl_Xrange_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  result = ((z3::func_decl const *)arg1)->range();
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->range();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::symbol *_wrap_func_decl_name_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+z3::symbol *_wrap_func_decl_name_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   SwigValueWrapper< z3::symbol > result;
   z3::symbol *_swig_go_result;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  result = ((z3::func_decl const *)arg1)->name();
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->name();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::symbol **)&_swig_go_result = new z3::symbol(result); 
   return _swig_go_result;
 }
 
 
-Z3_decl_kind *_wrap_func_decl_decl_kind_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+Z3_decl_kind *_wrap_func_decl_decl_kind_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   Z3_decl_kind result;
   Z3_decl_kind *_swig_go_result;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  result = ((z3::func_decl const *)arg1)->decl_kind();
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->decl_kind();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(Z3_decl_kind **)&_swig_go_result = new Z3_decl_kind(result); 
   return _swig_go_result;
 }
 
 
-bool _wrap_func_decl_is_const_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+bool _wrap_func_decl_is_const_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  result = (bool)((z3::func_decl const *)arg1)->is_const();
+  {
+    try {
+      result = (bool)((z3::func_decl const *)arg1)->is_const();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_0_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_0_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()();
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_1_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_1_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   unsigned int arg2 ;
   z3::expr *arg3 = (z3::expr *) 0 ;
@@ -2840,13 +3855,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_1_z3go_2e73fdcd627f149e(z3::func_decl *
   arg2 = (unsigned int)_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()(arg2,(z3::expr const *)arg3);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()(arg2,(z3::expr const *)arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_2_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_2_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::expr_vector *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -2855,13 +3877,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_2_z3go_2e73fdcd627f149e(z3::func_decl *
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   arg2 = *(z3::expr_vector **)&_swig_go_1; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()((z3::expr_vector const &)*arg2);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()((z3::expr_vector const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_3_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_3_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -2870,13 +3899,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_3_z3go_2e73fdcd627f149e(z3::func_decl *
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_4_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_4_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, intgo _swig_go_1) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -2885,13 +3921,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_4_z3go_2e73fdcd627f149e(z3::func_decl *
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()(arg2);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_5_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_5_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -2902,13 +3945,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_5_z3go_2e73fdcd627f149e(z3::func_decl *
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_6_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_6_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, intgo _swig_go_2) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::expr *arg2 = 0 ;
   int arg3 ;
@@ -2919,13 +3969,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_6_z3go_2e73fdcd627f149e(z3::func_decl *
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = (int)_swig_go_2; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,arg3);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_7_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_7_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   int arg2 ;
   z3::expr *arg3 = 0 ;
@@ -2936,13 +3993,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_7_z3go_2e73fdcd627f149e(z3::func_decl *
   arg2 = (int)_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()(arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()(arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_8_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_8_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -2955,13 +4019,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_8_z3go_2e73fdcd627f149e(z3::func_decl *
   arg3 = *(z3::expr **)&_swig_go_2; 
   arg4 = *(z3::expr **)&_swig_go_3; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_9_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_9_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -2976,13 +4047,20 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_9_z3go_2e73fdcd627f149e(z3::func_decl *
   arg4 = *(z3::expr **)&_swig_go_3; 
   arg5 = *(z3::expr **)&_swig_go_4; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_decl_ApplyFct__SWIG_10_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4, z3::expr *_swig_go_5) {
+z3::expr *_wrap_func_decl_ApplyFct__SWIG_10_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4, z3::expr *_swig_go_5) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -2999,23 +4077,37 @@ z3::expr *_wrap_func_decl_ApplyFct__SWIG_10_z3go_2e73fdcd627f149e(z3::func_decl 
   arg5 = *(z3::expr **)&_swig_go_4; 
   arg6 = *(z3::expr **)&_swig_go_5; 
   
-  result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5,(z3::expr const &)*arg6);
+  {
+    try {
+      result = ((z3::func_decl const *)arg1)->operator ()((z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5,(z3::expr const &)*arg6);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_func_decl_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+void _wrap_delete_func_decl_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-Z3_ast_kind *_wrap_func_decl_kind_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+Z3_ast_kind *_wrap_func_decl_kind_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   Z3_ast_kind result;
   Z3_ast_kind *_swig_go_result;
@@ -3029,7 +4121,7 @@ Z3_ast_kind *_wrap_func_decl_kind_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_
 }
 
 
-intgo _wrap_func_decl_hash_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+intgo _wrap_func_decl_hash_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -3043,7 +4135,7 @@ intgo _wrap_func_decl_hash_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
 }
 
 
-_gostring_ _wrap_func_decl_String_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+_gostring_ _wrap_func_decl_String_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -3057,7 +4149,7 @@ _gostring_ _wrap_func_decl_String_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_
 }
 
 
-z3::context *_wrap_func_decl_ctx_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+z3::context *_wrap_func_decl_ctx_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -3072,7 +4164,7 @@ z3::context *_wrap_func_decl_ctx_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0
 }
 
 
-void _wrap_func_decl_check_error_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0) {
+void _wrap_func_decl_check_error_z3go_3c4af2efcdbd6479(z3::func_decl *_swig_go_0) {
   z3::func_decl *arg1 = (z3::func_decl *) 0 ;
   
   arg1 = *(z3::func_decl **)&_swig_go_0; 
@@ -3084,20 +4176,27 @@ void _wrap_func_decl_check_error_z3go_2e73fdcd627f149e(z3::func_decl *_swig_go_0
 }
 
 
-z3::expr *_wrap_new_expr__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::expr *_wrap_new_expr__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::expr *result = 0 ;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::expr *)new z3::expr(*arg1);
+  {
+    try {
+      result = (z3::expr *)new z3::expr(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = (z3::expr *)result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_new_expr__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_ast *_swig_go_1) {
+z3::expr *_wrap_new_expr__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_ast *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_ast arg2 ;
   Z3_ast *argp2 ;
@@ -3113,195 +4212,300 @@ z3::expr *_wrap_new_expr__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg2 = (Z3_ast)*argp2;
   
   
-  result = (z3::expr *)new z3::expr(*arg1,arg2);
+  {
+    try {
+      result = (z3::expr *)new z3::expr(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = (z3::expr *)result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_new_expr__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_new_expr__SWIG_2_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   z3::expr *result = 0 ;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (z3::expr *)new z3::expr((z3::expr const &)*arg1);
+  {
+    try {
+      result = (z3::expr *)new z3::expr((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = (z3::expr *)result; 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_expr_get_sort_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::sort *_wrap_expr_get_sort_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   SwigValueWrapper< z3::sort > result;
   z3::sort *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->get_sort();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->get_sort();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_bool_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_bool_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_bool();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_bool();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_int_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_int_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_int();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_int();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_real_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_real_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_real();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_real();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_arith_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_arith_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_arith();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_arith();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_bv_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_bv_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_bv();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_bv();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_array_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_array_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_array();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_array();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_datatype_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_datatype_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_datatype();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_datatype();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_relation_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_relation_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_relation();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_relation();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_seq_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_seq_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_seq();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_seq();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_re_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_re_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_re();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_re();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_finite_domain_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_finite_domain_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_finite_domain();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_finite_domain();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_numeral__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_numeral__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_numeral();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_numeral();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_numeral_i64_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, __int64 *_swig_go_1) {
+bool _wrap_expr_is_numeral_i64_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, __int64 *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   __int64 *arg2 = 0 ;
   bool result;
@@ -3310,13 +4514,20 @@ bool _wrap_expr_is_numeral_i64_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, __int
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(__int64 **)&_swig_go_1; 
   
-  result = (bool)((z3::expr const *)arg1)->is_numeral_i64(*arg2);
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_numeral_i64(*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_numeral_u64_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, __uint64 *_swig_go_1) {
+bool _wrap_expr_is_numeral_u64_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, __uint64 *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   __uint64 *arg2 = 0 ;
   bool result;
@@ -3325,13 +4536,20 @@ bool _wrap_expr_is_numeral_u64_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, __uin
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(__uint64 **)&_swig_go_1; 
   
-  result = (bool)((z3::expr const *)arg1)->is_numeral_u64(*arg2);
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_numeral_u64(*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_numeral_i_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, int *_swig_go_1) {
+bool _wrap_expr_is_numeral_i_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, int *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   int *arg2 = 0 ;
   bool result;
@@ -3340,13 +4558,20 @@ bool _wrap_expr_is_numeral_i_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, int *_s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(int **)&_swig_go_1; 
   
-  result = (bool)((z3::expr const *)arg1)->is_numeral_i(*arg2);
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_numeral_i(*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_numeral_u_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, unsigned int *_swig_go_1) {
+bool _wrap_expr_is_numeral_u_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, unsigned int *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int *arg2 = 0 ;
   bool result;
@@ -3355,13 +4580,20 @@ bool _wrap_expr_is_numeral_u_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, unsigne
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(unsigned int **)&_swig_go_1; 
   
-  result = (bool)((z3::expr const *)arg1)->is_numeral_u(*arg2);
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_numeral_u(*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_numeral__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, std::string *_swig_go_1) {
+bool _wrap_expr_is_numeral__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, std::string *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   std::string *arg2 = 0 ;
   bool result;
@@ -3370,13 +4602,20 @@ bool _wrap_expr_is_numeral__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(std::string **)&_swig_go_1; 
   
-  result = (bool)((z3::expr const *)arg1)->is_numeral(*arg2);
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_numeral(*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_numeral__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, std::string *_swig_go_1, intgo _swig_go_2) {
+bool _wrap_expr_is_numeral__SWIG_2_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, std::string *_swig_go_1, intgo _swig_go_2) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   std::string *arg2 = 0 ;
   unsigned int arg3 ;
@@ -3387,91 +4626,140 @@ bool _wrap_expr_is_numeral__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, s
   arg2 = *(std::string **)&_swig_go_1; 
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = (bool)((z3::expr const *)arg1)->is_numeral(*arg2,arg3);
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_numeral(*arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_app_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_app_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_app();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_app();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_const_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_const_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_const();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_const();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_quantifier_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_quantifier_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_quantifier();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_quantifier();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_var_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_var_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_var();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_var();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_algebraic_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_algebraic_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_algebraic();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_algebraic();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_expr_is_well_sorted_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+bool _wrap_expr_is_well_sorted_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (bool)((z3::expr const *)arg1)->is_well_sorted();
+  {
+    try {
+      result = (bool)((z3::expr const *)arg1)->is_well_sorted();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_expr_get_decimal_string_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+_gostring_ _wrap_expr_get_decimal_string_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   int arg2 ;
   std::string result;
@@ -3480,91 +4768,140 @@ _gostring_ _wrap_expr_get_decimal_string_z3go_2e73fdcd627f149e(z3::expr *_swig_g
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = ((z3::expr const *)arg1)->get_decimal_string(arg2);
+  {
+    try {
+      result = ((z3::expr const *)arg1)->get_decimal_string(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_expr_get_numeral_int_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+intgo _wrap_expr_get_numeral_int_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (int)((z3::expr const *)arg1)->get_numeral_int();
+  {
+    try {
+      result = (int)((z3::expr const *)arg1)->get_numeral_int();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_expr_get_numeral_uint_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+intgo _wrap_expr_get_numeral_uint_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::expr const *)arg1)->get_numeral_uint();
+  {
+    try {
+      result = (unsigned int)((z3::expr const *)arg1)->get_numeral_uint();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-__int64 *_wrap_expr_get_numeral_int64_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+__int64 *_wrap_expr_get_numeral_int64_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   __int64 result;
   __int64 *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->get_numeral_int64();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->get_numeral_int64();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(__int64 **)&_swig_go_result = new __int64(result); 
   return _swig_go_result;
 }
 
 
-__uint64 *_wrap_expr_get_numeral_uint64_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+__uint64 *_wrap_expr_get_numeral_uint64_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   __uint64 result;
   __uint64 *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->get_numeral_uint64();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->get_numeral_uint64();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(__uint64 **)&_swig_go_result = new __uint64(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_expr_decl_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::func_decl *_wrap_expr_decl_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   SwigValueWrapper< z3::func_decl > result;
   z3::func_decl *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->decl();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->decl();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_expr_num_args_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+intgo _wrap_expr_num_args_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::expr const *)arg1)->num_args();
+  {
+    try {
+      result = (unsigned int)((z3::expr const *)arg1)->num_args();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_arg_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_expr_arg_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3573,39 +4910,60 @@ z3::expr *_wrap_expr_arg_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = ((z3::expr const *)arg1)->arg(arg2);
+  {
+    try {
+      result = ((z3::expr const *)arg1)->arg(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_body_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_expr_body_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->body();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->body();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Not__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_Not__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = operator !((z3::expr const &)*arg1);
+  {
+    try {
+      result = operator !((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_And__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_And__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3614,13 +4972,20 @@ z3::expr *_wrap_And__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator &&((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator &&((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_And__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, bool _swig_go_1) {
+z3::expr *_wrap_And__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, bool _swig_go_1) {
   z3::expr *arg1 = 0 ;
   bool arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3629,13 +4994,20 @@ z3::expr *_wrap_And__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, bool _sw
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (bool)_swig_go_1; 
   
-  result = operator &&((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator &&((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_And__SWIG_2_z3go_2e73fdcd627f149e(bool _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_And__SWIG_2_z3go_3c4af2efcdbd6479(bool _swig_go_0, z3::expr *_swig_go_1) {
   bool arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3644,13 +5016,20 @@ z3::expr *_wrap_And__SWIG_2_z3go_2e73fdcd627f149e(bool _swig_go_0, z3::expr *_sw
   arg1 = (bool)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator &&(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator &&(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Or__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Or__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3659,13 +5038,20 @@ z3::expr *_wrap_Or__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr 
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator ||((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator ||((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Or__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, bool _swig_go_1) {
+z3::expr *_wrap_Or__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, bool _swig_go_1) {
   z3::expr *arg1 = 0 ;
   bool arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3674,13 +5060,20 @@ z3::expr *_wrap_Or__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, bool _swi
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (bool)_swig_go_1; 
   
-  result = operator ||((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator ||((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Or__SWIG_2_z3go_2e73fdcd627f149e(bool _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Or__SWIG_2_z3go_3c4af2efcdbd6479(bool _swig_go_0, z3::expr *_swig_go_1) {
   bool arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3689,13 +5082,20 @@ z3::expr *_wrap_Or__SWIG_2_z3go_2e73fdcd627f149e(bool _swig_go_0, z3::expr *_swi
   arg1 = (bool)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator ||(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator ||(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Equals__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Equals__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3704,13 +5104,20 @@ z3::expr *_wrap_Equals__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator ==((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator ==((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Equals__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Equals__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3719,13 +5126,20 @@ z3::expr *_wrap_Equals__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator ==((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator ==((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Equals__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Equals__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3734,13 +5148,20 @@ z3::expr *_wrap_Equals__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr 
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator ==(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator ==(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_NotEquals__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_NotEquals__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3749,13 +5170,20 @@ z3::expr *_wrap_NotEquals__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator !=((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator !=((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_NotEquals__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_NotEquals__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3764,13 +5192,20 @@ z3::expr *_wrap_NotEquals__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, in
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator !=((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator !=((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_NotEquals__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_NotEquals__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3779,13 +5214,20 @@ z3::expr *_wrap_NotEquals__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::ex
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator !=(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator !=(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Add__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Add__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3794,13 +5236,20 @@ z3::expr *_wrap_Add__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator +((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator +((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Add__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Add__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3809,13 +5258,20 @@ z3::expr *_wrap_Add__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator +((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator +((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Add__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Add__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3824,13 +5280,20 @@ z3::expr *_wrap_Add__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_s
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator +(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator +(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Mult__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Mult__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3839,13 +5302,20 @@ z3::expr *_wrap_Mult__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator *((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator *((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Mult__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Mult__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3854,13 +5324,20 @@ z3::expr *_wrap_Mult__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator *((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator *((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Mult__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Mult__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3869,13 +5346,20 @@ z3::expr *_wrap_Mult__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator *(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator *(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Div__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Div__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3884,13 +5368,20 @@ z3::expr *_wrap_Div__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator /((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator /((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Div__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Div__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3899,13 +5390,20 @@ z3::expr *_wrap_Div__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator /((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator /((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Div__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Div__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3914,26 +5412,40 @@ z3::expr *_wrap_Div__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_s
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator /(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator /(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Subtract__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_Subtract__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = operator -((z3::expr const &)*arg1);
+  {
+    try {
+      result = operator -((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Subtract__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Subtract__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3942,13 +5454,20 @@ z3::expr *_wrap_Subtract__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3:
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator -((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator -((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Subtract__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Subtract__SWIG_2_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -3957,13 +5476,20 @@ z3::expr *_wrap_Subtract__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, int
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator -((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator -((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Subtract__SWIG_3_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Subtract__SWIG_3_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3972,13 +5498,20 @@ z3::expr *_wrap_Subtract__SWIG_3_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::exp
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator -(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator -(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_LessEq__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_LessEq__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -3987,13 +5520,20 @@ z3::expr *_wrap_LessEq__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator <=((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator <=((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_LessEq__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_LessEq__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4002,13 +5542,20 @@ z3::expr *_wrap_LessEq__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator <=((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator <=((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_LessEq__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_LessEq__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4017,13 +5564,20 @@ z3::expr *_wrap_LessEq__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr 
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator <=(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator <=(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_GreaterEq__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_GreaterEq__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4032,13 +5586,20 @@ z3::expr *_wrap_GreaterEq__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator >=((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator >=((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_GreaterEq__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_GreaterEq__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4047,13 +5608,20 @@ z3::expr *_wrap_GreaterEq__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, in
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator >=((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator >=((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_GreaterEq__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_GreaterEq__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4062,13 +5630,20 @@ z3::expr *_wrap_GreaterEq__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::ex
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator >=(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator >=(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Less__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Less__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4077,13 +5652,20 @@ z3::expr *_wrap_Less__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator <((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator <((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Less__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Less__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4092,13 +5674,20 @@ z3::expr *_wrap_Less__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator <((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator <((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Less__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Less__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4107,13 +5696,20 @@ z3::expr *_wrap_Less__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator <(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator <(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Greater__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Greater__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4122,13 +5718,20 @@ z3::expr *_wrap_Greater__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator >((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator >((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Greater__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Greater__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4137,13 +5740,20 @@ z3::expr *_wrap_Greater__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intg
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator >((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator >((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Greater__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Greater__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4152,13 +5762,20 @@ z3::expr *_wrap_Greater__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator >(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator >(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BAnd__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_BAnd__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4167,13 +5784,20 @@ z3::expr *_wrap_BAnd__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator &((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator &((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BAnd__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_BAnd__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4182,13 +5806,20 @@ z3::expr *_wrap_BAnd__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator &((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator &((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BAnd__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_BAnd__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4197,13 +5828,20 @@ z3::expr *_wrap_BAnd__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator &(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator &(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BXor__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_BXor__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4212,13 +5850,20 @@ z3::expr *_wrap_BXor__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator ^((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator ^((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BXor__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_BXor__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4227,13 +5872,20 @@ z3::expr *_wrap_BXor__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator ^((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator ^((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BXor__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_BXor__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4242,13 +5894,20 @@ z3::expr *_wrap_BXor__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator ^(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator ^(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BOr__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_BOr__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4257,13 +5916,20 @@ z3::expr *_wrap_BOr__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator |((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator |((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BOr__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_BOr__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4272,13 +5938,20 @@ z3::expr *_wrap_BOr__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = operator |((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = operator |((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BOr__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_BOr__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4287,26 +5960,40 @@ z3::expr *_wrap_BOr__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_s
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = operator |(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = operator |(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_BComp_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_BComp_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = operator ~((z3::expr const &)*arg1);
+  {
+    try {
+      result = operator ~((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_extract__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_expr_extract__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int arg2 ;
   unsigned int arg3 ;
@@ -4317,39 +6004,60 @@ z3::expr *_wrap_expr_extract__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0,
   arg2 = (unsigned int)_swig_go_1; 
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = ((z3::expr const *)arg1)->extract(arg2,arg3);
+  {
+    try {
+      result = ((z3::expr const *)arg1)->extract(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_expr_lo_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+intgo _wrap_expr_lo_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::expr const *)arg1)->lo();
+  {
+    try {
+      result = (unsigned int)((z3::expr const *)arg1)->lo();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_expr_hi_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+intgo _wrap_expr_hi_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::expr const *)arg1)->hi();
+  {
+    try {
+      result = (unsigned int)((z3::expr const *)arg1)->hi();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_extract__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_expr_extract__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -4360,13 +6068,20 @@ z3::expr *_wrap_expr_extract__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0,
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = ((z3::expr const *)arg1)->extract((z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = ((z3::expr const *)arg1)->extract((z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_replace_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_expr_replace_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -4377,26 +6092,40 @@ z3::expr *_wrap_expr_replace_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = ((z3::expr const *)arg1)->replace((z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = ((z3::expr const *)arg1)->replace((z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_unit_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_expr_unit_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->unit();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->unit();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_contains_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_expr_contains_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4405,13 +6134,20 @@ z3::expr *_wrap_expr_contains_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::ex
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = (arg1)->contains((z3::expr const &)*arg2);
+  {
+    try {
+      result = (arg1)->contains((z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_at_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_expr_at_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4420,39 +6156,60 @@ z3::expr *_wrap_expr_at_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = ((z3::expr const *)arg1)->at((z3::expr const &)*arg2);
+  {
+    try {
+      result = ((z3::expr const *)arg1)->at((z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_length_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_expr_length_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->length();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->length();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_simplify__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_expr_simplify__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = ((z3::expr const *)arg1)->simplify();
+  {
+    try {
+      result = ((z3::expr const *)arg1)->simplify();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_simplify__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::params *_swig_go_1) {
+z3::expr *_wrap_expr_simplify__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::params *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::params *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4461,13 +6218,20 @@ z3::expr *_wrap_expr_simplify__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::params **)&_swig_go_1; 
   
-  result = ((z3::expr const *)arg1)->simplify((z3::params const &)*arg2);
+  {
+    try {
+      result = ((z3::expr const *)arg1)->simplify((z3::params const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_substitute__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1, z3::ast_vector_tpl< z3::expr > *_swig_go_2) {
+z3::expr *_wrap_expr_substitute__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1, z3::ast_vector_tpl< z3::expr > *_swig_go_2) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::expr_vector *arg2 = 0 ;
   z3::expr_vector *arg3 = 0 ;
@@ -4478,13 +6242,20 @@ z3::expr *_wrap_expr_substitute__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go
   arg2 = *(z3::expr_vector **)&_swig_go_1; 
   arg3 = *(z3::expr_vector **)&_swig_go_2; 
   
-  result = (arg1)->substitute((z3::expr_vector const &)*arg2,(z3::expr_vector const &)*arg3);
+  {
+    try {
+      result = (arg1)->substitute((z3::expr_vector const &)*arg2,(z3::expr_vector const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_expr_substitute__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1) {
+z3::expr *_wrap_expr_substitute__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::expr_vector *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4493,23 +6264,37 @@ z3::expr *_wrap_expr_substitute__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr_vector **)&_swig_go_1; 
   
-  result = (arg1)->substitute((z3::expr_vector const &)*arg2);
+  {
+    try {
+      result = (arg1)->substitute((z3::expr_vector const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_expr_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+void _wrap_delete_expr_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-Z3_ast_kind *_wrap_expr_kind_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+Z3_ast_kind *_wrap_expr_kind_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   Z3_ast_kind result;
   Z3_ast_kind *_swig_go_result;
@@ -4523,7 +6308,7 @@ Z3_ast_kind *_wrap_expr_kind_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
 }
 
 
-intgo _wrap_expr_hash_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+intgo _wrap_expr_hash_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -4537,7 +6322,7 @@ intgo _wrap_expr_hash_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
 }
 
 
-_gostring_ _wrap_expr_String_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+_gostring_ _wrap_expr_String_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -4551,7 +6336,7 @@ _gostring_ _wrap_expr_String_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
 }
 
 
-z3::context *_wrap_expr_ctx_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::context *_wrap_expr_ctx_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -4566,7 +6351,7 @@ z3::context *_wrap_expr_ctx_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
 }
 
 
-void _wrap_expr_check_error_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+void _wrap_expr_check_error_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = (z3::expr *) 0 ;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
@@ -4578,7 +6363,7 @@ void _wrap_expr_check_error_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
 }
 
 
-z3::expr *_wrap_implies__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_implies__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4587,13 +6372,20 @@ z3::expr *_wrap_implies__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::implies((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::implies((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_implies__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, bool _swig_go_1) {
+z3::expr *_wrap_implies__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, bool _swig_go_1) {
   z3::expr *arg1 = 0 ;
   bool arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4602,13 +6394,20 @@ z3::expr *_wrap_implies__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, bool
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (bool)_swig_go_1; 
   
-  result = z3::implies((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::implies((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_implies__SWIG_2_z3go_2e73fdcd627f149e(bool _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_implies__SWIG_2_z3go_3c4af2efcdbd6479(bool _swig_go_0, z3::expr *_swig_go_1) {
   bool arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4617,13 +6416,20 @@ z3::expr *_wrap_implies__SWIG_2_z3go_2e73fdcd627f149e(bool _swig_go_0, z3::expr 
   arg1 = (bool)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::implies(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::implies(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_pw__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_pw__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4632,13 +6438,20 @@ z3::expr *_wrap_pw__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr 
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::pw((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::pw((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_pw__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_pw__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4647,13 +6460,20 @@ z3::expr *_wrap_pw__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _sw
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::pw((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::pw((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_pw__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_pw__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4662,13 +6482,20 @@ z3::expr *_wrap_pw__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_sw
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::pw(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::pw(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ite_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_ite_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -4679,13 +6506,20 @@ z3::expr *_wrap_ite_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = z3::ite((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = z3::ite((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_to_expr_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_ast *_swig_go_1) {
+z3::expr *_wrap_to_expr_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_ast *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_ast arg2 ;
   Z3_ast *argp2 ;
@@ -4701,13 +6535,20 @@ z3::expr *_wrap_to_expr_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_ast *_
   arg2 = (Z3_ast)*argp2;
   
   
-  result = z3::to_expr(*arg1,arg2);
+  {
+    try {
+      result = z3::to_expr(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::sort *_wrap_to_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_sort *_swig_go_1) {
+z3::sort *_wrap_to_sort_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_sort *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_sort arg2 ;
   Z3_sort *argp2 ;
@@ -4723,13 +6564,20 @@ z3::sort *_wrap_to_sort_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_sort *
   arg2 = (Z3_sort)*argp2;
   
   
-  result = z3::to_sort(*arg1,arg2);
+  {
+    try {
+      result = z3::to_sort(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::sort **)&_swig_go_result = new z3::sort(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_to_func_decl_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_func_decl *_swig_go_1) {
+z3::func_decl *_wrap_to_func_decl_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_func_decl *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_func_decl arg2 ;
   Z3_func_decl *argp2 ;
@@ -4745,13 +6593,20 @@ z3::func_decl *_wrap_to_func_decl_z3go_2e73fdcd627f149e(z3::context *_swig_go_0,
   arg2 = (Z3_func_decl)*argp2;
   
   
-  result = z3::to_func_decl(*arg1,arg2);
+  {
+    try {
+      result = z3::to_func_decl(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ule__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_ule__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4760,58 +6615,20 @@ z3::expr *_wrap_ule__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::ule((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::ule((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ule__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
-  z3::expr *arg1 = 0 ;
-  int arg2 ;
-  SwigValueWrapper< z3::expr > result;
-  z3::expr *_swig_go_result;
-  
-  arg1 = *(z3::expr **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  result = z3::ule((z3::expr const &)*arg1,arg2);
-  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
-  return _swig_go_result;
-}
-
-
-z3::expr *_wrap_ule__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
-  int arg1 ;
-  z3::expr *arg2 = 0 ;
-  SwigValueWrapper< z3::expr > result;
-  z3::expr *_swig_go_result;
-  
-  arg1 = (int)_swig_go_0; 
-  arg2 = *(z3::expr **)&_swig_go_1; 
-  
-  result = z3::ule(arg1,(z3::expr const &)*arg2);
-  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
-  return _swig_go_result;
-}
-
-
-z3::expr *_wrap_ult__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
-  z3::expr *arg1 = 0 ;
-  z3::expr *arg2 = 0 ;
-  SwigValueWrapper< z3::expr > result;
-  z3::expr *_swig_go_result;
-  
-  arg1 = *(z3::expr **)&_swig_go_0; 
-  arg2 = *(z3::expr **)&_swig_go_1; 
-  
-  result = z3::ult((z3::expr const &)*arg1,(z3::expr const &)*arg2);
-  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
-  return _swig_go_result;
-}
-
-
-z3::expr *_wrap_ult__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_ule__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4820,13 +6637,20 @@ z3::expr *_wrap_ult__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::ult((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::ule((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ult__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_ule__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4835,13 +6659,20 @@ z3::expr *_wrap_ult__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_s
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::ult(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::ule(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_uge__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_ult__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4850,13 +6681,20 @@ z3::expr *_wrap_uge__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::uge((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::ult((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_uge__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_ult__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4865,13 +6703,20 @@ z3::expr *_wrap_uge__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::uge((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::ult((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_uge__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_ult__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4880,13 +6725,20 @@ z3::expr *_wrap_uge__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_s
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::uge(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::ult(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ugt__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_uge__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4895,13 +6747,20 @@ z3::expr *_wrap_ugt__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::ugt((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::uge((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ugt__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_uge__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4910,13 +6769,20 @@ z3::expr *_wrap_ugt__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::ugt((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::uge((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ugt__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_uge__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4925,13 +6791,20 @@ z3::expr *_wrap_ugt__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_s
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::ugt(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::uge(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_udiv__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_ugt__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4940,13 +6813,20 @@ z3::expr *_wrap_udiv__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::udiv((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::ugt((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_udiv__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_ugt__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -4955,13 +6835,20 @@ z3::expr *_wrap_udiv__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::udiv((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::ugt((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_udiv__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_ugt__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4970,13 +6857,20 @@ z3::expr *_wrap_udiv__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::udiv(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::ugt(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_srem__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_udiv__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -4985,13 +6879,20 @@ z3::expr *_wrap_srem__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::srem((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::udiv((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_srem__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_udiv__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5000,13 +6901,20 @@ z3::expr *_wrap_srem__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::srem((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::udiv((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_srem__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_udiv__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5015,13 +6923,20 @@ z3::expr *_wrap_srem__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::srem(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::udiv(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_urem__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_srem__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5030,13 +6945,20 @@ z3::expr *_wrap_urem__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::urem((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::srem((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_urem__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_srem__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5045,13 +6967,20 @@ z3::expr *_wrap_urem__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::urem((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::srem((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_urem__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_srem__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5060,13 +6989,20 @@ z3::expr *_wrap_urem__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::urem(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::srem(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_shl__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_urem__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5075,13 +7011,20 @@ z3::expr *_wrap_shl__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::shl((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::urem((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_shl__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_urem__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5090,13 +7033,20 @@ z3::expr *_wrap_shl__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::shl((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::urem((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_shl__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_urem__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5105,13 +7055,20 @@ z3::expr *_wrap_shl__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_s
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::shl(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::urem(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_lshr__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_shl__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5120,13 +7077,20 @@ z3::expr *_wrap_lshr__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::lshr((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::shl((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_lshr__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_shl__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5135,13 +7099,20 @@ z3::expr *_wrap_lshr__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::lshr((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::shl((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_lshr__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_shl__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5150,13 +7121,20 @@ z3::expr *_wrap_lshr__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::lshr(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::shl(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ashr__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_lshr__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5165,13 +7143,20 @@ z3::expr *_wrap_ashr__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::exp
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::ashr((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::lshr((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ashr__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_lshr__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5180,13 +7165,20 @@ z3::expr *_wrap_ashr__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::ashr((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::lshr((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_ashr__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_lshr__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
   int arg1 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5195,13 +7187,86 @@ z3::expr *_wrap_ashr__SWIG_2_z3go_2e73fdcd627f149e(intgo _swig_go_0, z3::expr *_
   arg1 = (int)_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::ashr(arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::lshr(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_zext_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_ashr__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+  z3::expr *arg1 = 0 ;
+  z3::expr *arg2 = 0 ;
+  SwigValueWrapper< z3::expr > result;
+  z3::expr *_swig_go_result;
+  
+  arg1 = *(z3::expr **)&_swig_go_0; 
+  arg2 = *(z3::expr **)&_swig_go_1; 
+  
+  {
+    try {
+      result = z3::ashr((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
+  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
+  return _swig_go_result;
+}
+
+
+z3::expr *_wrap_ashr__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
+  z3::expr *arg1 = 0 ;
+  int arg2 ;
+  SwigValueWrapper< z3::expr > result;
+  z3::expr *_swig_go_result;
+  
+  arg1 = *(z3::expr **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  {
+    try {
+      result = z3::ashr((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
+  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
+  return _swig_go_result;
+}
+
+
+z3::expr *_wrap_ashr__SWIG_2_z3go_3c4af2efcdbd6479(intgo _swig_go_0, z3::expr *_swig_go_1) {
+  int arg1 ;
+  z3::expr *arg2 = 0 ;
+  SwigValueWrapper< z3::expr > result;
+  z3::expr *_swig_go_result;
+  
+  arg1 = (int)_swig_go_0; 
+  arg2 = *(z3::expr **)&_swig_go_1; 
+  
+  {
+    try {
+      result = z3::ashr(arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
+  *(z3::expr **)&_swig_go_result = new z3::expr(result); 
+  return _swig_go_result;
+}
+
+
+z3::expr *_wrap_zext_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5210,13 +7275,20 @@ z3::expr *_wrap_zext_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = z3::zext((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::zext((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_sext_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_sext_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5225,13 +7297,20 @@ z3::expr *_wrap_sext_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = z3::sext((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::sext((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_forall__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_forall__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5240,13 +7319,20 @@ z3::expr *_wrap_forall__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_forall__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_forall__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -5257,13 +7343,20 @@ z3::expr *_wrap_forall__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_forall__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3) {
+z3::expr *_wrap_forall__SWIG_2_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -5276,13 +7369,20 @@ z3::expr *_wrap_forall__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg3 = *(z3::expr **)&_swig_go_2; 
   arg4 = *(z3::expr **)&_swig_go_3; 
   
-  result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4);
+  {
+    try {
+      result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_forall__SWIG_3_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4) {
+z3::expr *_wrap_forall__SWIG_3_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -5297,13 +7397,20 @@ z3::expr *_wrap_forall__SWIG_3_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg4 = *(z3::expr **)&_swig_go_3; 
   arg5 = *(z3::expr **)&_swig_go_4; 
   
-  result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5);
+  {
+    try {
+      result = z3::forall((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_forall__SWIG_4_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::expr > *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_forall__SWIG_4_z3go_3c4af2efcdbd6479(z3::ast_vector_tpl< z3::expr > *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr_vector *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5312,13 +7419,20 @@ z3::expr *_wrap_forall__SWIG_4_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::exp
   arg1 = *(z3::expr_vector **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::forall((z3::ast_vector_tpl< z3::expr > const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::forall((z3::ast_vector_tpl< z3::expr > const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_exists__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_exists__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5327,13 +7441,20 @@ z3::expr *_wrap_exists__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_exists__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_exists__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -5344,13 +7465,20 @@ z3::expr *_wrap_exists__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_exists__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3) {
+z3::expr *_wrap_exists__SWIG_2_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -5363,13 +7491,20 @@ z3::expr *_wrap_exists__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg3 = *(z3::expr **)&_swig_go_2; 
   arg4 = *(z3::expr **)&_swig_go_3; 
   
-  result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4);
+  {
+    try {
+      result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_exists__SWIG_3_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4) {
+z3::expr *_wrap_exists__SWIG_3_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2, z3::expr *_swig_go_3, z3::expr *_swig_go_4) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -5384,13 +7519,20 @@ z3::expr *_wrap_exists__SWIG_3_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg4 = *(z3::expr **)&_swig_go_3; 
   arg5 = *(z3::expr **)&_swig_go_4; 
   
-  result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5);
+  {
+    try {
+      result = z3::exists((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3,(z3::expr const &)*arg4,(z3::expr const &)*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_exists__SWIG_4_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::expr > *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_exists__SWIG_4_z3go_3c4af2efcdbd6479(z3::ast_vector_tpl< z3::expr > *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr_vector *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5399,26 +7541,40 @@ z3::expr *_wrap_exists__SWIG_4_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::exp
   arg1 = *(z3::expr_vector **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::exists((z3::ast_vector_tpl< z3::expr > const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::exists((z3::ast_vector_tpl< z3::expr > const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_distinct_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
+z3::expr *_wrap_distinct_z3go_3c4af2efcdbd6479(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
   z3::expr_vector *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr_vector **)&_swig_go_0; 
   
-  result = z3::distinct((z3::ast_vector_tpl< z3::expr > const &)*arg1);
+  {
+    try {
+      result = z3::distinct((z3::ast_vector_tpl< z3::expr > const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_concat__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_concat__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5427,52 +7583,80 @@ z3::expr *_wrap_concat__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::concat((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::concat((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_concat__SWIG_1_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
+z3::expr *_wrap_concat__SWIG_1_z3go_3c4af2efcdbd6479(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
   z3::expr_vector *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr_vector **)&_swig_go_0; 
   
-  result = z3::concat((z3::ast_vector_tpl< z3::expr > const &)*arg1);
+  {
+    try {
+      result = z3::concat((z3::ast_vector_tpl< z3::expr > const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_mk_or_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
+z3::expr *_wrap_mk_or_z3go_3c4af2efcdbd6479(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
   z3::expr_vector *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr_vector **)&_swig_go_0; 
   
-  result = z3::mk_or((z3::ast_vector_tpl< z3::expr > const &)*arg1);
+  {
+    try {
+      result = z3::mk_or((z3::ast_vector_tpl< z3::expr > const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_mk_and_z3go_2e73fdcd627f149e(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
+z3::expr *_wrap_mk_and_z3go_3c4af2efcdbd6479(z3::ast_vector_tpl< z3::expr > *_swig_go_0) {
   z3::expr_vector *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr_vector **)&_swig_go_0; 
   
-  result = z3::mk_and((z3::ast_vector_tpl< z3::expr > const &)*arg1);
+  {
+    try {
+      result = z3::mk_and((z3::ast_vector_tpl< z3::expr > const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::func_entry *_wrap_new_func_entry__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_func_entry *_swig_go_1) {
+z3::func_entry *_wrap_new_func_entry__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_func_entry *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_func_entry arg2 ;
   Z3_func_entry *argp2 ;
@@ -5488,62 +7672,97 @@ z3::func_entry *_wrap_new_func_entry__SWIG_0_z3go_2e73fdcd627f149e(z3::context *
   arg2 = (Z3_func_entry)*argp2;
   
   
-  result = (z3::func_entry *)new z3::func_entry(*arg1,arg2);
+  {
+    try {
+      result = (z3::func_entry *)new z3::func_entry(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_entry **)&_swig_go_result = (z3::func_entry *)result; 
   return _swig_go_result;
 }
 
 
-z3::func_entry *_wrap_new_func_entry__SWIG_1_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0) {
+z3::func_entry *_wrap_new_func_entry__SWIG_1_z3go_3c4af2efcdbd6479(z3::func_entry *_swig_go_0) {
   z3::func_entry *arg1 = 0 ;
   z3::func_entry *result = 0 ;
   z3::func_entry *_swig_go_result;
   
   arg1 = *(z3::func_entry **)&_swig_go_0; 
   
-  result = (z3::func_entry *)new z3::func_entry((z3::func_entry const &)*arg1);
+  {
+    try {
+      result = (z3::func_entry *)new z3::func_entry((z3::func_entry const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_entry **)&_swig_go_result = (z3::func_entry *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_func_entry_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0) {
+void _wrap_delete_func_entry_z3go_3c4af2efcdbd6479(z3::func_entry *_swig_go_0) {
   z3::func_entry *arg1 = (z3::func_entry *) 0 ;
   
   arg1 = *(z3::func_entry **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::expr *_wrap_func_entry_value_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0) {
+z3::expr *_wrap_func_entry_value_z3go_3c4af2efcdbd6479(z3::func_entry *_swig_go_0) {
   z3::func_entry *arg1 = (z3::func_entry *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::func_entry **)&_swig_go_0; 
   
-  result = ((z3::func_entry const *)arg1)->value();
+  {
+    try {
+      result = ((z3::func_entry const *)arg1)->value();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_func_entry_num_args_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0) {
+intgo _wrap_func_entry_num_args_z3go_3c4af2efcdbd6479(z3::func_entry *_swig_go_0) {
   z3::func_entry *arg1 = (z3::func_entry *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::func_entry **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::func_entry const *)arg1)->num_args();
+  {
+    try {
+      result = (unsigned int)((z3::func_entry const *)arg1)->num_args();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_func_entry_arg_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_func_entry_arg_z3go_3c4af2efcdbd6479(z3::func_entry *_swig_go_0, intgo _swig_go_1) {
   z3::func_entry *arg1 = (z3::func_entry *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -5552,13 +7771,20 @@ z3::expr *_wrap_func_entry_arg_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0,
   arg1 = *(z3::func_entry **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = ((z3::func_entry const *)arg1)->arg(arg2);
+  {
+    try {
+      result = ((z3::func_entry const *)arg1)->arg(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_func_entry_ctx_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0) {
+z3::context *_wrap_func_entry_ctx_z3go_3c4af2efcdbd6479(z3::func_entry *_swig_go_0) {
   z3::func_entry *arg1 = (z3::func_entry *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -5572,7 +7798,7 @@ z3::context *_wrap_func_entry_ctx_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go
 }
 
 
-void _wrap_func_entry_check_error_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go_0) {
+void _wrap_func_entry_check_error_z3go_3c4af2efcdbd6479(z3::func_entry *_swig_go_0) {
   z3::func_entry *arg1 = (z3::func_entry *) 0 ;
   
   arg1 = *(z3::func_entry **)&_swig_go_0; 
@@ -5583,7 +7809,7 @@ void _wrap_func_entry_check_error_z3go_2e73fdcd627f149e(z3::func_entry *_swig_go
 }
 
 
-z3::func_interp *_wrap_new_func_interp__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_func_interp *_swig_go_1) {
+z3::func_interp *_wrap_new_func_interp__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_func_interp *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_func_interp arg2 ;
   Z3_func_interp *argp2 ;
@@ -5599,62 +7825,97 @@ z3::func_interp *_wrap_new_func_interp__SWIG_0_z3go_2e73fdcd627f149e(z3::context
   arg2 = (Z3_func_interp)*argp2;
   
   
-  result = (z3::func_interp *)new z3::func_interp(*arg1,arg2);
+  {
+    try {
+      result = (z3::func_interp *)new z3::func_interp(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_interp **)&_swig_go_result = (z3::func_interp *)result; 
   return _swig_go_result;
 }
 
 
-z3::func_interp *_wrap_new_func_interp__SWIG_1_z3go_2e73fdcd627f149e(z3::func_interp *_swig_go_0) {
+z3::func_interp *_wrap_new_func_interp__SWIG_1_z3go_3c4af2efcdbd6479(z3::func_interp *_swig_go_0) {
   z3::func_interp *arg1 = 0 ;
   z3::func_interp *result = 0 ;
   z3::func_interp *_swig_go_result;
   
   arg1 = *(z3::func_interp **)&_swig_go_0; 
   
-  result = (z3::func_interp *)new z3::func_interp((z3::func_interp const &)*arg1);
+  {
+    try {
+      result = (z3::func_interp *)new z3::func_interp((z3::func_interp const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_interp **)&_swig_go_result = (z3::func_interp *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_func_interp_z3go_2e73fdcd627f149e(z3::func_interp *_swig_go_0) {
+void _wrap_delete_func_interp_z3go_3c4af2efcdbd6479(z3::func_interp *_swig_go_0) {
   z3::func_interp *arg1 = (z3::func_interp *) 0 ;
   
   arg1 = *(z3::func_interp **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::expr *_wrap_func_interp_else_value_z3go_2e73fdcd627f149e(z3::func_interp *_swig_go_0) {
+z3::expr *_wrap_func_interp_else_value_z3go_3c4af2efcdbd6479(z3::func_interp *_swig_go_0) {
   z3::func_interp *arg1 = (z3::func_interp *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::func_interp **)&_swig_go_0; 
   
-  result = ((z3::func_interp const *)arg1)->else_value();
+  {
+    try {
+      result = ((z3::func_interp const *)arg1)->else_value();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_func_interp_num_entries_z3go_2e73fdcd627f149e(z3::func_interp *_swig_go_0) {
+intgo _wrap_func_interp_num_entries_z3go_3c4af2efcdbd6479(z3::func_interp *_swig_go_0) {
   z3::func_interp *arg1 = (z3::func_interp *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::func_interp **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::func_interp const *)arg1)->num_entries();
+  {
+    try {
+      result = (unsigned int)((z3::func_interp const *)arg1)->num_entries();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::func_entry *_wrap_func_interp_entry_z3go_2e73fdcd627f149e(z3::func_interp *_swig_go_0, intgo _swig_go_1) {
+z3::func_entry *_wrap_func_interp_entry_z3go_3c4af2efcdbd6479(z3::func_interp *_swig_go_0, intgo _swig_go_1) {
   z3::func_interp *arg1 = (z3::func_interp *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::func_entry > result;
@@ -5663,13 +7924,20 @@ z3::func_entry *_wrap_func_interp_entry_z3go_2e73fdcd627f149e(z3::func_interp *_
   arg1 = *(z3::func_interp **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = ((z3::func_interp const *)arg1)->entry(arg2);
+  {
+    try {
+      result = ((z3::func_interp const *)arg1)->entry(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_entry **)&_swig_go_result = new z3::func_entry(result); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_func_interp_ctx_z3go_2e73fdcd627f149e(z3::func_interp *_swig_go_0) {
+z3::context *_wrap_func_interp_ctx_z3go_3c4af2efcdbd6479(z3::func_interp *_swig_go_0) {
   z3::func_interp *arg1 = (z3::func_interp *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -5683,7 +7951,7 @@ z3::context *_wrap_func_interp_ctx_z3go_2e73fdcd627f149e(z3::func_interp *_swig_
 }
 
 
-void _wrap_func_interp_check_error_z3go_2e73fdcd627f149e(z3::func_interp *_swig_go_0) {
+void _wrap_func_interp_check_error_z3go_3c4af2efcdbd6479(z3::func_interp *_swig_go_0) {
   z3::func_interp *arg1 = (z3::func_interp *) 0 ;
   
   arg1 = *(z3::func_interp **)&_swig_go_0; 
@@ -5694,7 +7962,7 @@ void _wrap_func_interp_check_error_z3go_2e73fdcd627f149e(z3::func_interp *_swig_
 }
 
 
-z3::model *_wrap_new_model__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_model *_swig_go_1) {
+z3::model *_wrap_new_model__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_model *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_model arg2 ;
   Z3_model *argp2 ;
@@ -5710,36 +7978,57 @@ z3::model *_wrap_new_model__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg2 = (Z3_model)*argp2;
   
   
-  result = (z3::model *)new z3::model(*arg1,arg2);
+  {
+    try {
+      result = (z3::model *)new z3::model(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::model **)&_swig_go_result = (z3::model *)result; 
   return _swig_go_result;
 }
 
 
-z3::model *_wrap_new_model__SWIG_1_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+z3::model *_wrap_new_model__SWIG_1_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = 0 ;
   z3::model *result = 0 ;
   z3::model *_swig_go_result;
   
   arg1 = *(z3::model **)&_swig_go_0; 
   
-  result = (z3::model *)new z3::model((z3::model const &)*arg1);
+  {
+    try {
+      result = (z3::model *)new z3::model((z3::model const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::model **)&_swig_go_result = (z3::model *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_model_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+void _wrap_delete_model_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = (z3::model *) 0 ;
   
   arg1 = *(z3::model **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::expr *_wrap_model_eval__SWIG_0_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, z3::expr *_swig_go_1, bool _swig_go_2) {
+z3::expr *_wrap_model_eval__SWIG_0_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, z3::expr *_swig_go_1, bool _swig_go_2) {
   z3::model *arg1 = (z3::model *) 0 ;
   z3::expr *arg2 = 0 ;
   bool arg3 ;
@@ -5750,13 +8039,20 @@ z3::expr *_wrap_model_eval__SWIG_0_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, 
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = (bool)_swig_go_2; 
   
-  result = ((z3::model const *)arg1)->eval((z3::expr const &)*arg2,arg3);
+  {
+    try {
+      result = ((z3::model const *)arg1)->eval((z3::expr const &)*arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_model_eval__SWIG_1_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_model_eval__SWIG_1_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, z3::expr *_swig_go_1) {
   z3::model *arg1 = (z3::model *) 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -5765,39 +8061,60 @@ z3::expr *_wrap_model_eval__SWIG_1_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, 
   arg1 = *(z3::model **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = ((z3::model const *)arg1)->eval((z3::expr const &)*arg2);
+  {
+    try {
+      result = ((z3::model const *)arg1)->eval((z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_model_num_consts_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+intgo _wrap_model_num_consts_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = (z3::model *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::model **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::model const *)arg1)->num_consts();
+  {
+    try {
+      result = (unsigned int)((z3::model const *)arg1)->num_consts();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_model_num_funcs_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+intgo _wrap_model_num_funcs_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = (z3::model *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::model **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::model const *)arg1)->num_funcs();
+  {
+    try {
+      result = (unsigned int)((z3::model const *)arg1)->num_funcs();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_model_get_const_decl_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, intgo _swig_go_1) {
+z3::func_decl *_wrap_model_get_const_decl_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, intgo _swig_go_1) {
   z3::model *arg1 = (z3::model *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::func_decl > result;
@@ -5806,13 +8123,20 @@ z3::func_decl *_wrap_model_get_const_decl_z3go_2e73fdcd627f149e(z3::model *_swig
   arg1 = *(z3::model **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = ((z3::model const *)arg1)->get_const_decl(arg2);
+  {
+    try {
+      result = ((z3::model const *)arg1)->get_const_decl(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_model_get_func_decl_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, intgo _swig_go_1) {
+z3::func_decl *_wrap_model_get_func_decl_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, intgo _swig_go_1) {
   z3::model *arg1 = (z3::model *) 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::func_decl > result;
@@ -5821,26 +8145,40 @@ z3::func_decl *_wrap_model_get_func_decl_z3go_2e73fdcd627f149e(z3::model *_swig_
   arg1 = *(z3::model **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = ((z3::model const *)arg1)->get_func_decl(arg2);
+  {
+    try {
+      result = ((z3::model const *)arg1)->get_func_decl(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_model_size_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+intgo _wrap_model_size_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = (z3::model *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::model **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::model const *)arg1)->size();
+  {
+    try {
+      result = (unsigned int)((z3::model const *)arg1)->size();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_model_Get_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, intgo _swig_go_1) {
+z3::func_decl *_wrap_model_Get_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, intgo _swig_go_1) {
   z3::model *arg1 = (z3::model *) 0 ;
   int arg2 ;
   SwigValueWrapper< z3::func_decl > result;
@@ -5849,13 +8187,20 @@ z3::func_decl *_wrap_model_Get_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, intg
   arg1 = *(z3::model **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = ((z3::model const *)arg1)->operator [](arg2);
+  {
+    try {
+      result = ((z3::model const *)arg1)->operator [](arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_model_get_const_interp_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, z3::func_decl *_swig_go_1) {
+z3::expr *_wrap_model_get_const_interp_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, z3::func_decl *_swig_go_1) {
   z3::model *arg1 = (z3::model *) 0 ;
   SwigValueWrapper< z3::func_decl > arg2 ;
   z3::func_decl *argp2 ;
@@ -5871,13 +8216,20 @@ z3::expr *_wrap_model_get_const_interp_z3go_2e73fdcd627f149e(z3::model *_swig_go
   arg2 = (z3::func_decl)*argp2;
   
   
-  result = ((z3::model const *)arg1)->get_const_interp(arg2);
+  {
+    try {
+      result = ((z3::model const *)arg1)->get_const_interp(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::func_interp *_wrap_model_get_func_interp_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, z3::func_decl *_swig_go_1) {
+z3::func_interp *_wrap_model_get_func_interp_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, z3::func_decl *_swig_go_1) {
   z3::model *arg1 = (z3::model *) 0 ;
   SwigValueWrapper< z3::func_decl > arg2 ;
   z3::func_decl *argp2 ;
@@ -5893,13 +8245,20 @@ z3::func_interp *_wrap_model_get_func_interp_z3go_2e73fdcd627f149e(z3::model *_s
   arg2 = (z3::func_decl)*argp2;
   
   
-  result = ((z3::model const *)arg1)->get_func_interp(arg2);
+  {
+    try {
+      result = ((z3::model const *)arg1)->get_func_interp(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_interp **)&_swig_go_result = new z3::func_interp(result); 
   return _swig_go_result;
 }
 
 
-bool _wrap_model_has_interp_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, z3::func_decl *_swig_go_1) {
+bool _wrap_model_has_interp_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0, z3::func_decl *_swig_go_1) {
   z3::model *arg1 = (z3::model *) 0 ;
   SwigValueWrapper< z3::func_decl > arg2 ;
   z3::func_decl *argp2 ;
@@ -5915,26 +8274,40 @@ bool _wrap_model_has_interp_z3go_2e73fdcd627f149e(z3::model *_swig_go_0, z3::fun
   arg2 = (z3::func_decl)*argp2;
   
   
-  result = (bool)((z3::model const *)arg1)->has_interp(arg2);
+  {
+    try {
+      result = (bool)((z3::model const *)arg1)->has_interp(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_model_String_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+_gostring_ _wrap_model_String_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = (z3::model *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::model **)&_swig_go_0; 
   
-  result = ((z3::model const *)arg1)->String();
+  {
+    try {
+      result = ((z3::model const *)arg1)->String();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_model_ctx_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+z3::context *_wrap_model_ctx_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = (z3::model *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -5948,7 +8321,7 @@ z3::context *_wrap_model_ctx_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
 }
 
 
-void _wrap_model_check_error_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
+void _wrap_model_check_error_z3go_3c4af2efcdbd6479(z3::model *_swig_go_0) {
   z3::model *arg1 = (z3::model *) 0 ;
   
   arg1 = *(z3::model **)&_swig_go_0; 
@@ -5959,20 +8332,27 @@ void _wrap_model_check_error_z3go_2e73fdcd627f149e(z3::model *_swig_go_0) {
 }
 
 
-z3::stats *_wrap_new_stats__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::stats *_wrap_new_stats__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::stats *result = 0 ;
   z3::stats *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::stats *)new z3::stats(*arg1);
+  {
+    try {
+      result = (z3::stats *)new z3::stats(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::stats **)&_swig_go_result = (z3::stats *)result; 
   return _swig_go_result;
 }
 
 
-z3::stats *_wrap_new_stats__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_stats *_swig_go_1) {
+z3::stats *_wrap_new_stats__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_stats *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_stats arg2 ;
   Z3_stats *argp2 ;
@@ -5988,49 +8368,77 @@ z3::stats *_wrap_new_stats__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg2 = (Z3_stats)*argp2;
   
   
-  result = (z3::stats *)new z3::stats(*arg1,arg2);
+  {
+    try {
+      result = (z3::stats *)new z3::stats(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::stats **)&_swig_go_result = (z3::stats *)result; 
   return _swig_go_result;
 }
 
 
-z3::stats *_wrap_new_stats__SWIG_2_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0) {
+z3::stats *_wrap_new_stats__SWIG_2_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0) {
   z3::stats *arg1 = 0 ;
   z3::stats *result = 0 ;
   z3::stats *_swig_go_result;
   
   arg1 = *(z3::stats **)&_swig_go_0; 
   
-  result = (z3::stats *)new z3::stats((z3::stats const &)*arg1);
+  {
+    try {
+      result = (z3::stats *)new z3::stats((z3::stats const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::stats **)&_swig_go_result = (z3::stats *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_stats_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0) {
+void _wrap_delete_stats_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   
   arg1 = *(z3::stats **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-intgo _wrap_stats_size_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0) {
+intgo _wrap_stats_size_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::stats **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::stats const *)arg1)->size();
+  {
+    try {
+      result = (unsigned int)((z3::stats const *)arg1)->size();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_stats_key_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _swig_go_1) {
+_gostring_ _wrap_stats_key_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0, intgo _swig_go_1) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   unsigned int arg2 ;
   std::string result;
@@ -6039,13 +8447,20 @@ _gostring_ _wrap_stats_key_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _s
   arg1 = *(z3::stats **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = ((z3::stats const *)arg1)->key(arg2);
+  {
+    try {
+      result = ((z3::stats const *)arg1)->key(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-bool _wrap_stats_is_uint_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_stats_is_uint_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0, intgo _swig_go_1) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   unsigned int arg2 ;
   bool result;
@@ -6054,13 +8469,20 @@ bool _wrap_stats_is_uint_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _swi
   arg1 = *(z3::stats **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (bool)((z3::stats const *)arg1)->is_uint(arg2);
+  {
+    try {
+      result = (bool)((z3::stats const *)arg1)->is_uint(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_stats_is_double_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_stats_is_double_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0, intgo _swig_go_1) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   unsigned int arg2 ;
   bool result;
@@ -6069,13 +8491,20 @@ bool _wrap_stats_is_double_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _s
   arg1 = *(z3::stats **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (bool)((z3::stats const *)arg1)->is_double(arg2);
+  {
+    try {
+      result = (bool)((z3::stats const *)arg1)->is_double(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_stats_uint_value_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_stats_uint_value_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0, intgo _swig_go_1) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   unsigned int arg2 ;
   unsigned int result;
@@ -6084,13 +8513,20 @@ intgo _wrap_stats_uint_value_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo 
   arg1 = *(z3::stats **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (unsigned int)((z3::stats const *)arg1)->uint_value(arg2);
+  {
+    try {
+      result = (unsigned int)((z3::stats const *)arg1)->uint_value(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-double _wrap_stats_double_value_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, intgo _swig_go_1) {
+double _wrap_stats_double_value_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0, intgo _swig_go_1) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   unsigned int arg2 ;
   double result;
@@ -6099,13 +8535,20 @@ double _wrap_stats_double_value_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0, int
   arg1 = *(z3::stats **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = (double)((z3::stats const *)arg1)->double_value(arg2);
+  {
+    try {
+      result = (double)((z3::stats const *)arg1)->double_value(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_stats_ctx_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0) {
+z3::context *_wrap_stats_ctx_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -6119,7 +8562,7 @@ z3::context *_wrap_stats_ctx_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0) {
 }
 
 
-void _wrap_stats_check_error_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0) {
+void _wrap_stats_check_error_z3go_3c4af2efcdbd6479(z3::stats *_swig_go_0) {
   z3::stats *arg1 = (z3::stats *) 0 ;
   
   arg1 = *(z3::stats **)&_swig_go_0; 
@@ -6130,20 +8573,27 @@ void _wrap_stats_check_error_z3go_2e73fdcd627f149e(z3::stats *_swig_go_0) {
 }
 
 
-z3::solver *_wrap_new_solver__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::solver *_wrap_new_solver__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::solver *result = 0 ;
   z3::solver *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::solver *)new z3::solver(*arg1);
+  {
+    try {
+      result = (z3::solver *)new z3::solver(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::solver **)&_swig_go_result = (z3::solver *)result; 
   return _swig_go_result;
 }
 
 
-z3::solver *_wrap_new_solver__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::solver::simple *_swig_go_1) {
+z3::solver *_wrap_new_solver__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::solver::simple *_swig_go_1) {
   z3::context *arg1 = 0 ;
   z3::solver::simple arg2 ;
   z3::solver::simple *argp2 ;
@@ -6159,13 +8609,20 @@ z3::solver *_wrap_new_solver__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg2 = (z3::solver::simple)*argp2;
   
   
-  result = (z3::solver *)new z3::solver(*arg1,arg2);
+  {
+    try {
+      result = (z3::solver *)new z3::solver(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::solver **)&_swig_go_result = (z3::solver *)result; 
   return _swig_go_result;
 }
 
 
-z3::solver *_wrap_new_solver__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_solver *_swig_go_1) {
+z3::solver *_wrap_new_solver__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_solver *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_solver arg2 ;
   Z3_solver *argp2 ;
@@ -6181,13 +8638,20 @@ z3::solver *_wrap_new_solver__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg2 = (Z3_solver)*argp2;
   
   
-  result = (z3::solver *)new z3::solver(*arg1,arg2);
+  {
+    try {
+      result = (z3::solver *)new z3::solver(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::solver **)&_swig_go_result = (z3::solver *)result; 
   return _swig_go_result;
 }
 
 
-z3::solver *_wrap_new_solver__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::solver *_wrap_new_solver__SWIG_3_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = 0 ;
   char *arg2 = (char *) 0 ;
   z3::solver *result = 0 ;
@@ -6200,14 +8664,21 @@ z3::solver *_wrap_new_solver__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (z3::solver *)new z3::solver(*arg1,(char const *)arg2);
+  {
+    try {
+      result = (z3::solver *)new z3::solver(*arg1,(char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::solver **)&_swig_go_result = (z3::solver *)result; 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::solver *_wrap_new_solver__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, z3::solver *_swig_go_1, z3::solver::translate *_swig_go_2) {
+z3::solver *_wrap_new_solver__SWIG_4_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, z3::solver *_swig_go_1, z3::solver::translate *_swig_go_2) {
   z3::context *arg1 = 0 ;
   z3::solver *arg2 = 0 ;
   z3::solver::translate arg3 ;
@@ -6225,102 +8696,165 @@ z3::solver *_wrap_new_solver__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg3 = (z3::solver::translate)*argp3;
   
   
-  result = (z3::solver *)new z3::solver(*arg1,(z3::solver const &)*arg2,arg3);
+  {
+    try {
+      result = (z3::solver *)new z3::solver(*arg1,(z3::solver const &)*arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::solver **)&_swig_go_result = (z3::solver *)result; 
   return _swig_go_result;
 }
 
 
-z3::solver *_wrap_new_solver__SWIG_5_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::solver *_wrap_new_solver__SWIG_5_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = 0 ;
   z3::solver *result = 0 ;
   z3::solver *_swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = (z3::solver *)new z3::solver((z3::solver const &)*arg1);
+  {
+    try {
+      result = (z3::solver *)new z3::solver((z3::solver const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::solver **)&_swig_go_result = (z3::solver *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_solver_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+void _wrap_delete_solver_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_set_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::params *_swig_go_1) {
+void _wrap_solver_set_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, z3::params *_swig_go_1) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   z3::params *arg2 = 0 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   arg2 = *(z3::params **)&_swig_go_1; 
   
-  (arg1)->set((z3::params const &)*arg2);
+  {
+    try {
+      (arg1)->set((z3::params const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_push_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+void _wrap_solver_push_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  (arg1)->push();
+  {
+    try {
+      (arg1)->push();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_pop__SWIG_0_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, intgo _swig_go_1) {
+void _wrap_solver_pop__SWIG_0_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, intgo _swig_go_1) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   unsigned int arg2 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  (arg1)->pop(arg2);
+  {
+    try {
+      (arg1)->pop(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_pop__SWIG_1_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+void _wrap_solver_pop__SWIG_1_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  (arg1)->pop();
+  {
+    try {
+      (arg1)->pop();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_reset_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+void _wrap_solver_reset_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  (arg1)->reset();
+  {
+    try {
+      (arg1)->reset();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_add__SWIG_0_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::expr *_swig_go_1) {
+void _wrap_solver_add__SWIG_0_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, z3::expr *_swig_go_1) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   z3::expr *arg2 = 0 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  (arg1)->add((z3::expr const &)*arg2);
+  {
+    try {
+      (arg1)->add((z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_add__SWIG_1_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+void _wrap_solver_add__SWIG_1_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -6329,12 +8863,19 @@ void _wrap_solver_add__SWIG_1_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  (arg1)->add((z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      (arg1)->add((z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_solver_add__SWIG_2_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::expr *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_solver_add__SWIG_2_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, z3::expr *_swig_go_1, _gostring_ _swig_go_2) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   z3::expr *arg2 = 0 ;
   char *arg3 = (char *) 0 ;
@@ -6347,26 +8888,40 @@ void _wrap_solver_add__SWIG_2_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::
   arg3[_swig_go_2.n] = '\0';
   
   
-  (arg1)->add((z3::expr const &)*arg2,(char const *)arg3);
+  {
+    try {
+      (arg1)->add((z3::expr const &)*arg2,(char const *)arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
   free(arg3); 
 }
 
 
-intgo _wrap_solver_check__SWIG_0_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+intgo _wrap_solver_check__SWIG_0_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   z3::check_result result;
   intgo _swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = (z3::check_result)(arg1)->check();
+  {
+    try {
+      result = (z3::check_result)(arg1)->check();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_solver_check__SWIG_1_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
+intgo _wrap_solver_check__SWIG_1_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   unsigned int arg2 ;
   z3::expr *arg3 = (z3::expr *) (z3::expr *)0 ;
@@ -6377,13 +8932,20 @@ intgo _wrap_solver_check__SWIG_1_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, i
   arg2 = (unsigned int)_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = (z3::check_result)(arg1)->check(arg2,arg3);
+  {
+    try {
+      result = (z3::check_result)(arg1)->check(arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_solver_check__SWIG_2_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1) {
+intgo _wrap_solver_check__SWIG_2_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   SwigValueWrapper< z3::ast_vector_tpl< z3::expr > > arg2 ;
   z3::expr_vector *argp2 ;
@@ -6399,26 +8961,40 @@ intgo _wrap_solver_check__SWIG_2_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z
   arg2 = (z3::expr_vector)*argp2;
   
   
-  result = (z3::check_result)(arg1)->check(arg2);
+  {
+    try {
+      result = (z3::check_result)(arg1)->check(arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-z3::model *_wrap_solver_get_model_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::model *_wrap_solver_get_model_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   SwigValueWrapper< z3::model > result;
   z3::model *_swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = ((z3::solver const *)arg1)->get_model();
+  {
+    try {
+      result = ((z3::solver const *)arg1)->get_model();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::model **)&_swig_go_result = new z3::model(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_solver_consequences_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1, z3::ast_vector_tpl< z3::expr > *_swig_go_2, z3::ast_vector_tpl< z3::expr > *_swig_go_3) {
+intgo _wrap_solver_consequences_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, z3::ast_vector_tpl< z3::expr > *_swig_go_1, z3::ast_vector_tpl< z3::expr > *_swig_go_2, z3::ast_vector_tpl< z3::expr > *_swig_go_3) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   z3::expr_vector *arg2 = 0 ;
   z3::expr_vector *arg3 = 0 ;
@@ -6431,78 +9007,120 @@ intgo _wrap_solver_consequences_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, z3
   arg3 = *(z3::expr_vector **)&_swig_go_2; 
   arg4 = *(z3::expr_vector **)&_swig_go_3; 
   
-  result = (z3::check_result)(arg1)->consequences(*arg2,*arg3,*arg4);
+  {
+    try {
+      result = (z3::check_result)(arg1)->consequences(*arg2,*arg3,*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_solver_reason_unknown_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+_gostring_ _wrap_solver_reason_unknown_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = ((z3::solver const *)arg1)->reason_unknown();
+  {
+    try {
+      result = ((z3::solver const *)arg1)->reason_unknown();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-z3::stats *_wrap_solver_statistics_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::stats *_wrap_solver_statistics_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   SwigValueWrapper< z3::stats > result;
   z3::stats *_swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = ((z3::solver const *)arg1)->statistics();
+  {
+    try {
+      result = ((z3::solver const *)arg1)->statistics();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::stats **)&_swig_go_result = new z3::stats(result); 
   return _swig_go_result;
 }
 
 
-z3::ast_vector_tpl< z3::expr > *_wrap_solver_unsat_core_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::ast_vector_tpl< z3::expr > *_wrap_solver_unsat_core_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   SwigValueWrapper< z3::ast_vector_tpl< z3::expr > > result;
   z3::ast_vector_tpl< z3::expr > *_swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = ((z3::solver const *)arg1)->unsat_core();
+  {
+    try {
+      result = ((z3::solver const *)arg1)->unsat_core();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr_vector **)&_swig_go_result = new z3::expr_vector(result); 
   return _swig_go_result;
 }
 
 
-z3::ast_vector_tpl< z3::expr > *_wrap_solver_assertions_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::ast_vector_tpl< z3::expr > *_wrap_solver_assertions_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   SwigValueWrapper< z3::ast_vector_tpl< z3::expr > > result;
   z3::ast_vector_tpl< z3::expr > *_swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = ((z3::solver const *)arg1)->assertions();
+  {
+    try {
+      result = ((z3::solver const *)arg1)->assertions();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr_vector **)&_swig_go_result = new z3::expr_vector(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_solver_proof_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::expr *_wrap_solver_proof_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = ((z3::solver const *)arg1)->proof();
+  {
+    try {
+      result = ((z3::solver const *)arg1)->proof();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_solver_to_smt2__SWIG_0_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0, _gostring_ _swig_go_1) {
+_gostring_ _wrap_solver_to_smt2__SWIG_0_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0, _gostring_ _swig_go_1) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   char *arg2 = (char *) 0 ;
   std::string result;
@@ -6515,53 +9133,81 @@ _gostring_ _wrap_solver_to_smt2__SWIG_0_z3go_2e73fdcd627f149e(z3::solver *_swig_
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (arg1)->to_smt2((char const *)arg2);
+  {
+    try {
+      result = (arg1)->to_smt2((char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_solver_to_smt2__SWIG_1_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+_gostring_ _wrap_solver_to_smt2__SWIG_1_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = (arg1)->to_smt2();
+  {
+    try {
+      result = (arg1)->to_smt2();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-z3::param_descrs *_wrap_solver_get_param_descrs_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::param_descrs *_wrap_solver_get_param_descrs_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   SwigValueWrapper< z3::param_descrs > result;
   z3::param_descrs *_swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = (arg1)->get_param_descrs();
+  {
+    try {
+      result = (arg1)->get_param_descrs();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::param_descrs **)&_swig_go_result = new z3::param_descrs(result); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_solver_String_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+_gostring_ _wrap_solver_String_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
   
-  result = ((z3::solver const *)arg1)->String();
+  {
+    try {
+      result = ((z3::solver const *)arg1)->String();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_solver_ctx_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+z3::context *_wrap_solver_ctx_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -6575,7 +9221,7 @@ z3::context *_wrap_solver_ctx_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
 }
 
 
-void _wrap_solver_check_error_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
+void _wrap_solver_check_error_z3go_3c4af2efcdbd6479(z3::solver *_swig_go_0) {
   z3::solver *arg1 = (z3::solver *) 0 ;
   
   arg1 = *(z3::solver **)&_swig_go_0; 
@@ -6586,7 +9232,7 @@ void _wrap_solver_check_error_z3go_2e73fdcd627f149e(z3::solver *_swig_go_0) {
 }
 
 
-z3::goal *_wrap_new_goal__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, bool _swig_go_1, bool _swig_go_2, bool _swig_go_3) {
+z3::goal *_wrap_new_goal__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, bool _swig_go_1, bool _swig_go_2, bool _swig_go_3) {
   z3::context *arg1 = 0 ;
   bool arg2 ;
   bool arg3 ;
@@ -6599,13 +9245,20 @@ z3::goal *_wrap_new_goal__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg3 = (bool)_swig_go_2; 
   arg4 = (bool)_swig_go_3; 
   
-  result = (z3::goal *)new z3::goal(*arg1,arg2,arg3,arg4);
+  {
+    try {
+      result = (z3::goal *)new z3::goal(*arg1,arg2,arg3,arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::goal **)&_swig_go_result = (z3::goal *)result; 
   return _swig_go_result;
 }
 
 
-z3::goal *_wrap_new_goal__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, bool _swig_go_1, bool _swig_go_2) {
+z3::goal *_wrap_new_goal__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, bool _swig_go_1, bool _swig_go_2) {
   z3::context *arg1 = 0 ;
   bool arg2 ;
   bool arg3 ;
@@ -6616,13 +9269,20 @@ z3::goal *_wrap_new_goal__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg2 = (bool)_swig_go_1; 
   arg3 = (bool)_swig_go_2; 
   
-  result = (z3::goal *)new z3::goal(*arg1,arg2,arg3);
+  {
+    try {
+      result = (z3::goal *)new z3::goal(*arg1,arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::goal **)&_swig_go_result = (z3::goal *)result; 
   return _swig_go_result;
 }
 
 
-z3::goal *_wrap_new_goal__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, bool _swig_go_1) {
+z3::goal *_wrap_new_goal__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, bool _swig_go_1) {
   z3::context *arg1 = 0 ;
   bool arg2 ;
   z3::goal *result = 0 ;
@@ -6631,26 +9291,40 @@ z3::goal *_wrap_new_goal__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (bool)_swig_go_1; 
   
-  result = (z3::goal *)new z3::goal(*arg1,arg2);
+  {
+    try {
+      result = (z3::goal *)new z3::goal(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::goal **)&_swig_go_result = (z3::goal *)result; 
   return _swig_go_result;
 }
 
 
-z3::goal *_wrap_new_goal__SWIG_3_z3go_2e73fdcd627f149e(z3::context *_swig_go_0) {
+z3::goal *_wrap_new_goal__SWIG_3_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0) {
   z3::context *arg1 = 0 ;
   z3::goal *result = 0 ;
   z3::goal *_swig_go_result;
   
   arg1 = *(z3::context **)&_swig_go_0; 
   
-  result = (z3::goal *)new z3::goal(*arg1);
+  {
+    try {
+      result = (z3::goal *)new z3::goal(*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::goal **)&_swig_go_result = (z3::goal *)result; 
   return _swig_go_result;
 }
 
 
-z3::goal *_wrap_new_goal__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_goal *_swig_go_1) {
+z3::goal *_wrap_new_goal__SWIG_4_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_goal *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_goal arg2 ;
   Z3_goal *argp2 ;
@@ -6666,61 +9340,96 @@ z3::goal *_wrap_new_goal__SWIG_4_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, 
   arg2 = (Z3_goal)*argp2;
   
   
-  result = (z3::goal *)new z3::goal(*arg1,arg2);
+  {
+    try {
+      result = (z3::goal *)new z3::goal(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::goal **)&_swig_go_result = (z3::goal *)result; 
   return _swig_go_result;
 }
 
 
-z3::goal *_wrap_new_goal__SWIG_5_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+z3::goal *_wrap_new_goal__SWIG_5_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = 0 ;
   z3::goal *result = 0 ;
   z3::goal *_swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = (z3::goal *)new z3::goal((z3::goal const &)*arg1);
+  {
+    try {
+      result = (z3::goal *)new z3::goal((z3::goal const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::goal **)&_swig_go_result = (z3::goal *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_goal_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+void _wrap_delete_goal_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-void _wrap_goal_add_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0, z3::expr *_swig_go_1) {
+void _wrap_goal_add_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0, z3::expr *_swig_go_1) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   z3::expr *arg2 = 0 ;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  (arg1)->add((z3::expr const &)*arg2);
+  {
+    try {
+      (arg1)->add((z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-intgo _wrap_goal_size_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+intgo _wrap_goal_size_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::goal const *)arg1)->size();
+  {
+    try {
+      result = (unsigned int)((z3::goal const *)arg1)->size();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_goal_Get_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_goal_Get_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0, intgo _swig_go_1) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -6729,114 +9438,177 @@ z3::expr *_wrap_goal_Get_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0, intgo _swig
   arg1 = *(z3::goal **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = ((z3::goal const *)arg1)->operator [](arg2);
+  {
+    try {
+      result = ((z3::goal const *)arg1)->operator [](arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-Z3_goal_prec *_wrap_goal_precision_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+Z3_goal_prec *_wrap_goal_precision_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   Z3_goal_prec result;
   Z3_goal_prec *_swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = ((z3::goal const *)arg1)->precision();
+  {
+    try {
+      result = ((z3::goal const *)arg1)->precision();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(Z3_goal_prec **)&_swig_go_result = new Z3_goal_prec(result); 
   return _swig_go_result;
 }
 
 
-bool _wrap_goal_inconsistent_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+bool _wrap_goal_inconsistent_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = (bool)((z3::goal const *)arg1)->inconsistent();
+  {
+    try {
+      result = (bool)((z3::goal const *)arg1)->inconsistent();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_goal_depth_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+intgo _wrap_goal_depth_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::goal const *)arg1)->depth();
+  {
+    try {
+      result = (unsigned int)((z3::goal const *)arg1)->depth();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_goal_reset_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+void _wrap_goal_reset_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  (arg1)->reset();
+  {
+    try {
+      (arg1)->reset();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-intgo _wrap_goal_num_exprs_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+intgo _wrap_goal_num_exprs_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::goal const *)arg1)->num_exprs();
+  {
+    try {
+      result = (unsigned int)((z3::goal const *)arg1)->num_exprs();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_goal_is_decided_sat_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+bool _wrap_goal_is_decided_sat_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = (bool)((z3::goal const *)arg1)->is_decided_sat();
+  {
+    try {
+      result = (bool)((z3::goal const *)arg1)->is_decided_sat();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_goal_is_decided_unsat_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+bool _wrap_goal_is_decided_unsat_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = (bool)((z3::goal const *)arg1)->is_decided_unsat();
+  {
+    try {
+      result = (bool)((z3::goal const *)arg1)->is_decided_unsat();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_goal_as_expr_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+z3::expr *_wrap_goal_as_expr_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
   
-  result = ((z3::goal const *)arg1)->as_expr();
+  {
+    try {
+      result = ((z3::goal const *)arg1)->as_expr();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_goal_ctx_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+z3::context *_wrap_goal_ctx_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -6850,7 +9622,7 @@ z3::context *_wrap_goal_ctx_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
 }
 
 
-void _wrap_goal_check_error_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
+void _wrap_goal_check_error_z3go_3c4af2efcdbd6479(z3::goal *_swig_go_0) {
   z3::goal *arg1 = (z3::goal *) 0 ;
   
   arg1 = *(z3::goal **)&_swig_go_0; 
@@ -6861,7 +9633,7 @@ void _wrap_goal_check_error_z3go_2e73fdcd627f149e(z3::goal *_swig_go_0) {
 }
 
 
-z3::apply_result *_wrap_new_apply_result__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_apply_result *_swig_go_1) {
+z3::apply_result *_wrap_new_apply_result__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_apply_result *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_apply_result arg2 ;
   Z3_apply_result *argp2 ;
@@ -6877,49 +9649,77 @@ z3::apply_result *_wrap_new_apply_result__SWIG_0_z3go_2e73fdcd627f149e(z3::conte
   arg2 = (Z3_apply_result)*argp2;
   
   
-  result = (z3::apply_result *)new z3::apply_result(*arg1,arg2);
+  {
+    try {
+      result = (z3::apply_result *)new z3::apply_result(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::apply_result **)&_swig_go_result = (z3::apply_result *)result; 
   return _swig_go_result;
 }
 
 
-z3::apply_result *_wrap_new_apply_result__SWIG_1_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0) {
+z3::apply_result *_wrap_new_apply_result__SWIG_1_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0) {
   z3::apply_result *arg1 = 0 ;
   z3::apply_result *result = 0 ;
   z3::apply_result *_swig_go_result;
   
   arg1 = *(z3::apply_result **)&_swig_go_0; 
   
-  result = (z3::apply_result *)new z3::apply_result((z3::apply_result const &)*arg1);
+  {
+    try {
+      result = (z3::apply_result *)new z3::apply_result((z3::apply_result const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::apply_result **)&_swig_go_result = (z3::apply_result *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_apply_result_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0) {
+void _wrap_delete_apply_result_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0) {
   z3::apply_result *arg1 = (z3::apply_result *) 0 ;
   
   arg1 = *(z3::apply_result **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-intgo _wrap_apply_result_size_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0) {
+intgo _wrap_apply_result_size_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0) {
   z3::apply_result *arg1 = (z3::apply_result *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
   
   arg1 = *(z3::apply_result **)&_swig_go_0; 
   
-  result = (unsigned int)((z3::apply_result const *)arg1)->size();
+  {
+    try {
+      result = (unsigned int)((z3::apply_result const *)arg1)->size();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::goal *_wrap_apply_result_Get_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0, intgo _swig_go_1) {
+z3::goal *_wrap_apply_result_Get_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0, intgo _swig_go_1) {
   z3::apply_result *arg1 = (z3::apply_result *) 0 ;
   int arg2 ;
   SwigValueWrapper< z3::goal > result;
@@ -6928,13 +9728,20 @@ z3::goal *_wrap_apply_result_Get_z3go_2e73fdcd627f149e(z3::apply_result *_swig_g
   arg1 = *(z3::apply_result **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = ((z3::apply_result const *)arg1)->operator [](arg2);
+  {
+    try {
+      result = ((z3::apply_result const *)arg1)->operator [](arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::goal **)&_swig_go_result = new z3::goal(result); 
   return _swig_go_result;
 }
 
 
-z3::model *_wrap_apply_result_convert_model__SWIG_0_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0, z3::model *_swig_go_1, intgo _swig_go_2) {
+z3::model *_wrap_apply_result_convert_model__SWIG_0_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0, z3::model *_swig_go_1, intgo _swig_go_2) {
   z3::apply_result *arg1 = (z3::apply_result *) 0 ;
   z3::model *arg2 = 0 ;
   unsigned int arg3 ;
@@ -6945,13 +9752,20 @@ z3::model *_wrap_apply_result_convert_model__SWIG_0_z3go_2e73fdcd627f149e(z3::ap
   arg2 = *(z3::model **)&_swig_go_1; 
   arg3 = (unsigned int)_swig_go_2; 
   
-  result = ((z3::apply_result const *)arg1)->convert_model((z3::model const &)*arg2,arg3);
+  {
+    try {
+      result = ((z3::apply_result const *)arg1)->convert_model((z3::model const &)*arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::model **)&_swig_go_result = new z3::model(result); 
   return _swig_go_result;
 }
 
 
-z3::model *_wrap_apply_result_convert_model__SWIG_1_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0, z3::model *_swig_go_1) {
+z3::model *_wrap_apply_result_convert_model__SWIG_1_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0, z3::model *_swig_go_1) {
   z3::apply_result *arg1 = (z3::apply_result *) 0 ;
   z3::model *arg2 = 0 ;
   SwigValueWrapper< z3::model > result;
@@ -6960,13 +9774,20 @@ z3::model *_wrap_apply_result_convert_model__SWIG_1_z3go_2e73fdcd627f149e(z3::ap
   arg1 = *(z3::apply_result **)&_swig_go_0; 
   arg2 = *(z3::model **)&_swig_go_1; 
   
-  result = ((z3::apply_result const *)arg1)->convert_model((z3::model const &)*arg2);
+  {
+    try {
+      result = ((z3::apply_result const *)arg1)->convert_model((z3::model const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::model **)&_swig_go_result = new z3::model(result); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_apply_result_ctx_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0) {
+z3::context *_wrap_apply_result_ctx_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0) {
   z3::apply_result *arg1 = (z3::apply_result *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -6980,7 +9801,7 @@ z3::context *_wrap_apply_result_ctx_z3go_2e73fdcd627f149e(z3::apply_result *_swi
 }
 
 
-void _wrap_apply_result_check_error_z3go_2e73fdcd627f149e(z3::apply_result *_swig_go_0) {
+void _wrap_apply_result_check_error_z3go_3c4af2efcdbd6479(z3::apply_result *_swig_go_0) {
   z3::apply_result *arg1 = (z3::apply_result *) 0 ;
   
   arg1 = *(z3::apply_result **)&_swig_go_0; 
@@ -6991,7 +9812,7 @@ void _wrap_apply_result_check_error_z3go_2e73fdcd627f149e(z3::apply_result *_swi
 }
 
 
-z3::tactic *_wrap_new_tactic__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::tactic *_wrap_new_tactic__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = 0 ;
   char *arg2 = (char *) 0 ;
   z3::tactic *result = 0 ;
@@ -7004,14 +9825,21 @@ z3::tactic *_wrap_new_tactic__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (z3::tactic *)new z3::tactic(*arg1,(char const *)arg2);
+  {
+    try {
+      result = (z3::tactic *)new z3::tactic(*arg1,(char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = (z3::tactic *)result; 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_new_tactic__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_tactic *_swig_go_1) {
+z3::tactic *_wrap_new_tactic__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_tactic *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_tactic arg2 ;
   Z3_tactic *argp2 ;
@@ -7027,49 +9855,77 @@ z3::tactic *_wrap_new_tactic__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go
   arg2 = (Z3_tactic)*argp2;
   
   
-  result = (z3::tactic *)new z3::tactic(*arg1,arg2);
+  {
+    try {
+      result = (z3::tactic *)new z3::tactic(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = (z3::tactic *)result; 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_new_tactic__SWIG_2_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+z3::tactic *_wrap_new_tactic__SWIG_2_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = 0 ;
   z3::tactic *result = 0 ;
   z3::tactic *_swig_go_result;
   
   arg1 = *(z3::tactic **)&_swig_go_0; 
   
-  result = (z3::tactic *)new z3::tactic((z3::tactic const &)*arg1);
+  {
+    try {
+      result = (z3::tactic *)new z3::tactic((z3::tactic const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = (z3::tactic *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_tactic_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+void _wrap_delete_tactic_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   
   arg1 = *(z3::tactic **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-z3::solver *_wrap_tactic_mk_solver_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+z3::solver *_wrap_tactic_mk_solver_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   SwigValueWrapper< z3::solver > result;
   z3::solver *_swig_go_result;
   
   arg1 = *(z3::tactic **)&_swig_go_0; 
   
-  result = ((z3::tactic const *)arg1)->mk_solver();
+  {
+    try {
+      result = ((z3::tactic const *)arg1)->mk_solver();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::solver **)&_swig_go_result = new z3::solver(result); 
   return _swig_go_result;
 }
 
 
-z3::apply_result *_wrap_tactic_apply_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3::goal *_swig_go_1) {
+z3::apply_result *_wrap_tactic_apply_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0, z3::goal *_swig_go_1) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   z3::goal *arg2 = 0 ;
   SwigValueWrapper< z3::apply_result > result;
@@ -7078,13 +9934,20 @@ z3::apply_result *_wrap_tactic_apply_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_
   arg1 = *(z3::tactic **)&_swig_go_0; 
   arg2 = *(z3::goal **)&_swig_go_1; 
   
-  result = ((z3::tactic const *)arg1)->apply((z3::goal const &)*arg2);
+  {
+    try {
+      result = ((z3::tactic const *)arg1)->apply((z3::goal const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::apply_result **)&_swig_go_result = new z3::apply_result(result); 
   return _swig_go_result;
 }
 
 
-z3::apply_result *_wrap_tactic_ApplyFct_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3::goal *_swig_go_1) {
+z3::apply_result *_wrap_tactic_ApplyFct_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0, z3::goal *_swig_go_1) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   z3::goal *arg2 = 0 ;
   SwigValueWrapper< z3::apply_result > result;
@@ -7093,26 +9956,40 @@ z3::apply_result *_wrap_tactic_ApplyFct_z3go_2e73fdcd627f149e(z3::tactic *_swig_
   arg1 = *(z3::tactic **)&_swig_go_0; 
   arg2 = *(z3::goal **)&_swig_go_1; 
   
-  result = ((z3::tactic const *)arg1)->operator ()((z3::goal const &)*arg2);
+  {
+    try {
+      result = ((z3::tactic const *)arg1)->operator ()((z3::goal const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::apply_result **)&_swig_go_result = new z3::apply_result(result); 
   return _swig_go_result;
 }
 
 
-_gostring_ _wrap_tactic_help_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+_gostring_ _wrap_tactic_help_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
   
   arg1 = *(z3::tactic **)&_swig_go_0; 
   
-  result = ((z3::tactic const *)arg1)->help();
+  {
+    try {
+      result = ((z3::tactic const *)arg1)->help();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_BAnd__SWIG_3_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3::tactic *_swig_go_1) {
+z3::tactic *_wrap_BAnd__SWIG_3_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0, z3::tactic *_swig_go_1) {
   z3::tactic *arg1 = 0 ;
   z3::tactic *arg2 = 0 ;
   SwigValueWrapper< z3::tactic > result;
@@ -7121,13 +9998,20 @@ z3::tactic *_wrap_BAnd__SWIG_3_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3:
   arg1 = *(z3::tactic **)&_swig_go_0; 
   arg2 = *(z3::tactic **)&_swig_go_1; 
   
-  result = operator &((z3::tactic const &)*arg1,(z3::tactic const &)*arg2);
+  {
+    try {
+      result = operator &((z3::tactic const &)*arg1,(z3::tactic const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_BOr__SWIG_3_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3::tactic *_swig_go_1) {
+z3::tactic *_wrap_BOr__SWIG_3_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0, z3::tactic *_swig_go_1) {
   z3::tactic *arg1 = 0 ;
   z3::tactic *arg2 = 0 ;
   SwigValueWrapper< z3::tactic > result;
@@ -7136,26 +10020,40 @@ z3::tactic *_wrap_BOr__SWIG_3_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3::
   arg1 = *(z3::tactic **)&_swig_go_0; 
   arg2 = *(z3::tactic **)&_swig_go_1; 
   
-  result = operator |((z3::tactic const &)*arg1,(z3::tactic const &)*arg2);
+  {
+    try {
+      result = operator |((z3::tactic const &)*arg1,(z3::tactic const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::param_descrs *_wrap_tactic_get_param_descrs_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+z3::param_descrs *_wrap_tactic_get_param_descrs_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   SwigValueWrapper< z3::param_descrs > result;
   z3::param_descrs *_swig_go_result;
   
   arg1 = *(z3::tactic **)&_swig_go_0; 
   
-  result = (arg1)->get_param_descrs();
+  {
+    try {
+      result = (arg1)->get_param_descrs();;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::param_descrs **)&_swig_go_result = new z3::param_descrs(result); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_tactic_ctx_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+z3::context *_wrap_tactic_ctx_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -7169,7 +10067,7 @@ z3::context *_wrap_tactic_ctx_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
 }
 
 
-void _wrap_tactic_check_error_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+void _wrap_tactic_check_error_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = (z3::tactic *) 0 ;
   
   arg1 = *(z3::tactic **)&_swig_go_0; 
@@ -7180,7 +10078,7 @@ void _wrap_tactic_check_error_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
 }
 
 
-z3::tactic *_wrap_repeat__SWIG_0_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, intgo _swig_go_1) {
+z3::tactic *_wrap_repeat__SWIG_0_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0, intgo _swig_go_1) {
   z3::tactic *arg1 = 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::tactic > result;
@@ -7189,26 +10087,40 @@ z3::tactic *_wrap_repeat__SWIG_0_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, i
   arg1 = *(z3::tactic **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = z3::repeat((z3::tactic const &)*arg1,arg2);
+  {
+    try {
+      result = z3::repeat((z3::tactic const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_repeat__SWIG_1_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0) {
+z3::tactic *_wrap_repeat__SWIG_1_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0) {
   z3::tactic *arg1 = 0 ;
   SwigValueWrapper< z3::tactic > result;
   z3::tactic *_swig_go_result;
   
   arg1 = *(z3::tactic **)&_swig_go_0; 
   
-  result = z3::repeat((z3::tactic const &)*arg1);
+  {
+    try {
+      result = z3::repeat((z3::tactic const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_with_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3::params *_swig_go_1) {
+z3::tactic *_wrap_with_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0, z3::params *_swig_go_1) {
   z3::tactic *arg1 = 0 ;
   z3::params *arg2 = 0 ;
   SwigValueWrapper< z3::tactic > result;
@@ -7217,13 +10129,20 @@ z3::tactic *_wrap_with_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, z3::params 
   arg1 = *(z3::tactic **)&_swig_go_0; 
   arg2 = *(z3::params **)&_swig_go_1; 
   
-  result = z3::with((z3::tactic const &)*arg1,(z3::params const &)*arg2);
+  {
+    try {
+      result = z3::with((z3::tactic const &)*arg1,(z3::params const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_try_for_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, intgo _swig_go_1) {
+z3::tactic *_wrap_try_for_z3go_3c4af2efcdbd6479(z3::tactic *_swig_go_0, intgo _swig_go_1) {
   z3::tactic *arg1 = 0 ;
   unsigned int arg2 ;
   SwigValueWrapper< z3::tactic > result;
@@ -7232,13 +10151,20 @@ z3::tactic *_wrap_try_for_z3go_2e73fdcd627f149e(z3::tactic *_swig_go_0, intgo _s
   arg1 = *(z3::tactic **)&_swig_go_0; 
   arg2 = (unsigned int)_swig_go_1; 
   
-  result = z3::try_for((z3::tactic const &)*arg1,arg2);
+  {
+    try {
+      result = z3::try_for((z3::tactic const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_new_probe__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
+z3::probe *_wrap_new_probe__SWIG_0_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, _gostring_ _swig_go_1) {
   z3::context *arg1 = 0 ;
   char *arg2 = (char *) 0 ;
   z3::probe *result = 0 ;
@@ -7251,14 +10177,21 @@ z3::probe *_wrap_new_probe__SWIG_0_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg2[_swig_go_1.n] = '\0';
   
   
-  result = (z3::probe *)new z3::probe(*arg1,(char const *)arg2);
+  {
+    try {
+      result = (z3::probe *)new z3::probe(*arg1,(char const *)arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = (z3::probe *)result; 
   free(arg2); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_new_probe__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, double _swig_go_1) {
+z3::probe *_wrap_new_probe__SWIG_1_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, double _swig_go_1) {
   z3::context *arg1 = 0 ;
   double arg2 ;
   z3::probe *result = 0 ;
@@ -7267,13 +10200,20 @@ z3::probe *_wrap_new_probe__SWIG_1_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg1 = *(z3::context **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   
-  result = (z3::probe *)new z3::probe(*arg1,arg2);
+  {
+    try {
+      result = (z3::probe *)new z3::probe(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = (z3::probe *)result; 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_new_probe__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0, Z3_probe *_swig_go_1) {
+z3::probe *_wrap_new_probe__SWIG_2_z3go_3c4af2efcdbd6479(z3::context *_swig_go_0, Z3_probe *_swig_go_1) {
   z3::context *arg1 = 0 ;
   Z3_probe arg2 ;
   Z3_probe *argp2 ;
@@ -7289,51 +10229,57 @@ z3::probe *_wrap_new_probe__SWIG_2_z3go_2e73fdcd627f149e(z3::context *_swig_go_0
   arg2 = (Z3_probe)*argp2;
   
   
-  result = (z3::probe *)new z3::probe(*arg1,arg2);
+  {
+    try {
+      result = (z3::probe *)new z3::probe(*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = (z3::probe *)result; 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_new_probe__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
+z3::probe *_wrap_new_probe__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0) {
   z3::probe *arg1 = 0 ;
   z3::probe *result = 0 ;
   z3::probe *_swig_go_result;
   
   arg1 = *(z3::probe **)&_swig_go_0; 
   
-  result = (z3::probe *)new z3::probe((z3::probe const &)*arg1);
+  {
+    try {
+      result = (z3::probe *)new z3::probe((z3::probe const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = (z3::probe *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_probe_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
+void _wrap_delete_probe_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0) {
   z3::probe *arg1 = (z3::probe *) 0 ;
   
   arg1 = *(z3::probe **)&_swig_go_0; 
   
-  delete arg1;
+  {
+    try {
+      delete arg1;;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   
 }
 
 
-double _wrap_probe_apply_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::goal *_swig_go_1) {
-  z3::probe *arg1 = (z3::probe *) 0 ;
-  z3::goal *arg2 = 0 ;
-  double result;
-  double _swig_go_result;
-  
-  arg1 = *(z3::probe **)&_swig_go_0; 
-  arg2 = *(z3::goal **)&_swig_go_1; 
-  
-  result = (double)((z3::probe const *)arg1)->apply((z3::goal const &)*arg2);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-double _wrap_probe_ApplyFct_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::goal *_swig_go_1) {
+double _wrap_probe_apply_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::goal *_swig_go_1) {
   z3::probe *arg1 = (z3::probe *) 0 ;
   z3::goal *arg2 = 0 ;
   double result;
@@ -7342,13 +10288,42 @@ double _wrap_probe_ApplyFct_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::goa
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::goal **)&_swig_go_1; 
   
-  result = (double)((z3::probe const *)arg1)->operator ()((z3::goal const &)*arg2);
+  {
+    try {
+      result = (double)((z3::probe const *)arg1)->apply((z3::goal const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_LessEq__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
+double _wrap_probe_ApplyFct_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::goal *_swig_go_1) {
+  z3::probe *arg1 = (z3::probe *) 0 ;
+  z3::goal *arg2 = 0 ;
+  double result;
+  double _swig_go_result;
+  
+  arg1 = *(z3::probe **)&_swig_go_0; 
+  arg2 = *(z3::goal **)&_swig_go_1; 
+  
+  {
+    try {
+      result = (double)((z3::probe const *)arg1)->operator ()((z3::goal const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+z3::probe *_wrap_LessEq__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7357,13 +10332,20 @@ z3::probe *_wrap_LessEq__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3:
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator <=((z3::probe const &)*arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator <=((z3::probe const &)*arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_LessEq__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, double _swig_go_1) {
+z3::probe *_wrap_LessEq__SWIG_4_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, double _swig_go_1) {
   z3::probe *arg1 = 0 ;
   double arg2 ;
   SwigValueWrapper< z3::probe > result;
@@ -7372,13 +10354,20 @@ z3::probe *_wrap_LessEq__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, dou
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   
-  result = operator <=((z3::probe const &)*arg1,arg2);
+  {
+    try {
+      result = operator <=((z3::probe const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_LessEq__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_LessEq__SWIG_5_z3go_3c4af2efcdbd6479(double _swig_go_0, z3::probe *_swig_go_1) {
   double arg1 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7387,13 +10376,20 @@ z3::probe *_wrap_LessEq__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::pro
   arg1 = (double)_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator <=(arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator <=(arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_GreaterEq__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_GreaterEq__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7402,13 +10398,20 @@ z3::probe *_wrap_GreaterEq__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, 
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator >=((z3::probe const &)*arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator >=((z3::probe const &)*arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_GreaterEq__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, double _swig_go_1) {
+z3::probe *_wrap_GreaterEq__SWIG_4_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, double _swig_go_1) {
   z3::probe *arg1 = 0 ;
   double arg2 ;
   SwigValueWrapper< z3::probe > result;
@@ -7417,13 +10420,20 @@ z3::probe *_wrap_GreaterEq__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, 
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   
-  result = operator >=((z3::probe const &)*arg1,arg2);
+  {
+    try {
+      result = operator >=((z3::probe const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_GreaterEq__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_GreaterEq__SWIG_5_z3go_3c4af2efcdbd6479(double _swig_go_0, z3::probe *_swig_go_1) {
   double arg1 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7432,13 +10442,20 @@ z3::probe *_wrap_GreaterEq__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::
   arg1 = (double)_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator >=(arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator >=(arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Less__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_Less__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7447,13 +10464,20 @@ z3::probe *_wrap_Less__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::p
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator <((z3::probe const &)*arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator <((z3::probe const &)*arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Less__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, double _swig_go_1) {
+z3::probe *_wrap_Less__SWIG_4_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, double _swig_go_1) {
   z3::probe *arg1 = 0 ;
   double arg2 ;
   SwigValueWrapper< z3::probe > result;
@@ -7462,13 +10486,20 @@ z3::probe *_wrap_Less__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, doubl
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   
-  result = operator <((z3::probe const &)*arg1,arg2);
+  {
+    try {
+      result = operator <((z3::probe const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Less__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_Less__SWIG_5_z3go_3c4af2efcdbd6479(double _swig_go_0, z3::probe *_swig_go_1) {
   double arg1 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7477,13 +10508,20 @@ z3::probe *_wrap_Less__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::probe
   arg1 = (double)_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator <(arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator <(arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Greater__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_Greater__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7492,13 +10530,20 @@ z3::probe *_wrap_Greater__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator >((z3::probe const &)*arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator >((z3::probe const &)*arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Greater__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, double _swig_go_1) {
+z3::probe *_wrap_Greater__SWIG_4_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, double _swig_go_1) {
   z3::probe *arg1 = 0 ;
   double arg2 ;
   SwigValueWrapper< z3::probe > result;
@@ -7507,13 +10552,20 @@ z3::probe *_wrap_Greater__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, do
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   
-  result = operator >((z3::probe const &)*arg1,arg2);
+  {
+    try {
+      result = operator >((z3::probe const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Greater__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_Greater__SWIG_5_z3go_3c4af2efcdbd6479(double _swig_go_0, z3::probe *_swig_go_1) {
   double arg1 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7522,13 +10574,20 @@ z3::probe *_wrap_Greater__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::pr
   arg1 = (double)_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator >(arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator >(arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Equals__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_Equals__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7537,13 +10596,20 @@ z3::probe *_wrap_Equals__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3:
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator ==((z3::probe const &)*arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator ==((z3::probe const &)*arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Equals__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, double _swig_go_1) {
+z3::probe *_wrap_Equals__SWIG_4_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, double _swig_go_1) {
   z3::probe *arg1 = 0 ;
   double arg2 ;
   SwigValueWrapper< z3::probe > result;
@@ -7552,13 +10618,20 @@ z3::probe *_wrap_Equals__SWIG_4_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, dou
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   
-  result = operator ==((z3::probe const &)*arg1,arg2);
+  {
+    try {
+      result = operator ==((z3::probe const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Equals__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_Equals__SWIG_5_z3go_3c4af2efcdbd6479(double _swig_go_0, z3::probe *_swig_go_1) {
   double arg1 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7567,13 +10640,20 @@ z3::probe *_wrap_Equals__SWIG_5_z3go_2e73fdcd627f149e(double _swig_go_0, z3::pro
   arg1 = (double)_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator ==(arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator ==(arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_And__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_And__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7582,13 +10662,20 @@ z3::probe *_wrap_And__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::pr
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator &&((z3::probe const &)*arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator &&((z3::probe const &)*arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Or__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
+z3::probe *_wrap_Or__SWIG_3_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::probe *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::probe *arg2 = 0 ;
   SwigValueWrapper< z3::probe > result;
@@ -7597,26 +10684,40 @@ z3::probe *_wrap_Or__SWIG_3_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::pro
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::probe **)&_swig_go_1; 
   
-  result = operator ||((z3::probe const &)*arg1,(z3::probe const &)*arg2);
+  {
+    try {
+      result = operator ||((z3::probe const &)*arg1,(z3::probe const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::probe *_wrap_Not__SWIG_1_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
+z3::probe *_wrap_Not__SWIG_1_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0) {
   z3::probe *arg1 = 0 ;
   SwigValueWrapper< z3::probe > result;
   z3::probe *_swig_go_result;
   
   arg1 = *(z3::probe **)&_swig_go_0; 
   
-  result = operator !((z3::probe const &)*arg1);
+  {
+    try {
+      result = operator !((z3::probe const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::probe **)&_swig_go_result = new z3::probe(result); 
   return _swig_go_result;
 }
 
 
-z3::context *_wrap_probe_ctx_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
+z3::context *_wrap_probe_ctx_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0) {
   z3::probe *arg1 = (z3::probe *) 0 ;
   z3::context *result = 0 ;
   z3::context *_swig_go_result;
@@ -7630,7 +10731,7 @@ z3::context *_wrap_probe_ctx_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
 }
 
 
-void _wrap_probe_check_error_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
+void _wrap_probe_check_error_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0) {
   z3::probe *arg1 = (z3::probe *) 0 ;
   
   arg1 = *(z3::probe **)&_swig_go_0; 
@@ -7641,20 +10742,27 @@ void _wrap_probe_check_error_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
 }
 
 
-z3::tactic *_wrap_fail_if_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0) {
+z3::tactic *_wrap_fail_if_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0) {
   z3::probe *arg1 = 0 ;
   SwigValueWrapper< z3::tactic > result;
   z3::tactic *_swig_go_result;
   
   arg1 = *(z3::probe **)&_swig_go_0; 
   
-  result = z3::fail_if((z3::probe const &)*arg1);
+  {
+    try {
+      result = z3::fail_if((z3::probe const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_when_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::tactic *_swig_go_1) {
+z3::tactic *_wrap_when_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::tactic *_swig_go_1) {
   z3::probe *arg1 = 0 ;
   z3::tactic *arg2 = 0 ;
   SwigValueWrapper< z3::tactic > result;
@@ -7663,13 +10771,20 @@ z3::tactic *_wrap_when_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::tactic *
   arg1 = *(z3::probe **)&_swig_go_0; 
   arg2 = *(z3::tactic **)&_swig_go_1; 
   
-  result = z3::when((z3::probe const &)*arg1,(z3::tactic const &)*arg2);
+  {
+    try {
+      result = z3::when((z3::probe const &)*arg1,(z3::tactic const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::tactic *_wrap_cond_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::tactic *_swig_go_1, z3::tactic *_swig_go_2) {
+z3::tactic *_wrap_cond_z3go_3c4af2efcdbd6479(z3::probe *_swig_go_0, z3::tactic *_swig_go_1, z3::tactic *_swig_go_2) {
   z3::probe *arg1 = 0 ;
   z3::tactic *arg2 = 0 ;
   z3::tactic *arg3 = 0 ;
@@ -7680,26 +10795,40 @@ z3::tactic *_wrap_cond_z3go_2e73fdcd627f149e(z3::probe *_swig_go_0, z3::tactic *
   arg2 = *(z3::tactic **)&_swig_go_1; 
   arg3 = *(z3::tactic **)&_swig_go_2; 
   
-  result = z3::cond((z3::probe const &)*arg1,(z3::tactic const &)*arg2,(z3::tactic const &)*arg3);
+  {
+    try {
+      result = z3::cond((z3::probe const &)*arg1,(z3::tactic const &)*arg2,(z3::tactic const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::tactic **)&_swig_go_result = new z3::tactic(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_to_real_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_to_real_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = z3::to_real((z3::expr const &)*arg1);
+  {
+    try {
+      result = z3::to_real((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_function__SWIG_0_z3go_2e73fdcd627f149e(z3::symbol *_swig_go_0, intgo _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
+z3::func_decl *_wrap_function__SWIG_0_z3go_3c4af2efcdbd6479(z3::symbol *_swig_go_0, intgo _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
   z3::symbol *arg1 = 0 ;
   unsigned int arg2 ;
   z3::sort *arg3 = (z3::sort *) 0 ;
@@ -7712,13 +10841,20 @@ z3::func_decl *_wrap_function__SWIG_0_z3go_2e73fdcd627f149e(z3::symbol *_swig_go
   arg3 = *(z3::sort **)&_swig_go_2; 
   arg4 = *(z3::sort **)&_swig_go_3; 
   
-  result = z3::function((z3::symbol const &)*arg1,arg2,(z3::sort const *)arg3,(z3::sort const &)*arg4);
+  {
+    try {
+      result = z3::function((z3::symbol const &)*arg1,arg2,(z3::sort const *)arg3,(z3::sort const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_function__SWIG_1_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, intgo _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
+z3::func_decl *_wrap_function__SWIG_1_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, intgo _swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
   char *arg1 = (char *) 0 ;
   unsigned int arg2 ;
   z3::sort *arg3 = (z3::sort *) 0 ;
@@ -7735,14 +10871,21 @@ z3::func_decl *_wrap_function__SWIG_1_z3go_2e73fdcd627f149e(_gostring_ _swig_go_
   arg3 = *(z3::sort **)&_swig_go_2; 
   arg4 = *(z3::sort **)&_swig_go_3; 
   
-  result = z3::function((char const *)arg1,arg2,(z3::sort const *)arg3,(z3::sort const &)*arg4);
+  {
+    try {
+      result = z3::function((char const *)arg1,arg2,(z3::sort const *)arg3,(z3::sort const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg1); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_function__SWIG_2_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2) {
+z3::func_decl *_wrap_function__SWIG_2_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2) {
   char *arg1 = (char *) 0 ;
   z3::sort *arg2 = 0 ;
   z3::sort *arg3 = 0 ;
@@ -7757,14 +10900,21 @@ z3::func_decl *_wrap_function__SWIG_2_z3go_2e73fdcd627f149e(_gostring_ _swig_go_
   arg2 = *(z3::sort **)&_swig_go_1; 
   arg3 = *(z3::sort **)&_swig_go_2; 
   
-  result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3);
+  {
+    try {
+      result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg1); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_function__SWIG_3_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
+z3::func_decl *_wrap_function__SWIG_3_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3) {
   char *arg1 = (char *) 0 ;
   z3::sort *arg2 = 0 ;
   z3::sort *arg3 = 0 ;
@@ -7781,14 +10931,21 @@ z3::func_decl *_wrap_function__SWIG_3_z3go_2e73fdcd627f149e(_gostring_ _swig_go_
   arg3 = *(z3::sort **)&_swig_go_2; 
   arg4 = *(z3::sort **)&_swig_go_3; 
   
-  result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4);
+  {
+    try {
+      result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg1); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_function__SWIG_4_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
+z3::func_decl *_wrap_function__SWIG_4_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4) {
   char *arg1 = (char *) 0 ;
   z3::sort *arg2 = 0 ;
   z3::sort *arg3 = 0 ;
@@ -7807,14 +10964,21 @@ z3::func_decl *_wrap_function__SWIG_4_z3go_2e73fdcd627f149e(_gostring_ _swig_go_
   arg4 = *(z3::sort **)&_swig_go_3; 
   arg5 = *(z3::sort **)&_swig_go_4; 
   
-  result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5);
+  {
+    try {
+      result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg1); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_function__SWIG_5_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5) {
+z3::func_decl *_wrap_function__SWIG_5_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5) {
   char *arg1 = (char *) 0 ;
   z3::sort *arg2 = 0 ;
   z3::sort *arg3 = 0 ;
@@ -7835,14 +10999,21 @@ z3::func_decl *_wrap_function__SWIG_5_z3go_2e73fdcd627f149e(_gostring_ _swig_go_
   arg5 = *(z3::sort **)&_swig_go_4; 
   arg6 = *(z3::sort **)&_swig_go_5; 
   
-  result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6);
+  {
+    try {
+      result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg1); 
   return _swig_go_result;
 }
 
 
-z3::func_decl *_wrap_function__SWIG_6_z3go_2e73fdcd627f149e(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5, z3::sort *_swig_go_6) {
+z3::func_decl *_wrap_function__SWIG_6_z3go_3c4af2efcdbd6479(_gostring_ _swig_go_0, z3::sort *_swig_go_1, z3::sort *_swig_go_2, z3::sort *_swig_go_3, z3::sort *_swig_go_4, z3::sort *_swig_go_5, z3::sort *_swig_go_6) {
   char *arg1 = (char *) 0 ;
   z3::sort *arg2 = 0 ;
   z3::sort *arg3 = 0 ;
@@ -7865,14 +11036,21 @@ z3::func_decl *_wrap_function__SWIG_6_z3go_2e73fdcd627f149e(_gostring_ _swig_go_
   arg6 = *(z3::sort **)&_swig_go_5; 
   arg7 = *(z3::sort **)&_swig_go_6; 
   
-  result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6,(z3::sort const &)*arg7);
+  {
+    try {
+      result = z3::function((char const *)arg1,(z3::sort const &)*arg2,(z3::sort const &)*arg3,(z3::sort const &)*arg4,(z3::sort const &)*arg5,(z3::sort const &)*arg6,(z3::sort const &)*arg7);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::func_decl **)&_swig_go_result = new z3::func_decl(result); 
   free(arg1); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Xselect__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_Xselect__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -7881,13 +11059,20 @@ z3::expr *_wrap_Xselect__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::select((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::select((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_Xselect__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1) {
+z3::expr *_wrap_Xselect__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   SwigValueWrapper< z3::expr > result;
@@ -7896,13 +11081,20 @@ z3::expr *_wrap_Xselect__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intg
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = z3::select((z3::expr const &)*arg1,arg2);
+  {
+    try {
+      result = z3::select((z3::expr const &)*arg1,arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_store__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_store__SWIG_0_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -7913,13 +11105,20 @@ z3::expr *_wrap_store__SWIG_0_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::ex
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = z3::store((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = z3::store((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_store__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_store__SWIG_1_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   z3::expr *arg3 = 0 ;
@@ -7930,13 +11129,20 @@ z3::expr *_wrap_store__SWIG_1_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo 
   arg2 = (int)_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = z3::store((z3::expr const &)*arg1,arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = z3::store((z3::expr const &)*arg1,arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_store__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_store__SWIG_2_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, intgo _swig_go_2) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > arg2 ;
   int arg3 ;
@@ -7954,13 +11160,20 @@ z3::expr *_wrap_store__SWIG_2_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::ex
   
   arg3 = (int)_swig_go_2; 
   
-  result = z3::store((z3::expr const &)*arg1,arg2,arg3);
+  {
+    try {
+      result = z3::store((z3::expr const &)*arg1,arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_store__SWIG_3_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+z3::expr *_wrap_store__SWIG_3_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   z3::expr *arg1 = 0 ;
   int arg2 ;
   int arg3 ;
@@ -7971,13 +11184,20 @@ z3::expr *_wrap_store__SWIG_3_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, intgo 
   arg2 = (int)_swig_go_1; 
   arg3 = (int)_swig_go_2; 
   
-  result = z3::store((z3::expr const &)*arg1,arg2,arg3);
+  {
+    try {
+      result = z3::store((z3::expr const &)*arg1,arg2,arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_const_array_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_const_array_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0, z3::expr *_swig_go_1) {
   z3::sort *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -7986,39 +11206,60 @@ z3::expr *_wrap_const_array_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0, z3::expr
   arg1 = *(z3::sort **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::const_array((z3::sort const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::const_array((z3::sort const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_empty_set_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::expr *_wrap_empty_set_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = z3::empty_set((z3::sort const &)*arg1);
+  {
+    try {
+      result = z3::empty_set((z3::sort const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_full_set_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::expr *_wrap_full_set_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = z3::full_set((z3::sort const &)*arg1);
+  {
+    try {
+      result = z3::full_set((z3::sort const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_add_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_set_add_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8027,13 +11268,20 @@ z3::expr *_wrap_set_add_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::set_add((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::set_add((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_del_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_set_del_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8042,13 +11290,20 @@ z3::expr *_wrap_set_del_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_s
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::set_del((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::set_del((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_union_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_set_union_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8057,13 +11312,20 @@ z3::expr *_wrap_set_union_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::set_union((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::set_union((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_intersect_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_set_intersect_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8072,13 +11334,20 @@ z3::expr *_wrap_set_intersect_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::ex
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::set_intersect((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::set_intersect((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_difference_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_set_difference_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8087,26 +11356,40 @@ z3::expr *_wrap_set_difference_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::e
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::set_difference((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::set_difference((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_complement_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_set_complement_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = z3::set_complement((z3::expr const &)*arg1);
+  {
+    try {
+      result = z3::set_complement((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_member_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_set_member_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8115,13 +11398,20 @@ z3::expr *_wrap_set_member_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr 
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::set_member((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::set_member((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_set_subset_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_set_subset_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8130,26 +11420,40 @@ z3::expr *_wrap_set_subset_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr 
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::set_subset((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::set_subset((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_empty_z3go_2e73fdcd627f149e(z3::sort *_swig_go_0) {
+z3::expr *_wrap_empty_z3go_3c4af2efcdbd6479(z3::sort *_swig_go_0) {
   z3::sort *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::sort **)&_swig_go_0; 
   
-  result = z3::empty((z3::sort const &)*arg1);
+  {
+    try {
+      result = z3::empty((z3::sort const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_suffixof_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_suffixof_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8158,13 +11462,20 @@ z3::expr *_wrap_suffixof_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::suffixof((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::suffixof((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_prefixof_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_prefixof_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8173,13 +11484,20 @@ z3::expr *_wrap_prefixof_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::prefixof((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::prefixof((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_indexof_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
+z3::expr *_wrap_indexof_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1, z3::expr *_swig_go_2) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   z3::expr *arg3 = 0 ;
@@ -8190,26 +11508,40 @@ z3::expr *_wrap_indexof_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_s
   arg2 = *(z3::expr **)&_swig_go_1; 
   arg3 = *(z3::expr **)&_swig_go_2; 
   
-  result = z3::indexof((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);
+  {
+    try {
+      result = z3::indexof((z3::expr const &)*arg1,(z3::expr const &)*arg2,(z3::expr const &)*arg3);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_to_re_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_to_re_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = z3::to_re((z3::expr const &)*arg1);
+  {
+    try {
+      result = z3::to_re((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_in_re_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
+z3::expr *_wrap_in_re_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0, z3::expr *_swig_go_1) {
   z3::expr *arg1 = 0 ;
   z3::expr *arg2 = 0 ;
   SwigValueWrapper< z3::expr > result;
@@ -8218,59 +11550,94 @@ z3::expr *_wrap_in_re_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0, z3::expr *_swi
   arg1 = *(z3::expr **)&_swig_go_0; 
   arg2 = *(z3::expr **)&_swig_go_1; 
   
-  result = z3::in_re((z3::expr const &)*arg1,(z3::expr const &)*arg2);
+  {
+    try {
+      result = z3::in_re((z3::expr const &)*arg1,(z3::expr const &)*arg2);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_plus_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_plus_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = z3::plus((z3::expr const &)*arg1);
+  {
+    try {
+      result = z3::plus((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_option_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_option_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = z3::option((z3::expr const &)*arg1);
+  {
+    try {
+      result = z3::option((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_star_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_star_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = z3::star((z3::expr const &)*arg1);
+  {
+    try {
+      result = z3::star((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }
 
 
-z3::expr *_wrap_interpolant_z3go_2e73fdcd627f149e(z3::expr *_swig_go_0) {
+z3::expr *_wrap_interpolant_z3go_3c4af2efcdbd6479(z3::expr *_swig_go_0) {
   z3::expr *arg1 = 0 ;
   SwigValueWrapper< z3::expr > result;
   z3::expr *_swig_go_result;
   
   arg1 = *(z3::expr **)&_swig_go_0; 
   
-  result = z3::interpolant((z3::expr const &)*arg1);
+  {
+    try {
+      result = z3::interpolant((z3::expr const &)*arg1);;
+    } catch (z3::exception &e) {
+      std::string z("z3::exception: ");
+      _swig_gopanic((z + e.msg()).c_str());
+    }
+  }
   *(z3::expr **)&_swig_go_result = new z3::expr(result); 
   return _swig_go_result;
 }

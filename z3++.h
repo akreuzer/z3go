@@ -19,6 +19,14 @@ for the GO interface
 #include "z3++.h"
 %}
 %include <std_string.i>
+%exception {
+    try {
+        $action;
+    } catch (z3::exception &e) {
+        std::string z("z3::exception: ");
+        _swig_gopanic((z + e.msg()).c_str());
+    }
+}
 
 %rename(Not) operator!;
 %rename(Or) operator||;
@@ -1429,6 +1437,9 @@ namespace z3 {
             return *this;
         }
         friend std::ostream & operator<<(std::ostream & out, ast_vector_tpl const & v) { out << Z3_ast_vector_to_string(v.ctx(), v); return out; }
+        
+        // for the golang interface
+        inline std::string String() const { return Z3_ast_vector_to_string(ctx(), m_vector); }
     };
 
 
