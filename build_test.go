@@ -1,7 +1,6 @@
 package z3go_test
 
 import (
-	"fmt"
 	"testing"
 
 	z3 "github.com/akreuzer/z3go"
@@ -23,21 +22,4 @@ func TestZ3go(t *testing.T) {
 	if s.Check() != z3.Unsat {
 		t.Error("Could not validate de Morgan's rule.")
 	}
-}
-
-func TestZ3goExceptionHandline(t *testing.T) {
-	// This is basically the error example from examples/
-	c := z3.NewContext()
-	defer z3.DeleteContext(c)
-	x := c.Bool_const("x")
-
-	defer func() {
-		if r := recover(); r == nil {
-			t.Error("The C++ exception was not translated into a panic")
-		}
-	}()
-
-	// The next call fails because x is a Boolean.
-	expr := z3.Add(x, 1)
-	fmt.Println(expr)
 }

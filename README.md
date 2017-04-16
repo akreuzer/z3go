@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/akreuzer/z3go.svg?branch=master)](https://travis-ci.org/akreuzer/z3go)
 
 z3go is a wrapper library for the [Z3 SMT-solver](https://github.com/Z3Prover/z3).
-It uses [SWIG](http://www.swig.org/).
 
 ## Installation
 
@@ -43,10 +42,6 @@ We renamed operator that clashed with the Go-Syntax.
 | /        | Div    |
 | model[i] | model.Get(i) |
 | f(x)     | f.ApplyFct(x) |
-| ^        | BXor (Bitwise xor)  |
-| \|       | BOr    |
-| &        | BAnd   |
-| ~        | BComp (Bitwise complement) |
 
 The bitwise-(and/or/...) operator and comparison operators are still missing.
 

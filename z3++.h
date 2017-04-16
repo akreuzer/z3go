@@ -19,14 +19,6 @@ for the GO interface
 #include "z3++.h"
 %}
 %include <std_string.i>
-%exception {
-    try {
-        $action;
-    } catch (z3::exception &e) {
-        std::string z("z3::exception: ");
-        _swig_gopanic((z + e.msg()).c_str());
-    }
-}
 
 %rename(Not) operator!;
 %rename(Or) operator||;
@@ -43,12 +35,6 @@ for the GO interface
 %rename(Div) operator/;
 %rename(Get) operator[];
 %rename(ApplyFct) operator();
-%rename(BXor) operator^;
-%rename(BOr) operator|;
-%rename(BAnd) operator&;
-%rename(BComp) operator~;
-
-%ignore operator<<; // We wrote extra string functions for that
 #endif
 
 #ifndef Z3PP_H_
@@ -101,55 +87,6 @@ namespace z3 {
     typedef ast_vector_tpl<expr>      expr_vector;
     typedef ast_vector_tpl<sort>      sort_vector;
     typedef ast_vector_tpl<func_decl> func_decl_vector;
-
-#ifdef SWIG
-    // Move definition of ast_vector_tpl here. So that it is declared before its first use.
-    // This way SWIG generates the interface.
-    // For C++ we leave it as the same place since otherwise it does not compile.
-    template<typename T>
-    class ast_vector_tpl : public object {
-        Z3_ast_vector m_vector;
-        void init(Z3_ast_vector v) { Z3_ast_vector_inc_ref(ctx(), v); m_vector = v; }
-    public:
-        ast_vector_tpl(context & c):object(c) { init(Z3_mk_ast_vector(c)); }
-        ast_vector_tpl(context & c, Z3_ast_vector v):object(c) { init(v); }
-        ast_vector_tpl(ast_vector_tpl const & s):object(s), m_vector(s.m_vector) { Z3_ast_vector_inc_ref(ctx(), m_vector); }
-        ~ast_vector_tpl() { Z3_ast_vector_dec_ref(ctx(), m_vector); }
-        operator Z3_ast_vector() const { return m_vector; }
-        unsigned size() const { return Z3_ast_vector_size(ctx(), m_vector); }
-        T operator[](int i) const { assert(0 <= i); Z3_ast r = Z3_ast_vector_get(ctx(), m_vector, i); check_error(); return cast_ast<T>()(ctx(), r); }
-        void push_back(T const & e) { Z3_ast_vector_push(ctx(), m_vector, e); check_error(); }
-        void resize(unsigned sz) { Z3_ast_vector_resize(ctx(), m_vector, sz); check_error(); }
-        T back() const { return operator[](size() - 1); }
-        void pop_back() { assert(size() > 0); resize(size() - 1); }
-        bool empty() const { return size() == 0; }
-        ast_vector_tpl & operator=(ast_vector_tpl const & s) {
-            Z3_ast_vector_inc_ref(s.ctx(), s.m_vector);
-            Z3_ast_vector_dec_ref(ctx(), m_vector);
-            m_ctx = s.m_ctx;
-            m_vector = s.m_vector;
-            return *this;
-        }
-        friend std::ostream & operator<<(std::ostream & out, ast_vector_tpl const & v) { out << Z3_ast_vector_to_string(v.ctx(), v); return out; }
-        
-        // for the golang interface
-        inline std::string String() const { return Z3_ast_vector_to_string(ctx(), m_vector); }
-    };
-
-%feature("valuewrapper") ast_vector_tpl<ast>;
-%template(AstVector) ast_vector_tpl<ast>;
-
-%feature("valuewrapper") ast_vector_tpl<expr>;
-%template(ExprVector) ast_vector_tpl<expr>;
-
-%feature("valuewrapper") ast_vector_tpl<sort>;
-%template(SortVector) ast_vector_tpl<sort>;
-
-%feature("valuewrapper") ast_vector_tpl<func_decl>;
-%template(FuncDeclVector) ast_vector_tpl<func_decl>;
-#endif
-
- 
 
     inline void set_param(char const * param, char const * value) { Z3_global_param_set(param, value); }
     inline void set_param(char const * param, bool value) { Z3_global_param_set(param, value ? "true" : "false"); }
@@ -1461,7 +1398,6 @@ namespace z3 {
         }
     };
 
-#ifndef SWIG
     template<typename T>
     class ast_vector_tpl : public object {
         Z3_ast_vector m_vector;
@@ -1487,11 +1423,8 @@ namespace z3 {
             return *this;
         }
         friend std::ostream & operator<<(std::ostream & out, ast_vector_tpl const & v) { out << Z3_ast_vector_to_string(v.ctx(), v); return out; }
-        
-        // for the golang interface
-        inline std::string String() const { return Z3_ast_vector_to_string(ctx(), m_vector); }
     };
-#endif
+
 
     template<typename T>
     template<typename T2>
@@ -2096,12 +2029,11 @@ namespace z3 {
         Z3_probe r = Z3_probe_not(p.ctx(), p); p.check_error(); return probe(p.ctx(), r);
     }
 
+/* Not translated since SWIG has problems with it */
+#ifndef SWIG
     class optimize : public object {
         Z3_optimize m_opt;
     public:
-#ifdef SWIG
-        %feature("valuewrapper") handle;
-#endif
         class handle {
             unsigned m_h;
         public:
@@ -2159,6 +2091,7 @@ namespace z3 {
         std::string help() const { char const * r = Z3_optimize_get_help(ctx(), m_opt); check_error();  return r; }
     };
     inline std::ostream & operator<<(std::ostream & out, optimize const & s) { out << Z3_optimize_to_string(s.ctx(), s.m_opt); return out; }
+#endif
 
     inline tactic fail_if(probe const & p) {
         Z3_tactic r = Z3_tactic_fail_if(p.ctx(), p);
