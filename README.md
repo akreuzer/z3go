@@ -3,10 +3,11 @@
 [![Build Status](https://travis-ci.org/akreuzer/z3go.svg?branch=master)](https://travis-ci.org/akreuzer/z3go)
 
 z3go is a wrapper library for the [Z3 SMT-solver](https://github.com/Z3Prover/z3).
+It uses [SWIG](http://www.swig.org/).
 
 ## Installation
 
-Make sure that you have Z3 installed.
+Make sure that you have Z3 installed. (On mac `brew install z3`)
 
 ```bash
 # Set the include and library path if needed
@@ -42,10 +43,14 @@ We renamed operator that clashed with the Go-Syntax.
 | /        | Div    |
 | model[i] | model.Get(i) |
 | f(x)     | f.ApplyFct(x) |
+| ^        | BXor (Bitwise xor)  |
+| \|       | BOr    |
+| &        | BAnd   |
+| ~        | BComp (Bitwise complement) |
+| & (Tactics) | TacticAnd |
+| \| (Tactics) | TacticOr |
+| &&, \|\|, <,... (Probe) | ProbeAnd, ProbeOr, ProbeLess, ... |
 
-The bitwise-(and/or/...) operator and comparison operators are still missing.
-
-Also we omitted the class `optimize` since swig had problems translating it.
 
 ## Hacking
 

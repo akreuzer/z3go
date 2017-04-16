@@ -18,23 +18,114 @@ for the GO interface
 %{
 #include "z3++.h"
 %}
+%include "z3.i"
 %include <std_string.i>
+%exception {
+    try {
+        $action;
+    } catch (z3::exception &e) {
+        std::string z("z3::exception: ");
+        _swig_gopanic((z + e.msg()).c_str());
+    }
+}
 
-%rename(Not) operator!;
-%rename(Or) operator||;
-%rename(And) operator&&;
-%rename(Equals) operator==;
-%rename(NotEquals) operator!=;
-%rename(Less) operator<;
-%rename(LessEq) operator<=;
-%rename(Greater) operator>;
-%rename(GreaterEq) operator>=;
+%rename(TacticAnd) operator&(tactic const&, tactic const&);
+%rename(TacticOr) operator|(tactic const&, tactic const&);
+
+%rename(Not) operator!(expr const &);
+%rename(Or) operator||(expr const&, expr const&);
+%rename(Or) operator||(bool, expr const&);
+%rename(Or) operator||(expr const&, bool);
+%rename(And) operator&&(expr const&, expr const&);
+%rename(And) operator&&(bool, expr const&);
+%rename(And) operator&&(expr const&, bool);
+%rename(Equals) operator==(expr const&, expr const&);
+%rename(Equals) operator==(int, expr const&);
+%rename(Equals) operator==(expr const&, int);
+%rename(NotEquals) operator!=(expr const&, expr const&);
+%rename(NotEquals) operator!=(int, expr const&);
+%rename(NotEquals) operator!=(expr const&, int);
+%rename(Less) operator<(expr const&, expr const&);
+%rename(Less) operator<(int, expr const&);
+%rename(Less) operator<(expr const&, int);
+%rename(LessEq) operator<=(expr const&, expr const&);
+%rename(LessEq) operator<=(int, expr const&);
+%rename(LessEq) operator<=(expr const&, int);
+%rename(Greater) operator>(expr const&, expr const&);
+%rename(Greater) operator>(int, expr const&);
+%rename(Greater) operator>(expr const&, int);
+%rename(GreaterEq) operator>=(expr const&, expr const&);
+%rename(GreaterEq) operator>=(int, expr const&);
+%rename(GreaterEq) operator>=(expr const&, int);
 %rename(Add) operator+;
 %rename(Subtract) operator-;
 %rename(Mult) operator*;
 %rename(Div) operator/;
 %rename(Get) operator[];
 %rename(ApplyFct) operator();
+%rename(BXor) operator^;
+%rename(BOr) operator|(expr const&,expr const&);
+%rename(BOr) operator|(int,expr const&);
+%rename(BOr) operator|(expr const&, int);
+%rename(BAnd) operator&(expr const&,expr const&);
+%rename(BAnd) operator&(int, expr const&);
+%rename(BAnd) operator&(expr const&, int);
+%rename(BComp) operator~;
+// TODO proble operator
+%rename(ProbeNot) operator!(probe const&);
+%rename(ProbeAnd) operator&&(probe const&, probe const&);
+%rename(ProbeOr) operator||(probe const&, probe const&);
+%rename(ProbeEquals) operator==(probe const&, probe const&);
+%rename(ProbeEquals) operator==(double, probe const&);
+%rename(ProbeEquals) operator==(probe const&, double);
+%rename(ProbeNotEquals) operator!=(probe const&, probe const&);
+%rename(ProbeNotEquals) operator!=(double, probe const&);
+%rename(ProbeNotEquals) operator!=(probe const&, double);
+%rename(ProbeLess) operator<(probe const&, probe const&);
+%rename(ProbeLess) operator<(double, probe const&);
+%rename(ProbeLess) operator<(probe const&, double);
+%rename(ProbeLessEq) operator<=(probe const&, probe const&);
+%rename(ProbeLessEq) operator<=(double, probe const&);
+%rename(ProbeLessEq) operator<=(probe const&, double);
+%rename(ProbeGreater) operator>(probe const&, probe const&);
+%rename(ProbeGreater) operator>(double, probe const&);
+%rename(ProbeGreater) operator>(probe const&, double);
+%rename(ProbeGreaterEq) operator>=(probe const&, probe const&);
+%rename(ProbeGreaterEq) operator>=(double, probe const&);
+%rename(ProbeGreaterEq) operator>=(probe const&, double);
+
+
+%ignore operator<<; // We wrote extra string functions for that
+%ignore operator=;
+
+%rename(uint_val) int_val(unsigned int);
+%ignore real_val(unsigned int);
+%rename(ubv_val) bv_val(unsigned int, unsigned int);
+%rename(asBool) operator bool;
+%rename(rangeSort) range() const;
+%rename(selectExpr) select;
+
+// ignore C API conversions
+%ignore operator Z3_ast_vector;
+%ignore operator Z3_config;
+%ignore operator Z3_context;
+%ignore operator Z3_symbol;
+%ignore operator Z3_params;
+%ignore operator Z3_ast;
+%ignore operator Z3_sort;
+%ignore operator Z3_func_decl;
+%ignore operator Z3_app;
+%ignore operator Z3_func_entry;
+%ignore operator Z3_func_interp;
+%ignore operator Z3_model;
+%ignore operator Z3_stats;
+%ignore operator Z3_solver;
+%ignore operator Z3_goal;
+%ignore operator Z3_apply_result;
+%ignore operator Z3_tactic;
+%ignore operator Z3_probe;
+%ignore operator Z3_optimize;
+
 #endif
 
 #ifndef Z3PP_H_
@@ -87,6 +178,55 @@ namespace z3 {
     typedef ast_vector_tpl<expr>      expr_vector;
     typedef ast_vector_tpl<sort>      sort_vector;
     typedef ast_vector_tpl<func_decl> func_decl_vector;
+
+#ifdef SWIG
+    // Move definition of ast_vector_tpl here. So that it is declared before its first use.
+    // This way SWIG generates the interface.
+    // For C++ we leave it as the same place since otherwise it does not compile.
+    template<typename T>
+    class ast_vector_tpl : public object {
+        Z3_ast_vector m_vector;
+        void init(Z3_ast_vector v) { Z3_ast_vector_inc_ref(ctx(), v); m_vector = v; }
+    public:
+        ast_vector_tpl(context & c):object(c) { init(Z3_mk_ast_vector(c)); }
+        ast_vector_tpl(context & c, Z3_ast_vector v):object(c) { init(v); }
+        ast_vector_tpl(ast_vector_tpl const & s):object(s), m_vector(s.m_vector) { Z3_ast_vector_inc_ref(ctx(), m_vector); }
+        ~ast_vector_tpl() { Z3_ast_vector_dec_ref(ctx(), m_vector); }
+        operator Z3_ast_vector() const { return m_vector; }
+        unsigned size() const { return Z3_ast_vector_size(ctx(), m_vector); }
+        T operator[](int i) const { assert(0 <= i); Z3_ast r = Z3_ast_vector_get(ctx(), m_vector, i); check_error(); return cast_ast<T>()(ctx(), r); }
+        void push_back(T const & e) { Z3_ast_vector_push(ctx(), m_vector, e); check_error(); }
+        void resize(unsigned sz) { Z3_ast_vector_resize(ctx(), m_vector, sz); check_error(); }
+        T back() const { return operator[](size() - 1); }
+        void pop_back() { assert(size() > 0); resize(size() - 1); }
+        bool empty() const { return size() == 0; }
+        ast_vector_tpl & operator=(ast_vector_tpl const & s) {
+            Z3_ast_vector_inc_ref(s.ctx(), s.m_vector);
+            Z3_ast_vector_dec_ref(ctx(), m_vector);
+            m_ctx = s.m_ctx;
+            m_vector = s.m_vector;
+            return *this;
+        }
+        friend std::ostream & operator<<(std::ostream & out, ast_vector_tpl const & v) { out << Z3_ast_vector_to_string(v.ctx(), v); return out; }
+        
+        // for the golang interface
+        inline std::string String() const { return Z3_ast_vector_to_string(ctx(), m_vector); }
+    };
+
+%feature("valuewrapper") ast_vector_tpl<ast>;
+%template(AstVector) ast_vector_tpl<ast>;
+
+%feature("valuewrapper") ast_vector_tpl<expr>;
+%template(ExprVector) ast_vector_tpl<expr>;
+
+%feature("valuewrapper") ast_vector_tpl<sort>;
+%template(SortVector) ast_vector_tpl<sort>;
+
+%feature("valuewrapper") ast_vector_tpl<func_decl>;
+%template(FuncDeclVector) ast_vector_tpl<func_decl>;
+#endif
+
+ 
 
     inline void set_param(char const * param, char const * value) { Z3_global_param_set(param, value); }
     inline void set_param(char const * param, bool value) { Z3_global_param_set(param, value ? "true" : "false"); }
@@ -1398,6 +1538,7 @@ namespace z3 {
         }
     };
 
+#ifndef SWIG
     template<typename T>
     class ast_vector_tpl : public object {
         Z3_ast_vector m_vector;
@@ -1423,8 +1564,11 @@ namespace z3 {
             return *this;
         }
         friend std::ostream & operator<<(std::ostream & out, ast_vector_tpl const & v) { out << Z3_ast_vector_to_string(v.ctx(), v); return out; }
+        
+        // for the golang interface
+        inline std::string String() const { return Z3_ast_vector_to_string(ctx(), m_vector); }
     };
-
+#endif
 
     template<typename T>
     template<typename T2>
@@ -1849,6 +1993,9 @@ namespace z3 {
             }
         }
         friend std::ostream & operator<<(std::ostream & out, goal const & g);
+
+        // for the golang interface
+        inline std::string String() const { return Z3_goal_to_string(ctx(), m_goal); }
     };
     inline std::ostream & operator<<(std::ostream & out, goal const & g) { out << Z3_goal_to_string(g.ctx(), g); return out; }
 
@@ -1879,6 +2026,9 @@ namespace z3 {
             return model(ctx(), new_m);
         }
         friend std::ostream & operator<<(std::ostream & out, apply_result const & r);
+        
+        // for the golang interface
+        inline std::string String() const { return Z3_apply_result_to_string(ctx(), m_apply_result); }
     };
     inline std::ostream & operator<<(std::ostream & out, apply_result const & r) { out << Z3_apply_result_to_string(r.ctx(), r); return out; }
 
@@ -2029,11 +2179,12 @@ namespace z3 {
         Z3_probe r = Z3_probe_not(p.ctx(), p); p.check_error(); return probe(p.ctx(), r);
     }
 
-/* Not translated since SWIG has problems with it */
-#ifndef SWIG
     class optimize : public object {
         Z3_optimize m_opt;
     public:
+#ifdef SWIG
+        %feature("valuewrapper") handle;
+#endif
         class handle {
             unsigned m_h;
         public:
@@ -2091,7 +2242,6 @@ namespace z3 {
         std::string help() const { char const * r = Z3_optimize_get_help(ctx(), m_opt); check_error();  return r; }
     };
     inline std::ostream & operator<<(std::ostream & out, optimize const & s) { out << Z3_optimize_to_string(s.ctx(), s.m_opt); return out; }
-#endif
 
     inline tactic fail_if(probe const & p) {
         Z3_tactic r = Z3_tactic_fail_if(p.ctx(), p);
