@@ -7,7 +7,7 @@ It uses [SWIG](http://www.swig.org/).
 
 ## Installation
 
-Make sure that you have Z3 installed.
+Make sure that you have Z3 installed. (On mac `brew install z3`)
 
 ```bash
 # Set the include and library path if needed
@@ -49,10 +49,8 @@ We renamed operator that clashed with the Go-Syntax.
 | ~        | BComp (Bitwise complement) |
 | & (Tactics) | TacticAnd |
 | \| (Tactics) | TacticOr |
- 
-The bitwise-(and/or/...) operator and comparison operators are still missing.
+| &&, \|\|, <,... (Probe) | ProbeAnd, ProbeOr, ProbeLess, ... |
 
-Also we omitted the class `optimize` since swig had problems translating it.
 
 ## Hacking
 
