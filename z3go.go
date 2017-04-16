@@ -104,600 +104,816 @@ typedef _gostring_ swig_type_73;
 typedef _gostring_ swig_type_74;
 typedef _gostring_ swig_type_75;
 typedef _gostring_ swig_type_76;
-extern void _wrap_Swig_free_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_z3go_73045fd9a8f87ec7(swig_intgo arg1);
-extern uintptr_t _wrap_new_AstVector__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_AstVector__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_AstVector__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_AstVector_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_AstVector_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_AstVector_Get_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_AstVector_push_back_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_AstVector_resize_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_AstVector_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_AstVector_pop_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_AstVector_empty_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_1 _wrap_AstVector_String_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_ExprVector__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_ExprVector__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_ExprVector__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_ExprVector_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_ExprVector_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_ExprVector_Get_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_ExprVector_push_back_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ExprVector_resize_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_ExprVector_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_ExprVector_pop_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_ExprVector_empty_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_2 _wrap_ExprVector_String_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_SortVector__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_SortVector__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_SortVector__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_SortVector_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_SortVector_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_SortVector_Get_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_SortVector_push_back_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_SortVector_resize_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_SortVector_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_SortVector_pop_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_SortVector_empty_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_3 _wrap_SortVector_String_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_FuncDeclVector__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_FuncDeclVector__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_FuncDeclVector__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_FuncDeclVector_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_FuncDeclVector_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_FuncDeclVector_Get_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_FuncDeclVector_push_back_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_FuncDeclVector_resize_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_FuncDeclVector_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_FuncDeclVector_pop_back_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_FuncDeclVector_empty_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_4 _wrap_FuncDeclVector_String_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_set_param__SWIG_0_z3go_73045fd9a8f87ec7(swig_type_5 arg1, swig_type_6 arg2);
-extern void _wrap_set_param__SWIG_1_z3go_73045fd9a8f87ec7(swig_type_7 arg1, _Bool arg2);
-extern void _wrap_set_param__SWIG_2_z3go_73045fd9a8f87ec7(swig_type_8 arg1, swig_intgo arg2);
-extern void _wrap_reset_params_z3go_73045fd9a8f87ec7(void);
-extern uintptr_t _wrap_new_exception_z3go_73045fd9a8f87ec7(swig_type_9 arg1);
-extern swig_type_10 _wrap_exception_msg_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_exception_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_config_z3go_73045fd9a8f87ec7(void);
-extern void _wrap_delete_config_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_config_set__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_11 arg2, swig_type_12 arg3);
-extern void _wrap_config_set__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_13 arg2, _Bool arg3);
-extern void _wrap_config_set__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_14 arg2, swig_intgo arg3);
-extern swig_intgo _wrap_unsat_z3go_73045fd9a8f87ec7(void);
-extern swig_intgo _wrap_sat_z3go_73045fd9a8f87ec7(void);
-extern swig_intgo _wrap_unknown_z3go_73045fd9a8f87ec7(void);
-extern swig_intgo _wrap_to_check_result_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_context__SWIG_0_z3go_73045fd9a8f87ec7(void);
-extern uintptr_t _wrap_new_context__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_context__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_context_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_context_check_error_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_context_set__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_15 arg2, swig_type_16 arg3);
-extern void _wrap_context_set__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_17 arg2, _Bool arg3);
-extern void _wrap_context_set__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_18 arg2, swig_intgo arg3);
-extern void _wrap_context_interrupt_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_context_str_symbol_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_19 arg2);
-extern uintptr_t _wrap_context_int_symbol_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_context_bool_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_context_int_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_context_real_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_context_bv_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_context_string_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_context_seq_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_context_re_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_context_array_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_context_enumeration_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_20 arg2, swig_intgo arg3, swig_voidp arg4, uintptr_t arg5, uintptr_t arg6);
-extern uintptr_t _wrap_context_uninterpreted_sort__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_21 arg2);
-extern uintptr_t _wrap_context_uninterpreted_sort__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_context_function__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_context_function__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_22 arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_context_function__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_context_function__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_23 arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_context_function__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_24 arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_context_function__SWIG_5_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_25 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_context_function__SWIG_6_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_26 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
-extern uintptr_t _wrap_context_function__SWIG_7_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_27 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, uintptr_t arg7);
-extern uintptr_t _wrap_context_function__SWIG_8_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_28 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, uintptr_t arg7, uintptr_t arg8);
-extern uintptr_t _wrap_context_constant__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_context_constant__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_29 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_context_bool_const_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_30 arg2);
-extern uintptr_t _wrap_context_int_const_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_31 arg2);
-extern uintptr_t _wrap_context_real_const_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_32 arg2);
-extern uintptr_t _wrap_context_bv_const_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_33 arg2, swig_intgo arg3);
-extern uintptr_t _wrap_context_bool_val_z3go_73045fd9a8f87ec7(uintptr_t arg1, _Bool arg2);
-extern uintptr_t _wrap_context_int_val__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_context_int_val__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_context_int_val__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_context_int_val__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_context_int_val__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_34 arg2);
-extern uintptr_t _wrap_context_real_val__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_context_real_val__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_context_real_val__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_context_real_val__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_context_real_val__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_context_real_val__SWIG_5_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_35 arg2);
-extern uintptr_t _wrap_context_bv_val__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_context_bv_val__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_context_bv_val__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_context_bv_val__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_context_bv_val__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_36 arg2, swig_intgo arg3);
-extern uintptr_t _wrap_context_string_val__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_37 arg2);
-extern uintptr_t _wrap_context_string_val__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_38 arg2);
-extern uintptr_t _wrap_context_num_val_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern uintptr_t _wrap_context_parse_string__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_39 arg2);
-extern uintptr_t _wrap_context_parse_file__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_40 arg2);
-extern uintptr_t _wrap_context_parse_string__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_41 arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_context_parse_file__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_42 arg2, uintptr_t arg3, uintptr_t arg4);
-extern swig_intgo _wrap_context_compute_interpolant_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_context_get_interpolant_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_new_object__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_object__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_object_ctx_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_object_check_error_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_object_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_check_context_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_symbol__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_symbol__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_symbol_kind_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_43 _wrap_symbol_str_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_symbol_to_int_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_symbol_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_symbol_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_symbol_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_param_descrs__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_param_descrs__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_param_descrs_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_param_descrs_simplify_param_descrs_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_param_descrs_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_param_descrs_name_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_param_descrs_kind_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_44 _wrap_param_descrs_documentation_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_45 _wrap_param_descrs_to_string_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_param_descrs_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_param_descrs_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_params__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_params__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_params_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_params_set__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_46 arg2, _Bool arg3);
-extern void _wrap_params_set__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_47 arg2, swig_intgo arg3);
-extern void _wrap_params_set__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_48 arg2, double arg3);
-extern void _wrap_params_set__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_49 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_params_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_params_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_ast__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_ast__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_ast__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_ast_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_ast_kind_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_ast_hash_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_50 _wrap_ast_String_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_ast_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_ast_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern _Bool _wrap_eq_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_sort__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_sort__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_sort__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_sort_sort_kind_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_sort_name_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_bool_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_int_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_real_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_arith_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_bv_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_array_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_datatype_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_relation_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_seq_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_re_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_sort_is_finite_domain_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_sort_bv_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_sort_array_domain_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_sort_array_range_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_sort_kind_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern swig_intgo _wrap_sort_hash_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern swig_type_51 _wrap_sort_String_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_sort_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_sort_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_func_decl__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_func_decl__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_func_decl__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_func_decl_arity_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_decl_domain_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_func_decl_Xrange_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_decl_name_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_decl_decl_kind_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_func_decl_is_const_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_5_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_6_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_7_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_8_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_9_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_10_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
-extern void _wrap_delete_func_decl_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_decl_kind_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern swig_intgo _wrap_func_decl_hash_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern swig_type_52 _wrap_func_decl_String_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_func_decl_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_func_decl_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_expr__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_expr__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_expr__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_get_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_bool_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_int_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_real_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_arith_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_bv_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_array_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_datatype_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_relation_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_seq_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_re_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_finite_domain_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_numeral__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_numeral_i64_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_expr_is_numeral_u64_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_expr_is_numeral_i_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_voidp arg2);
-extern _Bool _wrap_expr_is_numeral_u_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_voidp arg2);
-extern _Bool _wrap_expr_is_numeral__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_voidp arg2);
-extern _Bool _wrap_expr_is_numeral__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3);
-extern _Bool _wrap_expr_is_app_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_const_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_quantifier_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_var_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_algebraic_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_expr_is_well_sorted_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_53 _wrap_expr_get_decimal_string_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_expr_get_numeral_int_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_expr_get_numeral_uint_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_get_numeral_int64_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_get_numeral_uint64_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_decl_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_expr_num_args_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_arg_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_expr_body_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_Not__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_And__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_And__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, _Bool arg2);
-extern uintptr_t _wrap_And__SWIG_2_z3go_73045fd9a8f87ec7(_Bool arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Or__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Or__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, _Bool arg2);
-extern uintptr_t _wrap_Or__SWIG_2_z3go_73045fd9a8f87ec7(_Bool arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Equals__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Equals__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Equals__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_NotEquals__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_NotEquals__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_NotEquals__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Add__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Add__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Add__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Mult__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Mult__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Mult__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Div__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Div__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Div__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Subtract__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_Subtract__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Subtract__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Subtract__SWIG_3_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_LessEq__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_LessEq__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_LessEq__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_GreaterEq__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_GreaterEq__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_GreaterEq__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Less__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Less__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Less__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Greater__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Greater__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Greater__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BAnd__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BAnd__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_BAnd__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BXor__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BXor__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_BXor__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BOr__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BOr__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_BOr__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BComp_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_extract__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_intgo _wrap_expr_lo_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_expr_hi_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_extract__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_expr_replace_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_expr_unit_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_contains_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_expr_at_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_expr_length_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_simplify__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_simplify__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_expr_substitute__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_expr_substitute__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_expr_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_expr_kind_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern swig_intgo _wrap_expr_hash_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern swig_type_54 _wrap_expr_String_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_expr_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_expr_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_implies__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_implies__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, _Bool arg2);
-extern uintptr_t _wrap_implies__SWIG_2_z3go_73045fd9a8f87ec7(_Bool arg1, uintptr_t arg2);
-extern uintptr_t _wrap_pw__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_pw__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_pw__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ite_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_to_expr_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_to_sort_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_to_func_decl_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ule__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ule__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_ule__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ult__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ult__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_ult__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_uge__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_uge__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_uge__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ugt__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ugt__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_ugt__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_udiv__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_udiv__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_udiv__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_srem__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_srem__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_srem__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_urem__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_urem__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_urem__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_shl__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_shl__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_shl__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_lshr__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_lshr__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_lshr__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ashr__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ashr__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_ashr__SWIG_2_z3go_73045fd9a8f87ec7(swig_intgo arg1, uintptr_t arg2);
-extern uintptr_t _wrap_zext_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_sext_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_forall__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_forall__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_forall__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_forall__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_forall__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_exists__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_exists__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_exists__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_exists__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_exists__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_distinct_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_concat__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_concat__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_mk_or_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_mk_and_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_func_entry__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_func_entry__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_func_entry_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_entry_value_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_func_entry_num_args_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_entry_arg_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_func_entry_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_func_entry_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_func_interp__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_func_interp__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_func_interp_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_interp_else_value_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_func_interp_num_entries_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_func_interp_entry_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_func_interp_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_func_interp_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_model__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_model__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_model_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_model_eval__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
-extern uintptr_t _wrap_model_eval__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_model_num_consts_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_model_num_funcs_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_model_get_const_decl_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_model_get_func_decl_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_model_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_model_Get_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_model_get_const_interp_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_model_get_func_interp_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_model_has_interp_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_55 _wrap_model_String_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_model_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_model_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_stats__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_stats__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_stats__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_stats_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_stats_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_56 _wrap_stats_key_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern _Bool _wrap_stats_is_uint_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern _Bool _wrap_stats_is_double_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_stats_uint_value_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern double _wrap_stats_double_value_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_stats_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_stats_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_solver__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_solver__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_solver__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_solver__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_57 arg2);
-extern uintptr_t _wrap_new_solver__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_new_solver__SWIG_5_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_solver_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_solver_set_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_solver_push_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_solver_pop__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_solver_pop__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_solver_reset_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_solver_add__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_solver_add__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_solver_add__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_type_58 arg3);
-extern swig_intgo _wrap_solver_check__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_solver_check__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern swig_intgo _wrap_solver_check__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_solver_get_model_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_solver_consequences_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern swig_type_59 _wrap_solver_reason_unknown_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_solver_statistics_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_solver_unsat_core_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_solver_assertions_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_solver_proof_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_60 _wrap_solver_to_smt2__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_61 arg2);
-extern swig_type_62 _wrap_solver_to_smt2__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_solver_get_param_descrs_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_type_63 _wrap_solver_String_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_solver_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_solver_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_goal__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, _Bool arg2, _Bool arg3, _Bool arg4);
-extern uintptr_t _wrap_new_goal__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, _Bool arg2, _Bool arg3);
-extern uintptr_t _wrap_new_goal__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, _Bool arg2);
-extern uintptr_t _wrap_new_goal__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_new_goal__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_goal__SWIG_5_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_goal_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_goal_add_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_goal_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_goal_Get_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_goal_precision_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_goal_inconsistent_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_goal_depth_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_goal_reset_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_goal_num_exprs_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_goal_is_decided_sat_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern _Bool _wrap_goal_is_decided_unsat_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_goal_as_expr_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_goal_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_goal_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_apply_result__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_apply_result__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_apply_result_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_apply_result_size_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_apply_result_Get_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_apply_result_convert_model__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_apply_result_convert_model__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_apply_result_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_apply_result_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_tactic__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_64 arg2);
-extern uintptr_t _wrap_new_tactic__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_tactic__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_tactic_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_tactic_mk_solver_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_tactic_apply_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_tactic_ApplyFct_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_65 _wrap_tactic_help_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_BAnd__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BOr__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_tactic_get_param_descrs_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_tactic_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_tactic_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_repeat__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_repeat__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_with_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_try_for_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_new_probe__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_66 arg2);
-extern uintptr_t _wrap_new_probe__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_new_probe__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_probe__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_probe_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern double _wrap_probe_apply_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern double _wrap_probe_ApplyFct_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_LessEq__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_LessEq__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_LessEq__SWIG_5_z3go_73045fd9a8f87ec7(double arg1, uintptr_t arg2);
-extern uintptr_t _wrap_GreaterEq__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_GreaterEq__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_GreaterEq__SWIG_5_z3go_73045fd9a8f87ec7(double arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Less__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Less__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_Less__SWIG_5_z3go_73045fd9a8f87ec7(double arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Greater__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Greater__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_Greater__SWIG_5_z3go_73045fd9a8f87ec7(double arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Equals__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Equals__SWIG_4_z3go_73045fd9a8f87ec7(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_Equals__SWIG_5_z3go_73045fd9a8f87ec7(double arg1, uintptr_t arg2);
-extern uintptr_t _wrap_And__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Or__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Not__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_probe_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_probe_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_optimize_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_delete_optimize_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_optimize_add__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_optimize_add__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_optimize_add__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_type_67 arg3);
-extern uintptr_t _wrap_optimize_maximize_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_optimize_minimize_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_optimize_push_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_optimize_pop_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern swig_intgo _wrap_optimize_check_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_optimize_get_model_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_optimize_set_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_optimize_lower_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_optimize_upper_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_optimize_assertions_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_optimize_objectives_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_optimize_statistics_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern void _wrap_optimize_from_file_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_68 arg2);
-extern void _wrap_optimize_from_string_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_type_69 arg2);
-extern swig_type_70 _wrap_optimize_help_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_optimize_ctx_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern void _wrap_optimize_check_error_z3go_73045fd9a8f87ec7(uintptr_t _swig_base);
-extern uintptr_t _wrap_fail_if_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_when_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_cond_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_to_real_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_function__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_function__SWIG_1_z3go_73045fd9a8f87ec7(swig_type_71 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_function__SWIG_2_z3go_73045fd9a8f87ec7(swig_type_72 arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_function__SWIG_3_z3go_73045fd9a8f87ec7(swig_type_73 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_function__SWIG_4_z3go_73045fd9a8f87ec7(swig_type_74 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_function__SWIG_5_z3go_73045fd9a8f87ec7(swig_type_75 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
-extern uintptr_t _wrap_function__SWIG_6_z3go_73045fd9a8f87ec7(swig_type_76 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, uintptr_t arg7);
-extern uintptr_t _wrap_Xselect__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Xselect__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_store__SWIG_0_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_store__SWIG_1_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern uintptr_t _wrap_store__SWIG_2_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_store__SWIG_3_z3go_73045fd9a8f87ec7(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_const_array_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_empty_set_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_full_set_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_set_add_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_set_del_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_set_union_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_set_intersect_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_set_difference_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_set_complement_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_set_member_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_set_subset_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_empty_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_suffixof_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_prefixof_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_indexof_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_to_re_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_in_re_z3go_73045fd9a8f87ec7(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_plus_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_option_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_star_z3go_73045fd9a8f87ec7(uintptr_t arg1);
-extern uintptr_t _wrap_interpolant_z3go_73045fd9a8f87ec7(uintptr_t arg1);
+typedef _gostring_ swig_type_77;
+typedef _gostring_ swig_type_78;
+extern void _wrap_Swig_free_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_z3go_267e4fc97d92833a(swig_intgo arg1);
+extern swig_intgo _wrap_Z3_OP_TRUE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FALSE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_EQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_DISTINCT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ITE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_AND_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_OR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_IFF_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_XOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_NOT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_IMPLIES_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_OEQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_INTERP_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ANUM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_AGNUM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_LE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_GE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_LT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_GT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ADD_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SUB_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_UMINUS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_MUL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_DIV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_IDIV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_REM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_MOD_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_TO_REAL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_TO_INT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_IS_INT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_POWER_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_STORE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SELECT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_CONST_ARRAY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ARRAY_MAP_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ARRAY_DEFAULT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SET_UNION_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SET_INTERSECT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SET_DIFFERENCE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SET_COMPLEMENT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SET_SUBSET_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_AS_ARRAY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ARRAY_EXT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BNUM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BIT1_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BIT0_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BNEG_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BADD_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSUB_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BMUL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSDIV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BUDIV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSREM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BUREM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSMOD_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSDIV0_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BUDIV0_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSREM0_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BUREM0_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSMOD0_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ULEQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SLEQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_UGEQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SGEQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ULT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SLT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_UGT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SGT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BAND_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BNOT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BXOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BNAND_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BNOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BXNOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_CONCAT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SIGN_EXT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ZERO_EXT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_EXTRACT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_REPEAT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BREDOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BREDAND_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BCOMP_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSHL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BLSHR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BASHR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ROTATE_LEFT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_ROTATE_RIGHT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_EXT_ROTATE_LEFT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_EXT_ROTATE_RIGHT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_INT2BV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BV2INT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_CARRY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_XOR3_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSMUL_NO_OVFL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BUMUL_NO_OVFL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSMUL_NO_UDFL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSDIV_I_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BUDIV_I_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSREM_I_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BUREM_I_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_BSMOD_I_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_UNDEF_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_TRUE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_ASSERTED_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_GOAL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_MODUS_PONENS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_REFLEXIVITY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_SYMMETRY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_TRANSITIVITY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_TRANSITIVITY_STAR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_MONOTONICITY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_QUANT_INTRO_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_DISTRIBUTIVITY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_AND_ELIM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_NOT_OR_ELIM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_REWRITE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_REWRITE_STAR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_PULL_QUANT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_PULL_QUANT_STAR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_PUSH_QUANT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_ELIM_UNUSED_VARS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_DER_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_QUANT_INST_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_HYPOTHESIS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_LEMMA_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_UNIT_RESOLUTION_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_IFF_TRUE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_IFF_FALSE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_COMMUTATIVITY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_DEF_AXIOM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_DEF_INTRO_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_APPLY_DEF_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_IFF_OEQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_NNF_POS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_NNF_NEG_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_NNF_STAR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_CNF_STAR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_SKOLEMIZE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_MODUS_PONENS_OEQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_TH_LEMMA_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PR_HYPER_RESOLVE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_STORE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_EMPTY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_IS_EMPTY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_JOIN_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_UNION_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_WIDEN_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_PROJECT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_FILTER_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_NEGATION_FILTER_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_RENAME_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_COMPLEMENT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_SELECT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RA_CLONE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FD_CONSTANT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FD_LT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_UNIT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_EMPTY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_CONCAT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_PREFIX_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_SUFFIX_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_CONTAINS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_EXTRACT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_REPLACE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_AT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_LENGTH_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_INDEX_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_TO_RE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_SEQ_IN_RE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RE_PLUS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RE_STAR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RE_OPTION_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RE_CONCAT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_RE_UNION_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_LABEL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_LABEL_LIT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_DT_CONSTRUCTOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_DT_RECOGNISER_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_DT_ACCESSOR_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_DT_UPDATE_FIELD_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PB_AT_MOST_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PB_LE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PB_GE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_PB_EQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_RM_NEAREST_TIES_TO_EVEN_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_RM_NEAREST_TIES_TO_AWAY_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_RM_TOWARD_POSITIVE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_RM_TOWARD_NEGATIVE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_RM_TOWARD_ZERO_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_NUM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_PLUS_INF_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_MINUS_INF_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_NAN_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_PLUS_ZERO_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_MINUS_ZERO_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_ADD_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_SUB_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_NEG_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_MUL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_DIV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_REM_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_ABS_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_MIN_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_MAX_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_FMA_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_SQRT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_ROUND_TO_INTEGRAL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_EQ_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_LT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_GT_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_LE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_GE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_IS_NAN_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_IS_INF_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_IS_ZERO_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_IS_NORMAL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_IS_SUBNORMAL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_IS_NEGATIVE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_IS_POSITIVE_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_FP_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_TO_FP_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_TO_FP_UNSIGNED_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_TO_UBV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_TO_SBV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_TO_REAL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_TO_IEEE_BV_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_MIN_I_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_FPA_MAX_I_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_INTERNAL_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_Z3_OP_UNINTERPRETED_z3go_267e4fc97d92833a(void);
+extern uintptr_t _wrap_new_AstVector__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_AstVector__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_AstVector__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_AstVector_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_AstVector_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_AstVector_Get_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_AstVector_push_back_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_AstVector_resize_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_AstVector_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_AstVector_pop_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_AstVector_empty_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_1 _wrap_AstVector_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_ExprVector__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_ExprVector__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_ExprVector__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_ExprVector_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_ExprVector_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_ExprVector_Get_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_ExprVector_push_back_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ExprVector_resize_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_ExprVector_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_ExprVector_pop_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_ExprVector_empty_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_2 _wrap_ExprVector_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_SortVector__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_SortVector__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_SortVector__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_SortVector_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_SortVector_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_SortVector_Get_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_SortVector_push_back_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_SortVector_resize_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_SortVector_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_SortVector_pop_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_SortVector_empty_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_3 _wrap_SortVector_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_FuncDeclVector__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_FuncDeclVector__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_FuncDeclVector__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_FuncDeclVector_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_FuncDeclVector_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_FuncDeclVector_Get_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_FuncDeclVector_push_back_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_FuncDeclVector_resize_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_FuncDeclVector_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_FuncDeclVector_pop_back_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_FuncDeclVector_empty_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_4 _wrap_FuncDeclVector_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_set_param__SWIG_0_z3go_267e4fc97d92833a(swig_type_5 arg1, swig_type_6 arg2);
+extern void _wrap_set_param__SWIG_1_z3go_267e4fc97d92833a(swig_type_7 arg1, _Bool arg2);
+extern void _wrap_set_param__SWIG_2_z3go_267e4fc97d92833a(swig_type_8 arg1, swig_intgo arg2);
+extern void _wrap_reset_params_z3go_267e4fc97d92833a(void);
+extern uintptr_t _wrap_new_exception_z3go_267e4fc97d92833a(swig_type_9 arg1);
+extern swig_type_10 _wrap_exception_msg_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_exception_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_config_z3go_267e4fc97d92833a(void);
+extern void _wrap_delete_config_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_config_set__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_11 arg2, swig_type_12 arg3);
+extern void _wrap_config_set__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_13 arg2, _Bool arg3);
+extern void _wrap_config_set__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_14 arg2, swig_intgo arg3);
+extern swig_intgo _wrap_unsat_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_sat_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_unknown_z3go_267e4fc97d92833a(void);
+extern swig_intgo _wrap_to_check_result_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_context__SWIG_0_z3go_267e4fc97d92833a(void);
+extern uintptr_t _wrap_new_context__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_context__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_context_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_context_check_error_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_context_set__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_15 arg2, swig_type_16 arg3);
+extern void _wrap_context_set__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_17 arg2, _Bool arg3);
+extern void _wrap_context_set__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_18 arg2, swig_intgo arg3);
+extern void _wrap_context_interrupt_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_context_str_symbol_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_19 arg2);
+extern uintptr_t _wrap_context_int_symbol_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_context_bool_sort_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_context_int_sort_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_context_real_sort_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_context_bv_sort_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_context_string_sort_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_context_seq_sort_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_context_re_sort_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_context_array_sort_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_context_enumeration_sort_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_20 arg2, swig_intgo arg3, swig_voidp arg4, uintptr_t arg5, uintptr_t arg6);
+extern uintptr_t _wrap_context_uninterpreted_sort__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_21 arg2);
+extern uintptr_t _wrap_context_uninterpreted_sort__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_context_function__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_context_function__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_22 arg2, swig_intgo arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_context_function__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_context_function__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_23 arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_context_function__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_24 arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_context_function__SWIG_5_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_25 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_context_function__SWIG_6_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_26 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
+extern uintptr_t _wrap_context_function__SWIG_7_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_27 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, uintptr_t arg7);
+extern uintptr_t _wrap_context_function__SWIG_8_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_28 arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, uintptr_t arg7, uintptr_t arg8);
+extern uintptr_t _wrap_context_constant__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_context_constant__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_29 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_context_bool_const_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_30 arg2);
+extern uintptr_t _wrap_context_int_const_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_31 arg2);
+extern uintptr_t _wrap_context_real_const_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_32 arg2);
+extern uintptr_t _wrap_context_bv_const_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_33 arg2, swig_intgo arg3);
+extern uintptr_t _wrap_context_bool_val_z3go_267e4fc97d92833a(uintptr_t arg1, _Bool arg2);
+extern uintptr_t _wrap_context_int_val__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_context_int_val__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_context_int_val__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_context_int_val__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_context_int_val__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_34 arg2);
+extern uintptr_t _wrap_context_real_val__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_context_real_val__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_context_real_val__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_context_real_val__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_context_real_val__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_context_real_val__SWIG_5_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_35 arg2);
+extern uintptr_t _wrap_context_bv_val__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_context_bv_val__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_context_bv_val__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_context_bv_val__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_context_bv_val__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_36 arg2, swig_intgo arg3);
+extern uintptr_t _wrap_context_string_val__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_37 arg2);
+extern uintptr_t _wrap_context_string_val__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_38 arg2);
+extern uintptr_t _wrap_context_num_val_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern uintptr_t _wrap_context_parse_string__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_39 arg2);
+extern uintptr_t _wrap_context_parse_file__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_40 arg2);
+extern uintptr_t _wrap_context_parse_string__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_41 arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_context_parse_file__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_42 arg2, uintptr_t arg3, uintptr_t arg4);
+extern swig_intgo _wrap_context_compute_interpolant_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_context_get_interpolant_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_new_object__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_object__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_object_ctx_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_object_check_error_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_object_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_check_context_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_symbol__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_symbol__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_symbol_kind_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_43 _wrap_symbol_str_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_symbol_to_int_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_symbol_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_symbol_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_symbol_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_param_descrs__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_param_descrs__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_param_descrs_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_param_descrs_simplify_param_descrs_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_param_descrs_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_param_descrs_name_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_param_descrs_kind_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_44 _wrap_param_descrs_documentation_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_45 _wrap_param_descrs_to_string_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_param_descrs_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_param_descrs_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_params__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_params__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_params_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_params_set__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_46 arg2, _Bool arg3);
+extern void _wrap_params_set__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_47 arg2, swig_intgo arg3);
+extern void _wrap_params_set__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_48 arg2, double arg3);
+extern void _wrap_params_set__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_49 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_params_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_params_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_ast__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_ast__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_ast__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_ast_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_ast_kind_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_ast_hash_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_50 _wrap_ast_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_ast_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_ast_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern _Bool _wrap_eq_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_sort__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_sort__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_sort__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_sort_sort_kind_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_sort_name_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_bool_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_int_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_real_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_arith_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_bv_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_array_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_datatype_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_relation_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_seq_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_re_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_sort_is_finite_domain_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_sort_bv_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_sort_array_domain_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_sort_array_range_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_sort_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_sort_kind_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern swig_intgo _wrap_sort_hash_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern swig_type_51 _wrap_sort_String_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_sort_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_sort_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_func_decl__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_func_decl__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_func_decl__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_func_decl_arity_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_decl_domain_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_func_decl_Xrange_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_decl_name_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_func_decl_decl_kind_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_func_decl_is_const_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_5_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_6_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_7_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_8_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_9_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_func_decl_ApplyFct__SWIG_10_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
+extern void _wrap_delete_func_decl_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_decl_kind_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern swig_intgo _wrap_func_decl_hash_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern swig_type_52 _wrap_func_decl_String_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_func_decl_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_func_decl_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_expr__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_expr__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_expr__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_get_sort_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_bool_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_int_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_real_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_arith_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_bv_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_array_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_datatype_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_relation_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_seq_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_re_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_finite_domain_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_numeral__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_numeral_i64_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_expr_is_numeral_u64_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_expr_is_numeral_i_z3go_267e4fc97d92833a(uintptr_t arg1, swig_voidp arg2);
+extern _Bool _wrap_expr_is_numeral_u_z3go_267e4fc97d92833a(uintptr_t arg1, swig_voidp arg2);
+extern _Bool _wrap_expr_is_numeral__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_voidp arg2);
+extern _Bool _wrap_expr_is_numeral__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3);
+extern _Bool _wrap_expr_is_app_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_const_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_quantifier_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_var_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_algebraic_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_expr_is_well_sorted_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_53 _wrap_expr_get_decimal_string_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_expr_get_numeral_int_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_expr_get_numeral_uint_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_get_numeral_int64_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_get_numeral_uint64_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_decl_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_expr_num_args_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_arg_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_expr_body_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_Not_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_And__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_And__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, _Bool arg2);
+extern uintptr_t _wrap_And__SWIG_2_z3go_267e4fc97d92833a(_Bool arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Or__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Or__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, _Bool arg2);
+extern uintptr_t _wrap_Or__SWIG_2_z3go_267e4fc97d92833a(_Bool arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Equals__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Equals__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_NotEquals__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_NotEquals__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_NotEquals__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Add__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Add__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_Add__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Mult__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Mult__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_Mult__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Div__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Div__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_Div__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Subtract__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_Subtract__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Subtract__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_Subtract__SWIG_3_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_LessEq__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_LessEq__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_LessEq__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_GreaterEq__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_GreaterEq__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_GreaterEq__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Less__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Less__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_Less__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Greater__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Greater__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_Greater__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BAnd__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BAnd__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_BAnd__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BXor__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BXor__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_BXor__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BOr__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BOr__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_BOr__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BComp_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_extract__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_intgo _wrap_expr_lo_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_expr_hi_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_extract__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_expr_replace_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_expr_unit_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_contains_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_expr_at_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_expr_length_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_simplify__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_simplify__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_expr_substitute__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_expr_substitute__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_expr_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_expr_kind_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern swig_intgo _wrap_expr_hash_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern swig_type_54 _wrap_expr_String_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_expr_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_expr_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_implies__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_implies__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, _Bool arg2);
+extern uintptr_t _wrap_implies__SWIG_2_z3go_267e4fc97d92833a(_Bool arg1, uintptr_t arg2);
+extern uintptr_t _wrap_pw__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_pw__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_pw__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ite_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_to_expr_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_to_sort_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_to_func_decl_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ule__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ule__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_ule__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ult__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ult__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_ult__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_uge__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_uge__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_uge__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ugt__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ugt__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_ugt__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_udiv__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_udiv__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_udiv__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_srem__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_srem__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_srem__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_urem__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_urem__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_urem__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_shl__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_shl__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_shl__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_lshr__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_lshr__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_lshr__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ashr__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ashr__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_ashr__SWIG_2_z3go_267e4fc97d92833a(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_zext_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_sext_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_forall__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_forall__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_forall__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_forall__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_forall__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_exists__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_exists__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_exists__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_exists__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_exists__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_distinct_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_concat__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_concat__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_mk_or_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_mk_and_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_func_entry__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_func_entry__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_func_entry_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_entry_value_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_func_entry_num_args_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_entry_arg_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_func_entry_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_func_entry_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_func_interp__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_func_interp__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_func_interp_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_interp_else_value_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_func_interp_num_entries_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_func_interp_entry_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_func_interp_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_func_interp_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_model__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_model__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_model_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_model_eval__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
+extern uintptr_t _wrap_model_eval__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern swig_intgo _wrap_model_num_consts_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_model_num_funcs_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_model_get_const_decl_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_model_get_func_decl_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_model_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_model_Get_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_model_get_const_interp_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_model_get_func_interp_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_model_has_interp_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_55 _wrap_model_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_model_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_model_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_stats__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_stats__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_stats__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_stats_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_stats_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_56 _wrap_stats_key_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern _Bool _wrap_stats_is_uint_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern _Bool _wrap_stats_is_double_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_stats_uint_value_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern double _wrap_stats_double_value_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_stats_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_stats_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_solver__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_solver__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_solver__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_solver__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_57 arg2);
+extern uintptr_t _wrap_new_solver__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_new_solver__SWIG_5_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_solver_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_solver_set_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_solver_push_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_solver_pop__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_solver_pop__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_solver_reset_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_solver_add__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_solver_add__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_solver_add__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_type_58 arg3);
+extern swig_intgo _wrap_solver_check__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_solver_check__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern swig_intgo _wrap_solver_check__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_solver_get_model_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_solver_consequences_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern swig_type_59 _wrap_solver_reason_unknown_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_solver_statistics_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_solver_unsat_core_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_solver_assertions_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_solver_proof_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_60 _wrap_solver_to_smt2__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_61 arg2);
+extern swig_type_62 _wrap_solver_to_smt2__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_solver_get_param_descrs_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_63 _wrap_solver_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_solver_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_solver_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_goal__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, _Bool arg2, _Bool arg3, _Bool arg4);
+extern uintptr_t _wrap_new_goal__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, _Bool arg2, _Bool arg3);
+extern uintptr_t _wrap_new_goal__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, _Bool arg2);
+extern uintptr_t _wrap_new_goal__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_new_goal__SWIG_4_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_goal__SWIG_5_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_goal_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_goal_add_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern swig_intgo _wrap_goal_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_goal_Get_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_goal_precision_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_goal_inconsistent_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_goal_depth_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_goal_reset_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_goal_num_exprs_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_goal_is_decided_sat_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern _Bool _wrap_goal_is_decided_unsat_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_goal_as_expr_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_type_64 _wrap_goal_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_goal_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_goal_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_apply_result__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_apply_result__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_apply_result_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_apply_result_size_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_apply_result_Get_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_apply_result_convert_model__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_apply_result_convert_model__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_65 _wrap_apply_result_String_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_apply_result_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_apply_result_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_tactic__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_66 arg2);
+extern uintptr_t _wrap_new_tactic__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_tactic__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_tactic_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_tactic_mk_solver_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_tactic_apply_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_tactic_ApplyFct_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_67 _wrap_tactic_help_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_TacticAnd_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TacticOr_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_tactic_get_param_descrs_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_tactic_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_tactic_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_repeat__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_repeat__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_with_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_try_for_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_new_probe__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_68 arg2);
+extern uintptr_t _wrap_new_probe__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, double arg2);
+extern uintptr_t _wrap_new_probe__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_probe__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_probe_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern double _wrap_probe_apply_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern double _wrap_probe_ApplyFct_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_probe_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_probe_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_optimize_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_delete_optimize_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_optimize_add__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_optimize_add__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_optimize_add__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_type_69 arg3);
+extern uintptr_t _wrap_optimize_maximize_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_optimize_minimize_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_optimize_push_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_optimize_pop_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern swig_intgo _wrap_optimize_check_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_optimize_get_model_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_optimize_set_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_optimize_lower_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_optimize_upper_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_optimize_assertions_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_optimize_objectives_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_optimize_statistics_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern void _wrap_optimize_from_file_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_70 arg2);
+extern void _wrap_optimize_from_string_z3go_267e4fc97d92833a(uintptr_t arg1, swig_type_71 arg2);
+extern swig_type_72 _wrap_optimize_help_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_optimize_ctx_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern void _wrap_optimize_check_error_z3go_267e4fc97d92833a(uintptr_t _swig_base);
+extern uintptr_t _wrap_fail_if_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_when_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_cond_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_to_real_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_function__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_function__SWIG_1_z3go_267e4fc97d92833a(swig_type_73 arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_function__SWIG_2_z3go_267e4fc97d92833a(swig_type_74 arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_function__SWIG_3_z3go_267e4fc97d92833a(swig_type_75 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_function__SWIG_4_z3go_267e4fc97d92833a(swig_type_76 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_function__SWIG_5_z3go_267e4fc97d92833a(swig_type_77 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
+extern uintptr_t _wrap_function__SWIG_6_z3go_267e4fc97d92833a(swig_type_78 arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, uintptr_t arg7);
+extern uintptr_t _wrap_Xselect__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Xselect__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_store__SWIG_0_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_store__SWIG_1_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern uintptr_t _wrap_store__SWIG_2_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_store__SWIG_3_z3go_267e4fc97d92833a(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_const_array_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_empty_set_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_full_set_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_set_add_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_set_del_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_set_union_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_set_intersect_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_set_difference_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_set_complement_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_set_member_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_set_subset_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_empty_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_suffixof_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_prefixof_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_indexof_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_to_re_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_in_re_z3go_267e4fc97d92833a(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_plus_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_option_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_star_z3go_267e4fc97d92833a(uintptr_t arg1);
+extern uintptr_t _wrap_interpolant_z3go_267e4fc97d92833a(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -732,16 +948,1634 @@ func swigCopyString(s string) string {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
+type Z3_decl_kind int
+func _swig_getZ3_OP_TRUE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_TRUE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_TRUE int = _swig_getZ3_OP_TRUE()
+func _swig_getZ3_OP_FALSE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FALSE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FALSE int = _swig_getZ3_OP_FALSE()
+func _swig_getZ3_OP_EQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_EQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_EQ int = _swig_getZ3_OP_EQ()
+func _swig_getZ3_OP_DISTINCT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_DISTINCT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_DISTINCT int = _swig_getZ3_OP_DISTINCT()
+func _swig_getZ3_OP_ITE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ITE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ITE int = _swig_getZ3_OP_ITE()
+func _swig_getZ3_OP_AND() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_AND_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_AND int = _swig_getZ3_OP_AND()
+func _swig_getZ3_OP_OR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_OR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_OR int = _swig_getZ3_OP_OR()
+func _swig_getZ3_OP_IFF() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_IFF_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_IFF int = _swig_getZ3_OP_IFF()
+func _swig_getZ3_OP_XOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_XOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_XOR int = _swig_getZ3_OP_XOR()
+func _swig_getZ3_OP_NOT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_NOT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_NOT int = _swig_getZ3_OP_NOT()
+func _swig_getZ3_OP_IMPLIES() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_IMPLIES_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_IMPLIES int = _swig_getZ3_OP_IMPLIES()
+func _swig_getZ3_OP_OEQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_OEQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_OEQ int = _swig_getZ3_OP_OEQ()
+func _swig_getZ3_OP_INTERP() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_INTERP_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_INTERP int = _swig_getZ3_OP_INTERP()
+func _swig_getZ3_OP_ANUM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ANUM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ANUM int = _swig_getZ3_OP_ANUM()
+func _swig_getZ3_OP_AGNUM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_AGNUM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_AGNUM int = _swig_getZ3_OP_AGNUM()
+func _swig_getZ3_OP_LE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_LE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_LE int = _swig_getZ3_OP_LE()
+func _swig_getZ3_OP_GE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_GE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_GE int = _swig_getZ3_OP_GE()
+func _swig_getZ3_OP_LT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_LT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_LT int = _swig_getZ3_OP_LT()
+func _swig_getZ3_OP_GT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_GT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_GT int = _swig_getZ3_OP_GT()
+func _swig_getZ3_OP_ADD() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ADD_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ADD int = _swig_getZ3_OP_ADD()
+func _swig_getZ3_OP_SUB() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SUB_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SUB int = _swig_getZ3_OP_SUB()
+func _swig_getZ3_OP_UMINUS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_UMINUS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_UMINUS int = _swig_getZ3_OP_UMINUS()
+func _swig_getZ3_OP_MUL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_MUL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_MUL int = _swig_getZ3_OP_MUL()
+func _swig_getZ3_OP_DIV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_DIV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_DIV int = _swig_getZ3_OP_DIV()
+func _swig_getZ3_OP_IDIV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_IDIV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_IDIV int = _swig_getZ3_OP_IDIV()
+func _swig_getZ3_OP_REM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_REM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_REM int = _swig_getZ3_OP_REM()
+func _swig_getZ3_OP_MOD() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_MOD_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_MOD int = _swig_getZ3_OP_MOD()
+func _swig_getZ3_OP_TO_REAL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_TO_REAL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_TO_REAL int = _swig_getZ3_OP_TO_REAL()
+func _swig_getZ3_OP_TO_INT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_TO_INT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_TO_INT int = _swig_getZ3_OP_TO_INT()
+func _swig_getZ3_OP_IS_INT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_IS_INT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_IS_INT int = _swig_getZ3_OP_IS_INT()
+func _swig_getZ3_OP_POWER() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_POWER_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_POWER int = _swig_getZ3_OP_POWER()
+func _swig_getZ3_OP_STORE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_STORE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_STORE int = _swig_getZ3_OP_STORE()
+func _swig_getZ3_OP_SELECT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SELECT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SELECT int = _swig_getZ3_OP_SELECT()
+func _swig_getZ3_OP_CONST_ARRAY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_CONST_ARRAY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_CONST_ARRAY int = _swig_getZ3_OP_CONST_ARRAY()
+func _swig_getZ3_OP_ARRAY_MAP() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ARRAY_MAP_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ARRAY_MAP int = _swig_getZ3_OP_ARRAY_MAP()
+func _swig_getZ3_OP_ARRAY_DEFAULT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ARRAY_DEFAULT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ARRAY_DEFAULT int = _swig_getZ3_OP_ARRAY_DEFAULT()
+func _swig_getZ3_OP_SET_UNION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SET_UNION_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SET_UNION int = _swig_getZ3_OP_SET_UNION()
+func _swig_getZ3_OP_SET_INTERSECT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SET_INTERSECT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SET_INTERSECT int = _swig_getZ3_OP_SET_INTERSECT()
+func _swig_getZ3_OP_SET_DIFFERENCE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SET_DIFFERENCE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SET_DIFFERENCE int = _swig_getZ3_OP_SET_DIFFERENCE()
+func _swig_getZ3_OP_SET_COMPLEMENT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SET_COMPLEMENT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SET_COMPLEMENT int = _swig_getZ3_OP_SET_COMPLEMENT()
+func _swig_getZ3_OP_SET_SUBSET() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SET_SUBSET_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SET_SUBSET int = _swig_getZ3_OP_SET_SUBSET()
+func _swig_getZ3_OP_AS_ARRAY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_AS_ARRAY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_AS_ARRAY int = _swig_getZ3_OP_AS_ARRAY()
+func _swig_getZ3_OP_ARRAY_EXT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ARRAY_EXT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ARRAY_EXT int = _swig_getZ3_OP_ARRAY_EXT()
+func _swig_getZ3_OP_BNUM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BNUM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BNUM int = _swig_getZ3_OP_BNUM()
+func _swig_getZ3_OP_BIT1() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BIT1_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BIT1 int = _swig_getZ3_OP_BIT1()
+func _swig_getZ3_OP_BIT0() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BIT0_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BIT0 int = _swig_getZ3_OP_BIT0()
+func _swig_getZ3_OP_BNEG() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BNEG_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BNEG int = _swig_getZ3_OP_BNEG()
+func _swig_getZ3_OP_BADD() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BADD_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BADD int = _swig_getZ3_OP_BADD()
+func _swig_getZ3_OP_BSUB() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSUB_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSUB int = _swig_getZ3_OP_BSUB()
+func _swig_getZ3_OP_BMUL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BMUL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BMUL int = _swig_getZ3_OP_BMUL()
+func _swig_getZ3_OP_BSDIV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSDIV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSDIV int = _swig_getZ3_OP_BSDIV()
+func _swig_getZ3_OP_BUDIV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BUDIV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BUDIV int = _swig_getZ3_OP_BUDIV()
+func _swig_getZ3_OP_BSREM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSREM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSREM int = _swig_getZ3_OP_BSREM()
+func _swig_getZ3_OP_BUREM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BUREM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BUREM int = _swig_getZ3_OP_BUREM()
+func _swig_getZ3_OP_BSMOD() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSMOD_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSMOD int = _swig_getZ3_OP_BSMOD()
+func _swig_getZ3_OP_BSDIV0() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSDIV0_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSDIV0 int = _swig_getZ3_OP_BSDIV0()
+func _swig_getZ3_OP_BUDIV0() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BUDIV0_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BUDIV0 int = _swig_getZ3_OP_BUDIV0()
+func _swig_getZ3_OP_BSREM0() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSREM0_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSREM0 int = _swig_getZ3_OP_BSREM0()
+func _swig_getZ3_OP_BUREM0() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BUREM0_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BUREM0 int = _swig_getZ3_OP_BUREM0()
+func _swig_getZ3_OP_BSMOD0() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSMOD0_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSMOD0 int = _swig_getZ3_OP_BSMOD0()
+func _swig_getZ3_OP_ULEQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ULEQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ULEQ int = _swig_getZ3_OP_ULEQ()
+func _swig_getZ3_OP_SLEQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SLEQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SLEQ int = _swig_getZ3_OP_SLEQ()
+func _swig_getZ3_OP_UGEQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_UGEQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_UGEQ int = _swig_getZ3_OP_UGEQ()
+func _swig_getZ3_OP_SGEQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SGEQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SGEQ int = _swig_getZ3_OP_SGEQ()
+func _swig_getZ3_OP_ULT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ULT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ULT int = _swig_getZ3_OP_ULT()
+func _swig_getZ3_OP_SLT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SLT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SLT int = _swig_getZ3_OP_SLT()
+func _swig_getZ3_OP_UGT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_UGT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_UGT int = _swig_getZ3_OP_UGT()
+func _swig_getZ3_OP_SGT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SGT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SGT int = _swig_getZ3_OP_SGT()
+func _swig_getZ3_OP_BAND() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BAND_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BAND int = _swig_getZ3_OP_BAND()
+func _swig_getZ3_OP_BOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BOR int = _swig_getZ3_OP_BOR()
+func _swig_getZ3_OP_BNOT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BNOT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BNOT int = _swig_getZ3_OP_BNOT()
+func _swig_getZ3_OP_BXOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BXOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BXOR int = _swig_getZ3_OP_BXOR()
+func _swig_getZ3_OP_BNAND() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BNAND_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BNAND int = _swig_getZ3_OP_BNAND()
+func _swig_getZ3_OP_BNOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BNOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BNOR int = _swig_getZ3_OP_BNOR()
+func _swig_getZ3_OP_BXNOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BXNOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BXNOR int = _swig_getZ3_OP_BXNOR()
+func _swig_getZ3_OP_CONCAT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_CONCAT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_CONCAT int = _swig_getZ3_OP_CONCAT()
+func _swig_getZ3_OP_SIGN_EXT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SIGN_EXT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SIGN_EXT int = _swig_getZ3_OP_SIGN_EXT()
+func _swig_getZ3_OP_ZERO_EXT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ZERO_EXT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ZERO_EXT int = _swig_getZ3_OP_ZERO_EXT()
+func _swig_getZ3_OP_EXTRACT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_EXTRACT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_EXTRACT int = _swig_getZ3_OP_EXTRACT()
+func _swig_getZ3_OP_REPEAT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_REPEAT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_REPEAT int = _swig_getZ3_OP_REPEAT()
+func _swig_getZ3_OP_BREDOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BREDOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BREDOR int = _swig_getZ3_OP_BREDOR()
+func _swig_getZ3_OP_BREDAND() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BREDAND_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BREDAND int = _swig_getZ3_OP_BREDAND()
+func _swig_getZ3_OP_BCOMP() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BCOMP_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BCOMP int = _swig_getZ3_OP_BCOMP()
+func _swig_getZ3_OP_BSHL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSHL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSHL int = _swig_getZ3_OP_BSHL()
+func _swig_getZ3_OP_BLSHR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BLSHR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BLSHR int = _swig_getZ3_OP_BLSHR()
+func _swig_getZ3_OP_BASHR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BASHR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BASHR int = _swig_getZ3_OP_BASHR()
+func _swig_getZ3_OP_ROTATE_LEFT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ROTATE_LEFT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ROTATE_LEFT int = _swig_getZ3_OP_ROTATE_LEFT()
+func _swig_getZ3_OP_ROTATE_RIGHT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_ROTATE_RIGHT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_ROTATE_RIGHT int = _swig_getZ3_OP_ROTATE_RIGHT()
+func _swig_getZ3_OP_EXT_ROTATE_LEFT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_EXT_ROTATE_LEFT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_EXT_ROTATE_LEFT int = _swig_getZ3_OP_EXT_ROTATE_LEFT()
+func _swig_getZ3_OP_EXT_ROTATE_RIGHT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_EXT_ROTATE_RIGHT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_EXT_ROTATE_RIGHT int = _swig_getZ3_OP_EXT_ROTATE_RIGHT()
+func _swig_getZ3_OP_INT2BV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_INT2BV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_INT2BV int = _swig_getZ3_OP_INT2BV()
+func _swig_getZ3_OP_BV2INT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BV2INT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BV2INT int = _swig_getZ3_OP_BV2INT()
+func _swig_getZ3_OP_CARRY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_CARRY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_CARRY int = _swig_getZ3_OP_CARRY()
+func _swig_getZ3_OP_XOR3() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_XOR3_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_XOR3 int = _swig_getZ3_OP_XOR3()
+func _swig_getZ3_OP_BSMUL_NO_OVFL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSMUL_NO_OVFL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSMUL_NO_OVFL int = _swig_getZ3_OP_BSMUL_NO_OVFL()
+func _swig_getZ3_OP_BUMUL_NO_OVFL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BUMUL_NO_OVFL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BUMUL_NO_OVFL int = _swig_getZ3_OP_BUMUL_NO_OVFL()
+func _swig_getZ3_OP_BSMUL_NO_UDFL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSMUL_NO_UDFL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSMUL_NO_UDFL int = _swig_getZ3_OP_BSMUL_NO_UDFL()
+func _swig_getZ3_OP_BSDIV_I() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSDIV_I_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSDIV_I int = _swig_getZ3_OP_BSDIV_I()
+func _swig_getZ3_OP_BUDIV_I() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BUDIV_I_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BUDIV_I int = _swig_getZ3_OP_BUDIV_I()
+func _swig_getZ3_OP_BSREM_I() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSREM_I_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSREM_I int = _swig_getZ3_OP_BSREM_I()
+func _swig_getZ3_OP_BUREM_I() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BUREM_I_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BUREM_I int = _swig_getZ3_OP_BUREM_I()
+func _swig_getZ3_OP_BSMOD_I() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_BSMOD_I_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_BSMOD_I int = _swig_getZ3_OP_BSMOD_I()
+func _swig_getZ3_OP_PR_UNDEF() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_UNDEF_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_UNDEF int = _swig_getZ3_OP_PR_UNDEF()
+func _swig_getZ3_OP_PR_TRUE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_TRUE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_TRUE int = _swig_getZ3_OP_PR_TRUE()
+func _swig_getZ3_OP_PR_ASSERTED() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_ASSERTED_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_ASSERTED int = _swig_getZ3_OP_PR_ASSERTED()
+func _swig_getZ3_OP_PR_GOAL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_GOAL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_GOAL int = _swig_getZ3_OP_PR_GOAL()
+func _swig_getZ3_OP_PR_MODUS_PONENS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_MODUS_PONENS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_MODUS_PONENS int = _swig_getZ3_OP_PR_MODUS_PONENS()
+func _swig_getZ3_OP_PR_REFLEXIVITY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_REFLEXIVITY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_REFLEXIVITY int = _swig_getZ3_OP_PR_REFLEXIVITY()
+func _swig_getZ3_OP_PR_SYMMETRY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_SYMMETRY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_SYMMETRY int = _swig_getZ3_OP_PR_SYMMETRY()
+func _swig_getZ3_OP_PR_TRANSITIVITY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_TRANSITIVITY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_TRANSITIVITY int = _swig_getZ3_OP_PR_TRANSITIVITY()
+func _swig_getZ3_OP_PR_TRANSITIVITY_STAR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_TRANSITIVITY_STAR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_TRANSITIVITY_STAR int = _swig_getZ3_OP_PR_TRANSITIVITY_STAR()
+func _swig_getZ3_OP_PR_MONOTONICITY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_MONOTONICITY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_MONOTONICITY int = _swig_getZ3_OP_PR_MONOTONICITY()
+func _swig_getZ3_OP_PR_QUANT_INTRO() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_QUANT_INTRO_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_QUANT_INTRO int = _swig_getZ3_OP_PR_QUANT_INTRO()
+func _swig_getZ3_OP_PR_DISTRIBUTIVITY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_DISTRIBUTIVITY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_DISTRIBUTIVITY int = _swig_getZ3_OP_PR_DISTRIBUTIVITY()
+func _swig_getZ3_OP_PR_AND_ELIM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_AND_ELIM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_AND_ELIM int = _swig_getZ3_OP_PR_AND_ELIM()
+func _swig_getZ3_OP_PR_NOT_OR_ELIM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_NOT_OR_ELIM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_NOT_OR_ELIM int = _swig_getZ3_OP_PR_NOT_OR_ELIM()
+func _swig_getZ3_OP_PR_REWRITE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_REWRITE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_REWRITE int = _swig_getZ3_OP_PR_REWRITE()
+func _swig_getZ3_OP_PR_REWRITE_STAR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_REWRITE_STAR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_REWRITE_STAR int = _swig_getZ3_OP_PR_REWRITE_STAR()
+func _swig_getZ3_OP_PR_PULL_QUANT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_PULL_QUANT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_PULL_QUANT int = _swig_getZ3_OP_PR_PULL_QUANT()
+func _swig_getZ3_OP_PR_PULL_QUANT_STAR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_PULL_QUANT_STAR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_PULL_QUANT_STAR int = _swig_getZ3_OP_PR_PULL_QUANT_STAR()
+func _swig_getZ3_OP_PR_PUSH_QUANT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_PUSH_QUANT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_PUSH_QUANT int = _swig_getZ3_OP_PR_PUSH_QUANT()
+func _swig_getZ3_OP_PR_ELIM_UNUSED_VARS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_ELIM_UNUSED_VARS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_ELIM_UNUSED_VARS int = _swig_getZ3_OP_PR_ELIM_UNUSED_VARS()
+func _swig_getZ3_OP_PR_DER() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_DER_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_DER int = _swig_getZ3_OP_PR_DER()
+func _swig_getZ3_OP_PR_QUANT_INST() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_QUANT_INST_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_QUANT_INST int = _swig_getZ3_OP_PR_QUANT_INST()
+func _swig_getZ3_OP_PR_HYPOTHESIS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_HYPOTHESIS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_HYPOTHESIS int = _swig_getZ3_OP_PR_HYPOTHESIS()
+func _swig_getZ3_OP_PR_LEMMA() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_LEMMA_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_LEMMA int = _swig_getZ3_OP_PR_LEMMA()
+func _swig_getZ3_OP_PR_UNIT_RESOLUTION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_UNIT_RESOLUTION_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_UNIT_RESOLUTION int = _swig_getZ3_OP_PR_UNIT_RESOLUTION()
+func _swig_getZ3_OP_PR_IFF_TRUE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_IFF_TRUE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_IFF_TRUE int = _swig_getZ3_OP_PR_IFF_TRUE()
+func _swig_getZ3_OP_PR_IFF_FALSE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_IFF_FALSE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_IFF_FALSE int = _swig_getZ3_OP_PR_IFF_FALSE()
+func _swig_getZ3_OP_PR_COMMUTATIVITY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_COMMUTATIVITY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_COMMUTATIVITY int = _swig_getZ3_OP_PR_COMMUTATIVITY()
+func _swig_getZ3_OP_PR_DEF_AXIOM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_DEF_AXIOM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_DEF_AXIOM int = _swig_getZ3_OP_PR_DEF_AXIOM()
+func _swig_getZ3_OP_PR_DEF_INTRO() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_DEF_INTRO_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_DEF_INTRO int = _swig_getZ3_OP_PR_DEF_INTRO()
+func _swig_getZ3_OP_PR_APPLY_DEF() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_APPLY_DEF_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_APPLY_DEF int = _swig_getZ3_OP_PR_APPLY_DEF()
+func _swig_getZ3_OP_PR_IFF_OEQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_IFF_OEQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_IFF_OEQ int = _swig_getZ3_OP_PR_IFF_OEQ()
+func _swig_getZ3_OP_PR_NNF_POS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_NNF_POS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_NNF_POS int = _swig_getZ3_OP_PR_NNF_POS()
+func _swig_getZ3_OP_PR_NNF_NEG() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_NNF_NEG_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_NNF_NEG int = _swig_getZ3_OP_PR_NNF_NEG()
+func _swig_getZ3_OP_PR_NNF_STAR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_NNF_STAR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_NNF_STAR int = _swig_getZ3_OP_PR_NNF_STAR()
+func _swig_getZ3_OP_PR_CNF_STAR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_CNF_STAR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_CNF_STAR int = _swig_getZ3_OP_PR_CNF_STAR()
+func _swig_getZ3_OP_PR_SKOLEMIZE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_SKOLEMIZE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_SKOLEMIZE int = _swig_getZ3_OP_PR_SKOLEMIZE()
+func _swig_getZ3_OP_PR_MODUS_PONENS_OEQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_MODUS_PONENS_OEQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_MODUS_PONENS_OEQ int = _swig_getZ3_OP_PR_MODUS_PONENS_OEQ()
+func _swig_getZ3_OP_PR_TH_LEMMA() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_TH_LEMMA_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_TH_LEMMA int = _swig_getZ3_OP_PR_TH_LEMMA()
+func _swig_getZ3_OP_PR_HYPER_RESOLVE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PR_HYPER_RESOLVE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PR_HYPER_RESOLVE int = _swig_getZ3_OP_PR_HYPER_RESOLVE()
+func _swig_getZ3_OP_RA_STORE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_STORE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_STORE int = _swig_getZ3_OP_RA_STORE()
+func _swig_getZ3_OP_RA_EMPTY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_EMPTY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_EMPTY int = _swig_getZ3_OP_RA_EMPTY()
+func _swig_getZ3_OP_RA_IS_EMPTY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_IS_EMPTY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_IS_EMPTY int = _swig_getZ3_OP_RA_IS_EMPTY()
+func _swig_getZ3_OP_RA_JOIN() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_JOIN_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_JOIN int = _swig_getZ3_OP_RA_JOIN()
+func _swig_getZ3_OP_RA_UNION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_UNION_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_UNION int = _swig_getZ3_OP_RA_UNION()
+func _swig_getZ3_OP_RA_WIDEN() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_WIDEN_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_WIDEN int = _swig_getZ3_OP_RA_WIDEN()
+func _swig_getZ3_OP_RA_PROJECT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_PROJECT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_PROJECT int = _swig_getZ3_OP_RA_PROJECT()
+func _swig_getZ3_OP_RA_FILTER() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_FILTER_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_FILTER int = _swig_getZ3_OP_RA_FILTER()
+func _swig_getZ3_OP_RA_NEGATION_FILTER() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_NEGATION_FILTER_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_NEGATION_FILTER int = _swig_getZ3_OP_RA_NEGATION_FILTER()
+func _swig_getZ3_OP_RA_RENAME() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_RENAME_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_RENAME int = _swig_getZ3_OP_RA_RENAME()
+func _swig_getZ3_OP_RA_COMPLEMENT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_COMPLEMENT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_COMPLEMENT int = _swig_getZ3_OP_RA_COMPLEMENT()
+func _swig_getZ3_OP_RA_SELECT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_SELECT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_SELECT int = _swig_getZ3_OP_RA_SELECT()
+func _swig_getZ3_OP_RA_CLONE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RA_CLONE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RA_CLONE int = _swig_getZ3_OP_RA_CLONE()
+func _swig_getZ3_OP_FD_CONSTANT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FD_CONSTANT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FD_CONSTANT int = _swig_getZ3_OP_FD_CONSTANT()
+func _swig_getZ3_OP_FD_LT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FD_LT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FD_LT int = _swig_getZ3_OP_FD_LT()
+func _swig_getZ3_OP_SEQ_UNIT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_UNIT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_UNIT int = _swig_getZ3_OP_SEQ_UNIT()
+func _swig_getZ3_OP_SEQ_EMPTY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_EMPTY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_EMPTY int = _swig_getZ3_OP_SEQ_EMPTY()
+func _swig_getZ3_OP_SEQ_CONCAT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_CONCAT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_CONCAT int = _swig_getZ3_OP_SEQ_CONCAT()
+func _swig_getZ3_OP_SEQ_PREFIX() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_PREFIX_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_PREFIX int = _swig_getZ3_OP_SEQ_PREFIX()
+func _swig_getZ3_OP_SEQ_SUFFIX() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_SUFFIX_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_SUFFIX int = _swig_getZ3_OP_SEQ_SUFFIX()
+func _swig_getZ3_OP_SEQ_CONTAINS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_CONTAINS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_CONTAINS int = _swig_getZ3_OP_SEQ_CONTAINS()
+func _swig_getZ3_OP_SEQ_EXTRACT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_EXTRACT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_EXTRACT int = _swig_getZ3_OP_SEQ_EXTRACT()
+func _swig_getZ3_OP_SEQ_REPLACE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_REPLACE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_REPLACE int = _swig_getZ3_OP_SEQ_REPLACE()
+func _swig_getZ3_OP_SEQ_AT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_AT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_AT int = _swig_getZ3_OP_SEQ_AT()
+func _swig_getZ3_OP_SEQ_LENGTH() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_LENGTH_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_LENGTH int = _swig_getZ3_OP_SEQ_LENGTH()
+func _swig_getZ3_OP_SEQ_INDEX() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_INDEX_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_INDEX int = _swig_getZ3_OP_SEQ_INDEX()
+func _swig_getZ3_OP_SEQ_TO_RE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_TO_RE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_TO_RE int = _swig_getZ3_OP_SEQ_TO_RE()
+func _swig_getZ3_OP_SEQ_IN_RE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_SEQ_IN_RE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_SEQ_IN_RE int = _swig_getZ3_OP_SEQ_IN_RE()
+func _swig_getZ3_OP_RE_PLUS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RE_PLUS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RE_PLUS int = _swig_getZ3_OP_RE_PLUS()
+func _swig_getZ3_OP_RE_STAR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RE_STAR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RE_STAR int = _swig_getZ3_OP_RE_STAR()
+func _swig_getZ3_OP_RE_OPTION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RE_OPTION_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RE_OPTION int = _swig_getZ3_OP_RE_OPTION()
+func _swig_getZ3_OP_RE_CONCAT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RE_CONCAT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RE_CONCAT int = _swig_getZ3_OP_RE_CONCAT()
+func _swig_getZ3_OP_RE_UNION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_RE_UNION_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_RE_UNION int = _swig_getZ3_OP_RE_UNION()
+func _swig_getZ3_OP_LABEL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_LABEL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_LABEL int = _swig_getZ3_OP_LABEL()
+func _swig_getZ3_OP_LABEL_LIT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_LABEL_LIT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_LABEL_LIT int = _swig_getZ3_OP_LABEL_LIT()
+func _swig_getZ3_OP_DT_CONSTRUCTOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_DT_CONSTRUCTOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_DT_CONSTRUCTOR int = _swig_getZ3_OP_DT_CONSTRUCTOR()
+func _swig_getZ3_OP_DT_RECOGNISER() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_DT_RECOGNISER_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_DT_RECOGNISER int = _swig_getZ3_OP_DT_RECOGNISER()
+func _swig_getZ3_OP_DT_ACCESSOR() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_DT_ACCESSOR_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_DT_ACCESSOR int = _swig_getZ3_OP_DT_ACCESSOR()
+func _swig_getZ3_OP_DT_UPDATE_FIELD() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_DT_UPDATE_FIELD_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_DT_UPDATE_FIELD int = _swig_getZ3_OP_DT_UPDATE_FIELD()
+func _swig_getZ3_OP_PB_AT_MOST() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PB_AT_MOST_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PB_AT_MOST int = _swig_getZ3_OP_PB_AT_MOST()
+func _swig_getZ3_OP_PB_LE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PB_LE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PB_LE int = _swig_getZ3_OP_PB_LE()
+func _swig_getZ3_OP_PB_GE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PB_GE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PB_GE int = _swig_getZ3_OP_PB_GE()
+func _swig_getZ3_OP_PB_EQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_PB_EQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_PB_EQ int = _swig_getZ3_OP_PB_EQ()
+func _swig_getZ3_OP_FPA_RM_NEAREST_TIES_TO_EVEN() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_RM_NEAREST_TIES_TO_EVEN_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_RM_NEAREST_TIES_TO_EVEN int = _swig_getZ3_OP_FPA_RM_NEAREST_TIES_TO_EVEN()
+func _swig_getZ3_OP_FPA_RM_NEAREST_TIES_TO_AWAY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_RM_NEAREST_TIES_TO_AWAY_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_RM_NEAREST_TIES_TO_AWAY int = _swig_getZ3_OP_FPA_RM_NEAREST_TIES_TO_AWAY()
+func _swig_getZ3_OP_FPA_RM_TOWARD_POSITIVE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_RM_TOWARD_POSITIVE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_RM_TOWARD_POSITIVE int = _swig_getZ3_OP_FPA_RM_TOWARD_POSITIVE()
+func _swig_getZ3_OP_FPA_RM_TOWARD_NEGATIVE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_RM_TOWARD_NEGATIVE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_RM_TOWARD_NEGATIVE int = _swig_getZ3_OP_FPA_RM_TOWARD_NEGATIVE()
+func _swig_getZ3_OP_FPA_RM_TOWARD_ZERO() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_RM_TOWARD_ZERO_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_RM_TOWARD_ZERO int = _swig_getZ3_OP_FPA_RM_TOWARD_ZERO()
+func _swig_getZ3_OP_FPA_NUM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_NUM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_NUM int = _swig_getZ3_OP_FPA_NUM()
+func _swig_getZ3_OP_FPA_PLUS_INF() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_PLUS_INF_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_PLUS_INF int = _swig_getZ3_OP_FPA_PLUS_INF()
+func _swig_getZ3_OP_FPA_MINUS_INF() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_MINUS_INF_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_MINUS_INF int = _swig_getZ3_OP_FPA_MINUS_INF()
+func _swig_getZ3_OP_FPA_NAN() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_NAN_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_NAN int = _swig_getZ3_OP_FPA_NAN()
+func _swig_getZ3_OP_FPA_PLUS_ZERO() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_PLUS_ZERO_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_PLUS_ZERO int = _swig_getZ3_OP_FPA_PLUS_ZERO()
+func _swig_getZ3_OP_FPA_MINUS_ZERO() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_MINUS_ZERO_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_MINUS_ZERO int = _swig_getZ3_OP_FPA_MINUS_ZERO()
+func _swig_getZ3_OP_FPA_ADD() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_ADD_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_ADD int = _swig_getZ3_OP_FPA_ADD()
+func _swig_getZ3_OP_FPA_SUB() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_SUB_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_SUB int = _swig_getZ3_OP_FPA_SUB()
+func _swig_getZ3_OP_FPA_NEG() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_NEG_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_NEG int = _swig_getZ3_OP_FPA_NEG()
+func _swig_getZ3_OP_FPA_MUL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_MUL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_MUL int = _swig_getZ3_OP_FPA_MUL()
+func _swig_getZ3_OP_FPA_DIV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_DIV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_DIV int = _swig_getZ3_OP_FPA_DIV()
+func _swig_getZ3_OP_FPA_REM() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_REM_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_REM int = _swig_getZ3_OP_FPA_REM()
+func _swig_getZ3_OP_FPA_ABS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_ABS_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_ABS int = _swig_getZ3_OP_FPA_ABS()
+func _swig_getZ3_OP_FPA_MIN() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_MIN_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_MIN int = _swig_getZ3_OP_FPA_MIN()
+func _swig_getZ3_OP_FPA_MAX() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_MAX_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_MAX int = _swig_getZ3_OP_FPA_MAX()
+func _swig_getZ3_OP_FPA_FMA() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_FMA_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_FMA int = _swig_getZ3_OP_FPA_FMA()
+func _swig_getZ3_OP_FPA_SQRT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_SQRT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_SQRT int = _swig_getZ3_OP_FPA_SQRT()
+func _swig_getZ3_OP_FPA_ROUND_TO_INTEGRAL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_ROUND_TO_INTEGRAL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_ROUND_TO_INTEGRAL int = _swig_getZ3_OP_FPA_ROUND_TO_INTEGRAL()
+func _swig_getZ3_OP_FPA_EQ() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_EQ_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_EQ int = _swig_getZ3_OP_FPA_EQ()
+func _swig_getZ3_OP_FPA_LT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_LT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_LT int = _swig_getZ3_OP_FPA_LT()
+func _swig_getZ3_OP_FPA_GT() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_GT_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_GT int = _swig_getZ3_OP_FPA_GT()
+func _swig_getZ3_OP_FPA_LE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_LE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_LE int = _swig_getZ3_OP_FPA_LE()
+func _swig_getZ3_OP_FPA_GE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_GE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_GE int = _swig_getZ3_OP_FPA_GE()
+func _swig_getZ3_OP_FPA_IS_NAN() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_IS_NAN_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_IS_NAN int = _swig_getZ3_OP_FPA_IS_NAN()
+func _swig_getZ3_OP_FPA_IS_INF() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_IS_INF_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_IS_INF int = _swig_getZ3_OP_FPA_IS_INF()
+func _swig_getZ3_OP_FPA_IS_ZERO() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_IS_ZERO_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_IS_ZERO int = _swig_getZ3_OP_FPA_IS_ZERO()
+func _swig_getZ3_OP_FPA_IS_NORMAL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_IS_NORMAL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_IS_NORMAL int = _swig_getZ3_OP_FPA_IS_NORMAL()
+func _swig_getZ3_OP_FPA_IS_SUBNORMAL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_IS_SUBNORMAL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_IS_SUBNORMAL int = _swig_getZ3_OP_FPA_IS_SUBNORMAL()
+func _swig_getZ3_OP_FPA_IS_NEGATIVE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_IS_NEGATIVE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_IS_NEGATIVE int = _swig_getZ3_OP_FPA_IS_NEGATIVE()
+func _swig_getZ3_OP_FPA_IS_POSITIVE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_IS_POSITIVE_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_IS_POSITIVE int = _swig_getZ3_OP_FPA_IS_POSITIVE()
+func _swig_getZ3_OP_FPA_FP() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_FP_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_FP int = _swig_getZ3_OP_FPA_FP()
+func _swig_getZ3_OP_FPA_TO_FP() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_TO_FP_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_TO_FP int = _swig_getZ3_OP_FPA_TO_FP()
+func _swig_getZ3_OP_FPA_TO_FP_UNSIGNED() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_TO_FP_UNSIGNED_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_TO_FP_UNSIGNED int = _swig_getZ3_OP_FPA_TO_FP_UNSIGNED()
+func _swig_getZ3_OP_FPA_TO_UBV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_TO_UBV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_TO_UBV int = _swig_getZ3_OP_FPA_TO_UBV()
+func _swig_getZ3_OP_FPA_TO_SBV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_TO_SBV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_TO_SBV int = _swig_getZ3_OP_FPA_TO_SBV()
+func _swig_getZ3_OP_FPA_TO_REAL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_TO_REAL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_TO_REAL int = _swig_getZ3_OP_FPA_TO_REAL()
+func _swig_getZ3_OP_FPA_TO_IEEE_BV() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_TO_IEEE_BV_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_TO_IEEE_BV int = _swig_getZ3_OP_FPA_TO_IEEE_BV()
+func _swig_getZ3_OP_FPA_MIN_I() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_MIN_I_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_MIN_I int = _swig_getZ3_OP_FPA_MIN_I()
+func _swig_getZ3_OP_FPA_MAX_I() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_FPA_MAX_I_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_FPA_MAX_I int = _swig_getZ3_OP_FPA_MAX_I()
+func _swig_getZ3_OP_INTERNAL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_INTERNAL_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_INTERNAL int = _swig_getZ3_OP_INTERNAL()
+func _swig_getZ3_OP_UNINTERPRETED() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Z3_OP_UNINTERPRETED_z3go_267e4fc97d92833a())
+	return swig_r
+}
+
+var Z3_OP_UNINTERPRETED int = _swig_getZ3_OP_UNINTERPRETED()
 type SwigcptrAstVector uintptr
 
 func (p SwigcptrAstVector) Swigcptr() uintptr {
@@ -754,7 +2588,7 @@ func (p SwigcptrAstVector) SwigIsAstVector() {
 func NewAstVector__SWIG_0(arg1 Context) (_swig_ret AstVector) {
 	var swig_r AstVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (AstVector)(SwigcptrAstVector(C._wrap_new_AstVector__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (AstVector)(SwigcptrAstVector(C._wrap_new_AstVector__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -762,14 +2596,14 @@ func NewAstVector__SWIG_1(arg1 Context, arg2 Z3_ast_vector) (_swig_ret AstVector
 	var swig_r AstVector
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (AstVector)(SwigcptrAstVector(C._wrap_new_AstVector__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (AstVector)(SwigcptrAstVector(C._wrap_new_AstVector__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewAstVector__SWIG_2(arg1 AstVector) (_swig_ret AstVector) {
 	var swig_r AstVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (AstVector)(SwigcptrAstVector(C._wrap_new_AstVector__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (AstVector)(SwigcptrAstVector(C._wrap_new_AstVector__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -793,13 +2627,13 @@ check_1:
 
 func DeleteAstVector(arg1 AstVector) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_AstVector_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_AstVector_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrAstVector) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_AstVector_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_AstVector_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -807,45 +2641,45 @@ func (arg1 SwigcptrAstVector) Get(arg2 int) (_swig_ret Ast) {
 	var swig_r Ast
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Ast)(SwigcptrAst(C._wrap_AstVector_Get_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Ast)(SwigcptrAst(C._wrap_AstVector_Get_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrAstVector) Push_back(arg2 Ast) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_AstVector_push_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_AstVector_push_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrAstVector) Resize(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_AstVector_resize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_AstVector_resize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrAstVector) Back() (_swig_ret Ast) {
 	var swig_r Ast
 	_swig_i_0 := arg1
-	swig_r = (Ast)(SwigcptrAst(C._wrap_AstVector_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Ast)(SwigcptrAst(C._wrap_AstVector_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrAstVector) Pop_back() {
 	_swig_i_0 := arg1
-	C._wrap_AstVector_pop_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_AstVector_pop_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrAstVector) Empty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_AstVector_empty_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_AstVector_empty_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAstVector) String() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_AstVector_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_AstVector_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -877,7 +2711,7 @@ func (p SwigcptrExprVector) SwigIsExprVector() {
 func NewExprVector__SWIG_0(arg1 Context) (_swig_ret ExprVector) {
 	var swig_r ExprVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_new_ExprVector__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_new_ExprVector__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -885,14 +2719,14 @@ func NewExprVector__SWIG_1(arg1 Context, arg2 Z3_ast_vector) (_swig_ret ExprVect
 	var swig_r ExprVector
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_new_ExprVector__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_new_ExprVector__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewExprVector__SWIG_2(arg1 ExprVector) (_swig_ret ExprVector) {
 	var swig_r ExprVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_new_ExprVector__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_new_ExprVector__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -916,13 +2750,13 @@ check_1:
 
 func DeleteExprVector(arg1 ExprVector) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ExprVector_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ExprVector_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrExprVector) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_ExprVector_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_ExprVector_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -930,45 +2764,45 @@ func (arg1 SwigcptrExprVector) Get(arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ExprVector_Get_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ExprVector_Get_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExprVector) Push_back(arg2 Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ExprVector_push_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ExprVector_push_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrExprVector) Resize(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ExprVector_resize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ExprVector_resize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrExprVector) Back() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ExprVector_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ExprVector_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExprVector) Pop_back() {
 	_swig_i_0 := arg1
-	C._wrap_ExprVector_pop_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_ExprVector_pop_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrExprVector) Empty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_ExprVector_empty_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_ExprVector_empty_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExprVector) String() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_ExprVector_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_ExprVector_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1000,7 +2834,7 @@ func (p SwigcptrSortVector) SwigIsSortVector() {
 func NewSortVector__SWIG_0(arg1 Context) (_swig_ret SortVector) {
 	var swig_r SortVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (SortVector)(SwigcptrSortVector(C._wrap_new_SortVector__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (SortVector)(SwigcptrSortVector(C._wrap_new_SortVector__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1008,14 +2842,14 @@ func NewSortVector__SWIG_1(arg1 Context, arg2 Z3_ast_vector) (_swig_ret SortVect
 	var swig_r SortVector
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (SortVector)(SwigcptrSortVector(C._wrap_new_SortVector__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SortVector)(SwigcptrSortVector(C._wrap_new_SortVector__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewSortVector__SWIG_2(arg1 SortVector) (_swig_ret SortVector) {
 	var swig_r SortVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (SortVector)(SwigcptrSortVector(C._wrap_new_SortVector__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (SortVector)(SwigcptrSortVector(C._wrap_new_SortVector__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1039,13 +2873,13 @@ check_1:
 
 func DeleteSortVector(arg1 SortVector) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_SortVector_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_SortVector_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSortVector) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_SortVector_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_SortVector_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1053,45 +2887,45 @@ func (arg1 SwigcptrSortVector) Get(arg2 int) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Sort)(SwigcptrSort(C._wrap_SortVector_Get_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_SortVector_Get_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSortVector) Push_back(arg2 Sort) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_SortVector_push_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_SortVector_push_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSortVector) Resize(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SortVector_resize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_SortVector_resize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSortVector) Back() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_SortVector_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_SortVector_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSortVector) Pop_back() {
 	_swig_i_0 := arg1
-	C._wrap_SortVector_pop_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_SortVector_pop_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSortVector) Empty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_SortVector_empty_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_SortVector_empty_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSortVector) String() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_SortVector_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_SortVector_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1123,7 +2957,7 @@ func (p SwigcptrFuncDeclVector) SwigIsFuncDeclVector() {
 func NewFuncDeclVector__SWIG_0(arg1 Context) (_swig_ret FuncDeclVector) {
 	var swig_r FuncDeclVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (FuncDeclVector)(SwigcptrFuncDeclVector(C._wrap_new_FuncDeclVector__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (FuncDeclVector)(SwigcptrFuncDeclVector(C._wrap_new_FuncDeclVector__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1131,14 +2965,14 @@ func NewFuncDeclVector__SWIG_1(arg1 Context, arg2 Z3_ast_vector) (_swig_ret Func
 	var swig_r FuncDeclVector
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (FuncDeclVector)(SwigcptrFuncDeclVector(C._wrap_new_FuncDeclVector__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (FuncDeclVector)(SwigcptrFuncDeclVector(C._wrap_new_FuncDeclVector__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewFuncDeclVector__SWIG_2(arg1 FuncDeclVector) (_swig_ret FuncDeclVector) {
 	var swig_r FuncDeclVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (FuncDeclVector)(SwigcptrFuncDeclVector(C._wrap_new_FuncDeclVector__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (FuncDeclVector)(SwigcptrFuncDeclVector(C._wrap_new_FuncDeclVector__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1162,13 +2996,13 @@ check_1:
 
 func DeleteFuncDeclVector(arg1 FuncDeclVector) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_FuncDeclVector_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_FuncDeclVector_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrFuncDeclVector) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_FuncDeclVector_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_FuncDeclVector_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1176,45 +3010,45 @@ func (arg1 SwigcptrFuncDeclVector) Get(arg2 int) (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_FuncDeclVector_Get_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_FuncDeclVector_Get_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFuncDeclVector) Push_back(arg2 Func_decl) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_FuncDeclVector_push_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_FuncDeclVector_push_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrFuncDeclVector) Resize(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_FuncDeclVector_resize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_FuncDeclVector_resize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrFuncDeclVector) Back() (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_FuncDeclVector_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_FuncDeclVector_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFuncDeclVector) Pop_back() {
 	_swig_i_0 := arg1
-	C._wrap_FuncDeclVector_pop_back_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_FuncDeclVector_pop_back_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrFuncDeclVector) Empty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_FuncDeclVector_empty_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_FuncDeclVector_empty_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrFuncDeclVector) String() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_FuncDeclVector_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_FuncDeclVector_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1237,7 +3071,7 @@ type FuncDeclVector interface {
 func Set_param__SWIG_0(arg1 string, arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_set_param__SWIG_0_z3go_73045fd9a8f87ec7(*(*C.swig_type_5)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_6)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_set_param__SWIG_0_z3go_267e4fc97d92833a(*(*C.swig_type_5)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_6)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1249,7 +3083,7 @@ func Set_param__SWIG_0(arg1 string, arg2 string) {
 func Set_param__SWIG_1(arg1 string, arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_set_param__SWIG_1_z3go_73045fd9a8f87ec7(*(*C.swig_type_7)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
+	C._wrap_set_param__SWIG_1_z3go_267e4fc97d92833a(*(*C.swig_type_7)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1258,7 +3092,7 @@ func Set_param__SWIG_1(arg1 string, arg2 bool) {
 func Set_param__SWIG_2(arg1 string, arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_set_param__SWIG_2_z3go_73045fd9a8f87ec7(*(*C.swig_type_8)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
+	C._wrap_set_param__SWIG_2_z3go_267e4fc97d92833a(*(*C.swig_type_8)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1290,7 +3124,7 @@ check_2:
 }
 
 func Reset_params() {
-	C._wrap_reset_params_z3go_73045fd9a8f87ec7()
+	C._wrap_reset_params_z3go_267e4fc97d92833a()
 }
 
 type SwigcptrException uintptr
@@ -1305,7 +3139,7 @@ func (p SwigcptrException) SwigIsException() {
 func NewException(arg1 string) (_swig_ret Exception) {
 	var swig_r Exception
 	_swig_i_0 := arg1
-	swig_r = (Exception)(SwigcptrException(C._wrap_new_exception_z3go_73045fd9a8f87ec7(*(*C.swig_type_9)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (Exception)(SwigcptrException(C._wrap_new_exception_z3go_267e4fc97d92833a(*(*C.swig_type_9)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1315,7 +3149,7 @@ func NewException(arg1 string) (_swig_ret Exception) {
 func (arg1 SwigcptrException) Msg() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_exception_msg_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_exception_msg_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1324,7 +3158,7 @@ func (arg1 SwigcptrException) Msg() (_swig_ret string) {
 
 func DeleteException(arg1 Exception) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_exception_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_exception_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 type Exception interface {
@@ -1344,20 +3178,20 @@ func (p SwigcptrConfig) SwigIsConfig() {
 
 func NewConfig() (_swig_ret Config) {
 	var swig_r Config
-	swig_r = (Config)(SwigcptrConfig(C._wrap_new_config_z3go_73045fd9a8f87ec7()))
+	swig_r = (Config)(SwigcptrConfig(C._wrap_new_config_z3go_267e4fc97d92833a()))
 	return swig_r
 }
 
 func DeleteConfig(arg1 Config) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_config_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_config_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrConfig) Set__SWIG_0(arg2 string, arg3 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_config_set__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_11)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_12)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_config_set__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_11)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_12)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1370,7 +3204,7 @@ func (arg1 SwigcptrConfig) Set__SWIG_1(arg2 string, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_config_set__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_13)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
+	C._wrap_config_set__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_13)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1380,7 +3214,7 @@ func (arg1 SwigcptrConfig) Set__SWIG_2(arg2 string, arg3 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_config_set__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
+	C._wrap_config_set__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1420,21 +3254,21 @@ type Config interface {
 type Z3Check_result int
 func _swig_getunsat() (_swig_ret Z3Check_result) {
 	var swig_r Z3Check_result
-	swig_r = (Z3Check_result)(C._wrap_unsat_z3go_73045fd9a8f87ec7())
+	swig_r = (Z3Check_result)(C._wrap_unsat_z3go_267e4fc97d92833a())
 	return swig_r
 }
 
 var Unsat Z3Check_result = _swig_getunsat()
 func _swig_getsat() (_swig_ret Z3Check_result) {
 	var swig_r Z3Check_result
-	swig_r = (Z3Check_result)(C._wrap_sat_z3go_73045fd9a8f87ec7())
+	swig_r = (Z3Check_result)(C._wrap_sat_z3go_267e4fc97d92833a())
 	return swig_r
 }
 
 var Sat Z3Check_result = _swig_getsat()
 func _swig_getunknown() (_swig_ret Z3Check_result) {
 	var swig_r Z3Check_result
-	swig_r = (Z3Check_result)(C._wrap_unknown_z3go_73045fd9a8f87ec7())
+	swig_r = (Z3Check_result)(C._wrap_unknown_z3go_267e4fc97d92833a())
 	return swig_r
 }
 
@@ -1442,7 +3276,7 @@ var Unknown Z3Check_result = _swig_getunknown()
 func To_check_result(arg1 Z3_lbool) (_swig_ret Z3Check_result) {
 	var swig_r Z3Check_result
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Z3Check_result)(C._wrap_to_check_result_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (Z3Check_result)(C._wrap_to_check_result_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1457,14 +3291,14 @@ func (p SwigcptrContext) SwigIsContext() {
 
 func NewContext__SWIG_0() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_new_context__SWIG_0_z3go_73045fd9a8f87ec7()))
+	swig_r = (Context)(SwigcptrContext(C._wrap_new_context__SWIG_0_z3go_267e4fc97d92833a()))
 	return swig_r
 }
 
 func NewContext__SWIG_1(arg1 Config) (_swig_ret Context) {
 	var swig_r Context
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Context)(SwigcptrContext(C._wrap_new_context__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_new_context__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1472,7 +3306,7 @@ func NewContext__SWIG_2(arg1 Config, arg2 Z3_context_interpolation) (_swig_ret C
 	var swig_r Context
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Context)(SwigcptrContext(C._wrap_new_context__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_new_context__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1492,19 +3326,19 @@ func NewContext(a ...interface{}) Context {
 
 func DeleteContext(arg1 Context) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_context_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_context_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrContext) Check_error() {
 	_swig_i_0 := arg1
-	C._wrap_context_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_context_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrContext) Set__SWIG_0(arg2 string, arg3 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_context_set__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_16)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_context_set__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_16)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1517,7 +3351,7 @@ func (arg1 SwigcptrContext) Set__SWIG_1(arg2 string, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_context_set__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_17)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
+	C._wrap_context_set__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_17)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1527,7 +3361,7 @@ func (arg1 SwigcptrContext) Set__SWIG_2(arg2 string, arg3 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_context_set__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_18)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
+	C._wrap_context_set__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_18)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1560,14 +3394,14 @@ check_2:
 
 func (arg1 SwigcptrContext) Interrupt() {
 	_swig_i_0 := arg1
-	C._wrap_context_interrupt_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_context_interrupt_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrContext) Str_symbol(arg2 string) (_swig_ret Symbol) {
 	var swig_r Symbol
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_context_str_symbol_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_19)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_context_str_symbol_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_19)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1578,28 +3412,28 @@ func (arg1 SwigcptrContext) Int_symbol(arg2 int) (_swig_ret Symbol) {
 	var swig_r Symbol
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_context_int_symbol_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_context_int_symbol_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrContext) Bool_sort() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_bool_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_bool_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrContext) Int_sort() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_int_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_int_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrContext) Real_sort() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_real_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_real_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1607,14 +3441,14 @@ func (arg1 SwigcptrContext) Bv_sort(arg2 uint) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_bv_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_bv_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrContext) String_sort() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_string_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_string_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1622,7 +3456,7 @@ func (arg1 SwigcptrContext) Seq_sort(arg2 Sort) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_seq_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_seq_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1630,7 +3464,7 @@ func (arg1 SwigcptrContext) Re_sort(arg2 Sort) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_re_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_re_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1639,7 +3473,7 @@ func (arg1 SwigcptrContext) Array_sort(arg2 Sort, arg3 Sort) (_swig_ret Sort) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_array_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_array_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -1651,7 +3485,7 @@ func (arg1 SwigcptrContext) Enumeration_sort(arg2 string, arg3 uint, arg4 *strin
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_enumeration_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_20)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.swig_voidp(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_enumeration_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_20)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.swig_voidp(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1662,7 +3496,7 @@ func (arg1 SwigcptrContext) Uninterpreted_sort__SWIG_0(arg2 string) (_swig_ret S
 	var swig_r Sort
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_uninterpreted_sort__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_21)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_uninterpreted_sort__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_21)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1673,7 +3507,7 @@ func (arg1 SwigcptrContext) Uninterpreted_sort__SWIG_1(arg2 Symbol) (_swig_ret S
 	var swig_r Sort
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_context_uninterpreted_sort__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_context_uninterpreted_sort__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1699,7 +3533,7 @@ func (arg1 SwigcptrContext) Function__SWIG_0(arg2 Symbol, arg3 uint, arg4 Sort, 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -1710,7 +3544,7 @@ func (arg1 SwigcptrContext) Function__SWIG_1(arg2 string, arg3 uint, arg4 Sort, 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_22)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_22)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1723,7 +3557,7 @@ func (arg1 SwigcptrContext) Function__SWIG_2(arg2 Symbol, arg3 SortVector, arg4 
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -1733,7 +3567,7 @@ func (arg1 SwigcptrContext) Function__SWIG_3(arg2 string, arg3 SortVector, arg4 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_23)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_23)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1746,7 +3580,7 @@ func (arg1 SwigcptrContext) Function__SWIG_4(arg2 string, arg3 Sort, arg4 Sort) 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_24)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_24)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1760,7 +3594,7 @@ func (arg1 SwigcptrContext) Function__SWIG_5(arg2 string, arg3 Sort, arg4 Sort, 
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_5_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_25)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_5_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_25)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1775,7 +3609,7 @@ func (arg1 SwigcptrContext) Function__SWIG_6(arg2 string, arg3 Sort, arg4 Sort, 
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_6_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_26)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_6_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_26)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1791,7 +3625,7 @@ func (arg1 SwigcptrContext) Function__SWIG_7(arg2 string, arg3 Sort, arg4 Sort, 
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_7_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_7_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1808,7 +3642,7 @@ func (arg1 SwigcptrContext) Function__SWIG_8(arg2 string, arg3 Sort, arg4 Sort, 
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7.Swigcptr()
 	_swig_i_7 := arg8.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_8_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_28)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6), C.uintptr_t(_swig_i_7))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_context_function__SWIG_8_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_28)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6), C.uintptr_t(_swig_i_7))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1874,7 +3708,7 @@ func (arg1 SwigcptrContext) Constant__SWIG_0(arg2 Symbol, arg3 Sort) (_swig_ret 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_constant__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_constant__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -1883,7 +3717,7 @@ func (arg1 SwigcptrContext) Constant__SWIG_1(arg2 string, arg3 Sort) (_swig_ret 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_constant__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_constant__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1909,7 +3743,7 @@ func (arg1 SwigcptrContext) Bool_const(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bool_const_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_30)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bool_const_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_30)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1920,7 +3754,7 @@ func (arg1 SwigcptrContext) Int_const(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_const_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_const_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1931,7 +3765,7 @@ func (arg1 SwigcptrContext) Real_const(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_const_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_32)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_const_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_32)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1943,7 +3777,7 @@ func (arg1 SwigcptrContext) Bv_const(arg2 string, arg3 uint) (_swig_ret Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_const_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_33)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_const_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_33)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1954,7 +3788,7 @@ func (arg1 SwigcptrContext) Bool_val(arg2 bool) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bool_val_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bool_val_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
 	return swig_r
 }
 
@@ -1962,7 +3796,7 @@ func (arg1 SwigcptrContext) Int_val__SWIG_0(arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -1970,7 +3804,7 @@ func (arg1 SwigcptrContext) Int_val__SWIG_1(arg2 uint) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -1978,7 +3812,7 @@ func (arg1 SwigcptrContext) Int_val__SWIG_2(arg2 X__int64) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1986,7 +3820,7 @@ func (arg1 SwigcptrContext) Int_val__SWIG_3(arg2 X__uint64) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1994,7 +3828,7 @@ func (arg1 SwigcptrContext) Int_val__SWIG_4(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_int_val__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2042,7 +3876,7 @@ func (arg1 SwigcptrContext) Real_val__SWIG_0(arg2 int, arg3 int) (_swig_ret Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -2050,7 +3884,7 @@ func (arg1 SwigcptrContext) Real_val__SWIG_1(arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -2058,7 +3892,7 @@ func (arg1 SwigcptrContext) Real_val__SWIG_2(arg2 uint) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -2066,7 +3900,7 @@ func (arg1 SwigcptrContext) Real_val__SWIG_3(arg2 X__int64) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -2074,7 +3908,7 @@ func (arg1 SwigcptrContext) Real_val__SWIG_4(arg2 X__uint64) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -2082,7 +3916,7 @@ func (arg1 SwigcptrContext) Real_val__SWIG_5(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_5_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_35)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_real_val__SWIG_5_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_35)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2133,7 +3967,7 @@ func (arg1 SwigcptrContext) Bv_val__SWIG_0(arg2 int, arg3 uint) (_swig_ret Expr)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -2142,7 +3976,7 @@ func (arg1 SwigcptrContext) Bv_val__SWIG_1(arg2 uint, arg3 uint) (_swig_ret Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -2151,7 +3985,7 @@ func (arg1 SwigcptrContext) Bv_val__SWIG_2(arg2 X__int64, arg3 uint) (_swig_ret 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -2160,7 +3994,7 @@ func (arg1 SwigcptrContext) Bv_val__SWIG_3(arg2 X__uint64, arg3 uint) (_swig_ret
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -2169,7 +4003,7 @@ func (arg1 SwigcptrContext) Bv_val__SWIG_4(arg2 string, arg3 uint) (_swig_ret Ex
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_36)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_bv_val__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_36)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2216,7 +4050,7 @@ func (arg1 SwigcptrContext) String_val__SWIG_0(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_string_val__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_string_val__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2227,7 +4061,7 @@ func (arg1 SwigcptrContext) String_val__SWIG_1(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_string_val__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_38)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_string_val__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_38)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2250,7 +4084,7 @@ func (arg1 SwigcptrContext) Num_val(arg2 int, arg3 Sort) (_swig_ret Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_num_val_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_num_val_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -2258,7 +4092,7 @@ func (arg1 SwigcptrContext) Parse_string__SWIG_0(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_string__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_39)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_string__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_39)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2269,7 +4103,7 @@ func (arg1 SwigcptrContext) Parse_file__SWIG_0(arg2 string) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_file__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_40)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_file__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_40)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2282,7 +4116,7 @@ func (arg1 SwigcptrContext) Parse_string__SWIG_1(arg2 string, arg3 SortVector, a
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_string__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_41)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_string__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_41)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2306,7 +4140,7 @@ func (arg1 SwigcptrContext) Parse_file__SWIG_1(arg2 string, arg3 SortVector, arg
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_file__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_42)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_context_parse_file__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_42)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2331,7 +4165,7 @@ func (arg1 SwigcptrContext) Compute_interpolant(arg2 Expr, arg3 Params, arg4 Exp
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Z3Check_result)(C._wrap_context_compute_interpolant_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4)))
+	swig_r = (Z3Check_result)(C._wrap_context_compute_interpolant_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4)))
 	return swig_r
 }
 
@@ -2341,7 +4175,7 @@ func (arg1 SwigcptrContext) Get_interpolant(arg2 Expr, arg3 Expr, arg4 Params) (
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_context_get_interpolant_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_context_get_interpolant_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -2393,14 +4227,14 @@ func (p SwigcptrObject) SwigIsObject() {
 func NewObject__SWIG_0(arg1 Context) (_swig_ret Object) {
 	var swig_r Object
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Object)(SwigcptrObject(C._wrap_new_object__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Object)(SwigcptrObject(C._wrap_new_object__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewObject__SWIG_1(arg1 Object) (_swig_ret Object) {
 	var swig_r Object
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Object)(SwigcptrObject(C._wrap_new_object__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Object)(SwigcptrObject(C._wrap_new_object__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2422,18 +4256,18 @@ check_1:
 func (arg1 SwigcptrObject) Ctx() (_swig_ret Context) {
 	var swig_r Context
 	_swig_i_0 := arg1
-	swig_r = (Context)(SwigcptrContext(C._wrap_object_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_object_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrObject) Check_error() {
 	_swig_i_0 := arg1
-	C._wrap_object_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_object_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func DeleteObject(arg1 Object) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_object_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_object_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 type Object interface {
@@ -2446,7 +4280,7 @@ type Object interface {
 func Check_context(arg1 Object, arg2 Object) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_check_context_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_check_context_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 type SwigcptrSymbol uintptr
@@ -2462,14 +4296,14 @@ func NewSymbol__SWIG_0(arg1 Context, arg2 Z3_symbol) (_swig_ret Symbol) {
 	var swig_r Symbol
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_new_symbol__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_new_symbol__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewSymbol__SWIG_1(arg1 Symbol) (_swig_ret Symbol) {
 	var swig_r Symbol
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_new_symbol__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_new_symbol__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2487,14 +4321,14 @@ func NewSymbol(a ...interface{}) Symbol {
 func (arg1 SwigcptrSymbol) Kind() (_swig_ret Z3_symbol_kind) {
 	var swig_r Z3_symbol_kind
 	_swig_i_0 := arg1
-	swig_r = (Z3_symbol_kind)(SwigcptrZ3_symbol_kind(C._wrap_symbol_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Z3_symbol_kind)(SwigcptrZ3_symbol_kind(C._wrap_symbol_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSymbol) Str() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_symbol_str_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_symbol_str_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -2504,23 +4338,23 @@ func (arg1 SwigcptrSymbol) Str() (_swig_ret string) {
 func (arg1 SwigcptrSymbol) To_int() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_symbol_to_int_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_symbol_to_int_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteSymbol(arg1 Symbol) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_symbol_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_symbol_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSymbol) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_symbol_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_symbol_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSymbol) Check_error() {
-	C._wrap_symbol_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_symbol_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrSymbol) SwigIsObject() {
@@ -2555,14 +4389,14 @@ func NewParam_descrs__SWIG_0(arg1 Context, arg2 Z3_param_descrs) (_swig_ret Para
 	var swig_r Param_descrs
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_new_param_descrs__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_new_param_descrs__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewParam_descrs__SWIG_1(arg1 Param_descrs) (_swig_ret Param_descrs) {
 	var swig_r Param_descrs
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_new_param_descrs__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_new_param_descrs__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2579,20 +4413,20 @@ func NewParam_descrs(a ...interface{}) Param_descrs {
 
 func DeleteParam_descrs(arg1 Param_descrs) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_param_descrs_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_param_descrs_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func Param_descrsSimplify_param_descrs(arg1 Context) (_swig_ret Param_descrs) {
 	var swig_r Param_descrs
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_param_descrs_simplify_param_descrs_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_param_descrs_simplify_param_descrs_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrParam_descrs) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_param_descrs_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_param_descrs_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -2600,7 +4434,7 @@ func (arg1 SwigcptrParam_descrs) Name(arg2 uint) (_swig_ret Symbol) {
 	var swig_r Symbol
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_param_descrs_name_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_param_descrs_name_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -2608,7 +4442,7 @@ func (arg1 SwigcptrParam_descrs) Kind(arg2 Symbol) (_swig_ret Z3_param_kind) {
 	var swig_r Z3_param_kind
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Z3_param_kind)(SwigcptrZ3_param_kind(C._wrap_param_descrs_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Z3_param_kind)(SwigcptrZ3_param_kind(C._wrap_param_descrs_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -2616,7 +4450,7 @@ func (arg1 SwigcptrParam_descrs) Documentation(arg2 Symbol) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r_p := C._wrap_param_descrs_documentation_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	swig_r_p := C._wrap_param_descrs_documentation_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -2626,7 +4460,7 @@ func (arg1 SwigcptrParam_descrs) Documentation(arg2 Symbol) (_swig_ret string) {
 func (arg1 SwigcptrParam_descrs) To_string() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_param_descrs_to_string_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_param_descrs_to_string_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -2635,12 +4469,12 @@ func (arg1 SwigcptrParam_descrs) To_string() (_swig_ret string) {
 
 func (_swig_base SwigcptrParam_descrs) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_param_descrs_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_param_descrs_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrParam_descrs) Check_error() {
-	C._wrap_param_descrs_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_param_descrs_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrParam_descrs) SwigIsObject() {
@@ -2676,14 +4510,14 @@ func (p SwigcptrParams) SwigIsParams() {
 func NewParams__SWIG_0(arg1 Context) (_swig_ret Params) {
 	var swig_r Params
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Params)(SwigcptrParams(C._wrap_new_params__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Params)(SwigcptrParams(C._wrap_new_params__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewParams__SWIG_1(arg1 Params) (_swig_ret Params) {
 	var swig_r Params
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Params)(SwigcptrParams(C._wrap_new_params__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Params)(SwigcptrParams(C._wrap_new_params__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2704,14 +4538,14 @@ check_1:
 
 func DeleteParams(arg1 Params) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_params_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_params_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrParams) Set__SWIG_0(arg2 string, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_params_set__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_46)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
+	C._wrap_params_set__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_46)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2721,7 +4555,7 @@ func (arg1 SwigcptrParams) Set__SWIG_1(arg2 string, arg3 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_params_set__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_47)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
+	C._wrap_params_set__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_47)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2731,7 +4565,7 @@ func (arg1 SwigcptrParams) Set__SWIG_2(arg2 string, arg3 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_params_set__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_48)(unsafe.Pointer(&_swig_i_1)), C.double(_swig_i_2))
+	C._wrap_params_set__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_48)(unsafe.Pointer(&_swig_i_1)), C.double(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2741,7 +4575,7 @@ func (arg1 SwigcptrParams) Set__SWIG_3(arg2 string, arg3 Symbol) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_params_set__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_49)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_params_set__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_49)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2782,12 +4616,12 @@ check_3:
 
 func (_swig_base SwigcptrParams) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_params_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_params_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrParams) Check_error() {
-	C._wrap_params_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_params_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrParams) SwigIsObject() {
@@ -2819,7 +4653,7 @@ func (p SwigcptrAst) SwigIsAst() {
 func NewAst__SWIG_0(arg1 Context) (_swig_ret Ast) {
 	var swig_r Ast
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Ast)(SwigcptrAst(C._wrap_new_ast__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Ast)(SwigcptrAst(C._wrap_new_ast__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2827,14 +4661,14 @@ func NewAst__SWIG_1(arg1 Context, arg2 Z3_ast) (_swig_ret Ast) {
 	var swig_r Ast
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Ast)(SwigcptrAst(C._wrap_new_ast__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Ast)(SwigcptrAst(C._wrap_new_ast__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewAst__SWIG_2(arg1 Ast) (_swig_ret Ast) {
 	var swig_r Ast
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Ast)(SwigcptrAst(C._wrap_new_ast__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Ast)(SwigcptrAst(C._wrap_new_ast__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2858,27 +4692,27 @@ check_1:
 
 func DeleteAst(arg1 Ast) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ast_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ast_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrAst) Kind() (_swig_ret Z3_ast_kind) {
 	var swig_r Z3_ast_kind
 	_swig_i_0 := arg1
-	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_ast_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_ast_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrAst) Hash() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_ast_hash_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_ast_hash_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAst) String() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_ast_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_ast_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -2887,12 +4721,12 @@ func (arg1 SwigcptrAst) String() (_swig_ret string) {
 
 func (_swig_base SwigcptrAst) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_ast_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_ast_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrAst) Check_error() {
-	C._wrap_ast_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_ast_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrAst) SwigIsObject() {
@@ -2918,7 +4752,7 @@ func Eq(arg1 Ast, arg2 Ast) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_eq_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_eq_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -2934,7 +4768,7 @@ func (p SwigcptrSort) SwigIsSort() {
 func NewSort__SWIG_0(arg1 Context) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_new_sort__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_new_sort__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2942,14 +4776,14 @@ func NewSort__SWIG_1(arg1 Context, arg2 Z3_sort) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_new_sort__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_new_sort__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewSort__SWIG_2(arg1 Sort) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_new_sort__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_new_sort__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2974,135 +4808,135 @@ check_1:
 func (arg1 SwigcptrSort) Sort_kind() (_swig_ret Z3_sort_kind) {
 	var swig_r Z3_sort_kind
 	_swig_i_0 := arg1
-	swig_r = (Z3_sort_kind)(SwigcptrZ3_sort_kind(C._wrap_sort_sort_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Z3_sort_kind)(SwigcptrZ3_sort_kind(C._wrap_sort_sort_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Name() (_swig_ret Symbol) {
 	var swig_r Symbol
 	_swig_i_0 := arg1
-	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_sort_name_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_sort_name_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_bool() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_bool_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_bool_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_int() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_int_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_int_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_real() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_real_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_real_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_arith() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_arith_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_arith_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_bv() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_bv_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_bv_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_array() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_array_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_array_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_datatype() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_datatype_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_datatype_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_relation() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_relation_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_relation_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_seq() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_seq_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_seq_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_re() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_re_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_re_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Is_finite_domain() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_sort_is_finite_domain_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_sort_is_finite_domain_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Bv_size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_sort_bv_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sort_bv_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Array_domain() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_sort_array_domain_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_sort_array_domain_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSort) Array_range() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_sort_array_range_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_sort_array_range_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteSort(arg1 Sort) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSort) Kind() (_swig_ret Z3_ast_kind) {
 	var swig_r Z3_ast_kind
-	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_sort_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_sort_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSort) Hash() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_sort_hash_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_sort_hash_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSort) String() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_sort_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_sort_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3111,12 +4945,12 @@ func (_swig_base SwigcptrSort) String() (_swig_ret string) {
 
 func (_swig_base SwigcptrSort) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_sort_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_sort_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSort) Check_error() {
-	C._wrap_sort_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_sort_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrSort) SwigIsAst() {
@@ -3175,7 +5009,7 @@ func (p SwigcptrFunc_decl) SwigIsFunc_decl() {
 func NewFunc_decl__SWIG_0(arg1 Context) (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_new_func_decl__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_new_func_decl__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3183,14 +5017,14 @@ func NewFunc_decl__SWIG_1(arg1 Context, arg2 Z3_func_decl) (_swig_ret Func_decl)
 	var swig_r Func_decl
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_new_func_decl__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_new_func_decl__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewFunc_decl__SWIG_2(arg1 Func_decl) (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_new_func_decl__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_new_func_decl__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3215,7 +5049,7 @@ check_1:
 func (arg1 SwigcptrFunc_decl) Arity() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_func_decl_arity_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_func_decl_arity_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3223,42 +5057,42 @@ func (arg1 SwigcptrFunc_decl) Domain(arg2 uint) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Sort)(SwigcptrSort(C._wrap_func_decl_domain_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_func_decl_domain_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFunc_decl) Xrange() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_func_decl_Xrange_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_func_decl_Xrange_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFunc_decl) Name() (_swig_ret Symbol) {
 	var swig_r Symbol
 	_swig_i_0 := arg1
-	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_func_decl_name_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Symbol)(SwigcptrSymbol(C._wrap_func_decl_name_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFunc_decl) Decl_kind() (_swig_ret Z3_decl_kind) {
 	var swig_r Z3_decl_kind
 	_swig_i_0 := arg1
-	swig_r = (Z3_decl_kind)(SwigcptrZ3_decl_kind(C._wrap_func_decl_decl_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Z3_decl_kind)(C._wrap_func_decl_decl_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrFunc_decl) Is_const() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_func_decl_is_const_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_func_decl_is_const_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_0() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3267,7 +5101,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_1(arg2 uint, arg3 Expr) (_swig_ret 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -3275,7 +5109,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_2(arg2 ExprVector) (_swig_ret Expr)
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3283,7 +5117,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_3(arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3291,7 +5125,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_4(arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -3300,7 +5134,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_5(arg2 Expr, arg3 Expr) (_swig_ret 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_5_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_5_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -3309,7 +5143,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_6(arg2 Expr, arg3 int) (_swig_ret E
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_6_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_6_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -3318,7 +5152,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_7(arg2 int, arg3 Expr) (_swig_ret E
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_7_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_7_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -3328,7 +5162,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_8(arg2 Expr, arg3 Expr, arg4 Expr) 
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_8_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_8_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -3339,7 +5173,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_9(arg2 Expr, arg3 Expr, arg4 Expr, 
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_9_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_9_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -3351,7 +5185,7 @@ func (arg1 SwigcptrFunc_decl) ApplyFct__SWIG_10(arg2 Expr, arg3 Expr, arg4 Expr,
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_10_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_decl_ApplyFct__SWIG_10_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
 	return swig_r
 }
 
@@ -3421,24 +5255,24 @@ check_7:
 
 func DeleteFunc_decl(arg1 Func_decl) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_func_decl_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_func_decl_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrFunc_decl) Kind() (_swig_ret Z3_ast_kind) {
 	var swig_r Z3_ast_kind
-	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_func_decl_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_func_decl_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrFunc_decl) Hash() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_func_decl_hash_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_func_decl_hash_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrFunc_decl) String() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_func_decl_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_func_decl_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3447,12 +5281,12 @@ func (_swig_base SwigcptrFunc_decl) String() (_swig_ret string) {
 
 func (_swig_base SwigcptrFunc_decl) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_func_decl_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_func_decl_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrFunc_decl) Check_error() {
-	C._wrap_func_decl_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_func_decl_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrFunc_decl) SwigIsAst() {
@@ -3502,7 +5336,7 @@ func (p SwigcptrExpr) SwigIsExpr() {
 func NewExpr__SWIG_0(arg1 Context) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_new_expr__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_new_expr__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3510,14 +5344,14 @@ func NewExpr__SWIG_1(arg1 Context, arg2 Z3_ast) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_new_expr__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_new_expr__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewExpr__SWIG_2(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_new_expr__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_new_expr__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3542,91 +5376,91 @@ check_1:
 func (arg1 SwigcptrExpr) Get_sort() (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1
-	swig_r = (Sort)(SwigcptrSort(C._wrap_expr_get_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_expr_get_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_bool() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_bool_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_bool_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_int() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_int_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_int_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_real() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_real_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_real_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_arith() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_arith_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_arith_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_bv() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_bv_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_bv_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_array() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_array_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_array_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_datatype() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_datatype_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_datatype_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_relation() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_relation_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_relation_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_seq() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_seq_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_seq_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_re() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_re_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_re_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_finite_domain() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_finite_domain_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_finite_domain_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_numeral__SWIG_0() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_numeral__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_numeral__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3634,7 +5468,7 @@ func (arg1 SwigcptrExpr) Is_numeral_i64(arg2 X__int64) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_expr_is_numeral_i64_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_expr_is_numeral_i64_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -3642,7 +5476,7 @@ func (arg1 SwigcptrExpr) Is_numeral_u64(arg2 X__uint64) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_expr_is_numeral_u64_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_expr_is_numeral_u64_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -3650,7 +5484,7 @@ func (arg1 SwigcptrExpr) Is_numeral_i(arg2 *int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_expr_is_numeral_i_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_expr_is_numeral_i_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
 }
 
@@ -3658,7 +5492,7 @@ func (arg1 SwigcptrExpr) Is_numeral_u(arg2 *uint) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_expr_is_numeral_u_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_expr_is_numeral_u_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
 }
 
@@ -3666,7 +5500,7 @@ func (arg1 SwigcptrExpr) Is_numeral__SWIG_1(arg2 *string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_expr_is_numeral__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
+	swig_r = (bool)(C._wrap_expr_is_numeral__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
 }
 
@@ -3675,7 +5509,7 @@ func (arg1 SwigcptrExpr) Is_numeral__SWIG_2(arg2 *string, arg3 uint) (_swig_ret 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_expr_is_numeral__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_expr_is_numeral__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	return swig_r
 }
 
@@ -3696,42 +5530,42 @@ func (p SwigcptrExpr) Is_numeral(a ...interface{}) bool {
 func (arg1 SwigcptrExpr) Is_app() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_app_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_app_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_const() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_const_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_const_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_quantifier() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_quantifier_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_quantifier_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_var() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_var_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_var_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_algebraic() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_algebraic_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_algebraic_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Is_well_sorted() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_expr_is_well_sorted_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_expr_is_well_sorted_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3739,7 +5573,7 @@ func (arg1 SwigcptrExpr) Get_decimal_string(arg2 int) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r_p := C._wrap_expr_get_decimal_string_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	swig_r_p := C._wrap_expr_get_decimal_string_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3749,42 +5583,42 @@ func (arg1 SwigcptrExpr) Get_decimal_string(arg2 int) (_swig_ret string) {
 func (arg1 SwigcptrExpr) Get_numeral_int() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_expr_get_numeral_int_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_expr_get_numeral_int_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Get_numeral_uint() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_expr_get_numeral_uint_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_expr_get_numeral_uint_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Get_numeral_int64() (_swig_ret X__int64) {
 	var swig_r X__int64
 	_swig_i_0 := arg1
-	swig_r = (X__int64)(SwigcptrX__int64(C._wrap_expr_get_numeral_int64_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (X__int64)(SwigcptrX__int64(C._wrap_expr_get_numeral_int64_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Get_numeral_uint64() (_swig_ret X__uint64) {
 	var swig_r X__uint64
 	_swig_i_0 := arg1
-	swig_r = (X__uint64)(SwigcptrX__uint64(C._wrap_expr_get_numeral_uint64_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (X__uint64)(SwigcptrX__uint64(C._wrap_expr_get_numeral_uint64_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Decl() (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_expr_decl_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_expr_decl_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Num_args() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_expr_num_args_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_expr_num_args_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3792,21 +5626,21 @@ func (arg1 SwigcptrExpr) Arg(arg2 uint) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_arg_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_arg_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Body() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_body_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_body_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
-func Not__SWIG_0(arg1 Expr) (_swig_ret Expr) {
+func Not(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Not__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Not_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3814,7 +5648,7 @@ func And__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_And__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_And__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3822,7 +5656,7 @@ func And__SWIG_1(arg1 Expr, arg2 bool) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_And__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_And__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
 	return swig_r
 }
 
@@ -3830,15 +5664,43 @@ func And__SWIG_2(arg1 bool, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_And__SWIG_2_z3go_73045fd9a8f87ec7(C._Bool(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_And__SWIG_2_z3go_267e4fc97d92833a(C._Bool(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func And(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return And__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(bool); !ok {
+			goto check_2
+		}
+		return And__SWIG_1(a[0].(Expr), a[1].(bool))
+	}
+check_2:
+	if argc == 2 {
+		return And__SWIG_2(a[0].(bool), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func Or__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Or__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Or__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3846,7 +5708,7 @@ func Or__SWIG_1(arg1 Expr, arg2 bool) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Or__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Or__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
 	return swig_r
 }
 
@@ -3854,15 +5716,43 @@ func Or__SWIG_2(arg1 bool, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Or__SWIG_2_z3go_73045fd9a8f87ec7(C._Bool(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Or__SWIG_2_z3go_267e4fc97d92833a(C._Bool(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func Or(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return Or__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(bool); !ok {
+			goto check_2
+		}
+		return Or__SWIG_1(a[0].(Expr), a[1].(bool))
+	}
+check_2:
+	if argc == 2 {
+		return Or__SWIG_2(a[0].(bool), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func Equals__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Equals__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Equals__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3870,23 +5760,30 @@ func Equals__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Equals__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Equals__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
-func Equals__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
-	var swig_r Expr
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Equals__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
+func Equals(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return Equals__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		return Equals__SWIG_1(a[0].(Expr), a[1].(int))
+	}
+	panic("No match for overloaded function call")
 }
 
 func NotEquals__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_NotEquals__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_NotEquals__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3894,7 +5791,7 @@ func NotEquals__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_NotEquals__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_NotEquals__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -3902,7 +5799,7 @@ func NotEquals__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_NotEquals__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_NotEquals__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3938,7 +5835,7 @@ func Add__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Add__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Add__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3946,7 +5843,7 @@ func Add__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Add__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Add__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -3954,7 +5851,7 @@ func Add__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Add__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Add__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3990,7 +5887,7 @@ func Mult__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Mult__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Mult__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3998,7 +5895,7 @@ func Mult__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Mult__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Mult__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4006,7 +5903,7 @@ func Mult__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Mult__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Mult__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4042,7 +5939,7 @@ func Div__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Div__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Div__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4050,7 +5947,7 @@ func Div__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Div__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Div__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4058,7 +5955,7 @@ func Div__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Div__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Div__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4093,7 +5990,7 @@ check_2:
 func Subtract__SWIG_0(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4101,7 +5998,7 @@ func Subtract__SWIG_1(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4109,7 +6006,7 @@ func Subtract__SWIG_2(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4117,7 +6014,7 @@ func Subtract__SWIG_3(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_3_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Subtract__SWIG_3_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4156,7 +6053,7 @@ func LessEq__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_LessEq__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_LessEq__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4164,7 +6061,7 @@ func LessEq__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_LessEq__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_LessEq__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4172,15 +6069,43 @@ func LessEq__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_LessEq__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_LessEq__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func LessEq(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return LessEq__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(int); !ok {
+			goto check_2
+		}
+		return LessEq__SWIG_1(a[0].(Expr), a[1].(int))
+	}
+check_2:
+	if argc == 2 {
+		return LessEq__SWIG_2(a[0].(int), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func GreaterEq__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_GreaterEq__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_GreaterEq__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4188,7 +6113,7 @@ func GreaterEq__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_GreaterEq__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_GreaterEq__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4196,15 +6121,43 @@ func GreaterEq__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_GreaterEq__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_GreaterEq__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func GreaterEq(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return GreaterEq__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(int); !ok {
+			goto check_2
+		}
+		return GreaterEq__SWIG_1(a[0].(Expr), a[1].(int))
+	}
+check_2:
+	if argc == 2 {
+		return GreaterEq__SWIG_2(a[0].(int), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func Less__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Less__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Less__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4212,7 +6165,7 @@ func Less__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Less__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Less__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4220,15 +6173,43 @@ func Less__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Less__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Less__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func Less(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return Less__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(int); !ok {
+			goto check_2
+		}
+		return Less__SWIG_1(a[0].(Expr), a[1].(int))
+	}
+check_2:
+	if argc == 2 {
+		return Less__SWIG_2(a[0].(int), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func Greater__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Greater__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Greater__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4236,7 +6217,7 @@ func Greater__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Greater__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Greater__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4244,15 +6225,43 @@ func Greater__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Greater__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Greater__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func Greater(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return Greater__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(int); !ok {
+			goto check_2
+		}
+		return Greater__SWIG_1(a[0].(Expr), a[1].(int))
+	}
+check_2:
+	if argc == 2 {
+		return Greater__SWIG_2(a[0].(int), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func BAnd__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BAnd__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BAnd__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4260,7 +6269,7 @@ func BAnd__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BAnd__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BAnd__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4268,15 +6277,43 @@ func BAnd__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BAnd__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BAnd__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func BAnd(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return BAnd__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(int); !ok {
+			goto check_2
+		}
+		return BAnd__SWIG_1(a[0].(Expr), a[1].(int))
+	}
+check_2:
+	if argc == 2 {
+		return BAnd__SWIG_2(a[0].(int), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func BXor__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BXor__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BXor__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4284,7 +6321,7 @@ func BXor__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BXor__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BXor__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4292,7 +6329,7 @@ func BXor__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BXor__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BXor__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4328,7 +6365,7 @@ func BOr__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BOr__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BOr__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4336,7 +6373,7 @@ func BOr__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BOr__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BOr__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4344,14 +6381,42 @@ func BOr__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BOr__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BOr__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
+}
+
+func BOr(a ...interface{}) Expr {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		if _, ok := a[1].(SwigcptrExpr); !ok {
+			goto check_1
+		}
+		return BOr__SWIG_0(a[0].(Expr), a[1].(Expr))
+	}
+check_1:
+	if argc == 2 {
+		if _, ok := a[0].(SwigcptrExpr); !ok {
+			goto check_2
+		}
+		if _, ok := a[1].(int); !ok {
+			goto check_2
+		}
+		return BOr__SWIG_1(a[0].(Expr), a[1].(int))
+	}
+check_2:
+	if argc == 2 {
+		return BOr__SWIG_2(a[0].(int), a[1].(Expr))
+	}
+	panic("No match for overloaded function call")
 }
 
 func BComp(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_BComp_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_BComp_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4360,21 +6425,21 @@ func (arg1 SwigcptrExpr) Extract__SWIG_0(arg2 uint, arg3 uint) (_swig_ret Expr) 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_extract__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_extract__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Lo() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_expr_lo_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_expr_lo_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Hi() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_expr_hi_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_expr_hi_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -4383,7 +6448,7 @@ func (arg1 SwigcptrExpr) Extract__SWIG_1(arg2 Expr, arg3 Expr) (_swig_ret Expr) 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_extract__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_extract__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -4410,14 +6475,14 @@ func (arg1 SwigcptrExpr) Replace(arg2 Expr, arg3 Expr) (_swig_ret Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_replace_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_replace_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Unit() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_unit_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_unit_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4425,7 +6490,7 @@ func (arg1 SwigcptrExpr) Contains(arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_contains_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_contains_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4433,21 +6498,21 @@ func (arg1 SwigcptrExpr) At(arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_at_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_at_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Length() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_length_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_length_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrExpr) Simplify__SWIG_0() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_simplify__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_simplify__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4455,7 +6520,7 @@ func (arg1 SwigcptrExpr) Simplify__SWIG_1(arg2 Params) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_simplify__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_simplify__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4475,7 +6540,7 @@ func (arg1 SwigcptrExpr) Substitute__SWIG_0(arg2 ExprVector, arg3 ExprVector) (_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_substitute__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_substitute__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -4483,7 +6548,7 @@ func (arg1 SwigcptrExpr) Substitute__SWIG_1(arg2 ExprVector) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_substitute__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_expr_substitute__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4500,24 +6565,24 @@ func (p SwigcptrExpr) Substitute(a ...interface{}) Expr {
 
 func DeleteExpr(arg1 Expr) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_expr_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_expr_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrExpr) Kind() (_swig_ret Z3_ast_kind) {
 	var swig_r Z3_ast_kind
-	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_expr_kind_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Z3_ast_kind)(SwigcptrZ3_ast_kind(C._wrap_expr_kind_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrExpr) Hash() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_expr_hash_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_expr_hash_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrExpr) String() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_expr_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_expr_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4526,12 +6591,12 @@ func (_swig_base SwigcptrExpr) String() (_swig_ret string) {
 
 func (_swig_base SwigcptrExpr) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_expr_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_expr_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrExpr) Check_error() {
-	C._wrap_expr_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_expr_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrExpr) SwigIsAst() {
@@ -4608,7 +6673,7 @@ func Implies__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_implies__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_implies__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4616,7 +6681,7 @@ func Implies__SWIG_1(arg1 Expr, arg2 bool) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_implies__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_implies__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
 	return swig_r
 }
 
@@ -4624,7 +6689,7 @@ func Implies__SWIG_2(arg1 bool, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_implies__SWIG_2_z3go_73045fd9a8f87ec7(C._Bool(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_implies__SWIG_2_z3go_267e4fc97d92833a(C._Bool(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4660,7 +6725,7 @@ func Pw__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_pw__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_pw__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4668,7 +6733,7 @@ func Pw__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_pw__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_pw__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4676,7 +6741,7 @@ func Pw__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_pw__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_pw__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4713,7 +6778,7 @@ func Ite(arg1 Expr, arg2 Expr, arg3 Expr) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ite_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ite_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -4721,7 +6786,7 @@ func To_expr(arg1 Context, arg2 Z3_ast) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_to_expr_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_to_expr_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4729,7 +6794,7 @@ func To_sort(arg1 Context, arg2 Z3_sort) (_swig_ret Sort) {
 	var swig_r Sort
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Sort)(SwigcptrSort(C._wrap_to_sort_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Sort)(SwigcptrSort(C._wrap_to_sort_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4737,7 +6802,7 @@ func To_func_decl(arg1 Context, arg2 Z3_func_decl) (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_to_func_decl_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_to_func_decl_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4745,7 +6810,7 @@ func Ule__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ule__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ule__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4753,7 +6818,7 @@ func Ule__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ule__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ule__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4761,7 +6826,7 @@ func Ule__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ule__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ule__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4797,7 +6862,7 @@ func Ult__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ult__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ult__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4805,7 +6870,7 @@ func Ult__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ult__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ult__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4813,7 +6878,7 @@ func Ult__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ult__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ult__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4849,7 +6914,7 @@ func Uge__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_uge__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_uge__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4857,7 +6922,7 @@ func Uge__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_uge__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_uge__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4865,7 +6930,7 @@ func Uge__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_uge__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_uge__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4901,7 +6966,7 @@ func Ugt__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ugt__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ugt__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4909,7 +6974,7 @@ func Ugt__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ugt__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ugt__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4917,7 +6982,7 @@ func Ugt__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ugt__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ugt__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4953,7 +7018,7 @@ func Udiv__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_udiv__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_udiv__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4961,7 +7026,7 @@ func Udiv__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_udiv__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_udiv__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -4969,7 +7034,7 @@ func Udiv__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_udiv__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_udiv__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5005,7 +7070,7 @@ func Srem__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_srem__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_srem__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5013,7 +7078,7 @@ func Srem__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_srem__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_srem__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5021,7 +7086,7 @@ func Srem__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_srem__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_srem__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5057,7 +7122,7 @@ func Urem__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_urem__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_urem__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5065,7 +7130,7 @@ func Urem__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_urem__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_urem__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5073,7 +7138,7 @@ func Urem__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_urem__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_urem__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5109,7 +7174,7 @@ func Shl__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_shl__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_shl__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5117,7 +7182,7 @@ func Shl__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_shl__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_shl__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5125,7 +7190,7 @@ func Shl__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_shl__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_shl__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5161,7 +7226,7 @@ func Lshr__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_lshr__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_lshr__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5169,7 +7234,7 @@ func Lshr__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_lshr__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_lshr__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5177,7 +7242,7 @@ func Lshr__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_lshr__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_lshr__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5213,7 +7278,7 @@ func Ashr__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ashr__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ashr__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5221,7 +7286,7 @@ func Ashr__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ashr__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ashr__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5229,7 +7294,7 @@ func Ashr__SWIG_2(arg1 int, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_ashr__SWIG_2_z3go_73045fd9a8f87ec7(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_ashr__SWIG_2_z3go_267e4fc97d92833a(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5265,7 +7330,7 @@ func Zext(arg1 Expr, arg2 uint) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_zext_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_zext_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5273,7 +7338,7 @@ func Sext(arg1 Expr, arg2 uint) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_sext_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_sext_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5281,7 +7346,7 @@ func Forall__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5290,7 +7355,7 @@ func Forall__SWIG_1(arg1 Expr, arg2 Expr, arg3 Expr) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -5300,7 +7365,7 @@ func Forall__SWIG_2(arg1 Expr, arg2 Expr, arg3 Expr, arg4 Expr) (_swig_ret Expr)
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -5311,7 +7376,7 @@ func Forall__SWIG_3(arg1 Expr, arg2 Expr, arg3 Expr, arg4 Expr, arg5 Expr) (_swi
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -5319,7 +7384,7 @@ func Forall__SWIG_4(arg1 ExprVector, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_forall__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5351,7 +7416,7 @@ func Exists__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5360,7 +7425,7 @@ func Exists__SWIG_1(arg1 Expr, arg2 Expr, arg3 Expr) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -5370,7 +7435,7 @@ func Exists__SWIG_2(arg1 Expr, arg2 Expr, arg3 Expr, arg4 Expr) (_swig_ret Expr)
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -5381,7 +7446,7 @@ func Exists__SWIG_3(arg1 Expr, arg2 Expr, arg3 Expr, arg4 Expr, arg5 Expr) (_swi
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -5389,7 +7454,7 @@ func Exists__SWIG_4(arg1 ExprVector, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_exists__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5420,7 +7485,7 @@ check_1:
 func Distinct(arg1 ExprVector) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_distinct_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_distinct_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5428,14 +7493,14 @@ func Concat__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_concat__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_concat__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func Concat__SWIG_1(arg1 ExprVector) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_concat__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_concat__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5453,14 +7518,14 @@ func Concat(a ...interface{}) Expr {
 func Mk_or(arg1 ExprVector) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_mk_or_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_mk_or_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Mk_and(arg1 ExprVector) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_mk_and_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_mk_and_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5477,14 +7542,14 @@ func NewFunc_entry__SWIG_0(arg1 Context, arg2 Z3_func_entry) (_swig_ret Func_ent
 	var swig_r Func_entry
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Func_entry)(SwigcptrFunc_entry(C._wrap_new_func_entry__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Func_entry)(SwigcptrFunc_entry(C._wrap_new_func_entry__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewFunc_entry__SWIG_1(arg1 Func_entry) (_swig_ret Func_entry) {
 	var swig_r Func_entry
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Func_entry)(SwigcptrFunc_entry(C._wrap_new_func_entry__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Func_entry)(SwigcptrFunc_entry(C._wrap_new_func_entry__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5501,20 +7566,20 @@ func NewFunc_entry(a ...interface{}) Func_entry {
 
 func DeleteFunc_entry(arg1 Func_entry) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_func_entry_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_func_entry_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrFunc_entry) Value() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_entry_value_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_entry_value_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFunc_entry) Num_args() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_func_entry_num_args_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_func_entry_num_args_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -5522,18 +7587,18 @@ func (arg1 SwigcptrFunc_entry) Arg(arg2 uint) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_entry_arg_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_entry_arg_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrFunc_entry) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_func_entry_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_func_entry_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrFunc_entry) Check_error() {
-	C._wrap_func_entry_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_func_entry_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrFunc_entry) SwigIsObject() {
@@ -5568,14 +7633,14 @@ func NewFunc_interp__SWIG_0(arg1 Context, arg2 Z3_func_interp) (_swig_ret Func_i
 	var swig_r Func_interp
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Func_interp)(SwigcptrFunc_interp(C._wrap_new_func_interp__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Func_interp)(SwigcptrFunc_interp(C._wrap_new_func_interp__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewFunc_interp__SWIG_1(arg1 Func_interp) (_swig_ret Func_interp) {
 	var swig_r Func_interp
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Func_interp)(SwigcptrFunc_interp(C._wrap_new_func_interp__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Func_interp)(SwigcptrFunc_interp(C._wrap_new_func_interp__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5592,20 +7657,20 @@ func NewFunc_interp(a ...interface{}) Func_interp {
 
 func DeleteFunc_interp(arg1 Func_interp) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_func_interp_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_func_interp_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrFunc_interp) Else_value() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_interp_else_value_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_func_interp_else_value_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFunc_interp) Num_entries() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_func_interp_num_entries_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_func_interp_num_entries_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -5613,18 +7678,18 @@ func (arg1 SwigcptrFunc_interp) Entry(arg2 uint) (_swig_ret Func_entry) {
 	var swig_r Func_entry
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Func_entry)(SwigcptrFunc_entry(C._wrap_func_interp_entry_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Func_entry)(SwigcptrFunc_entry(C._wrap_func_interp_entry_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrFunc_interp) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_func_interp_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_func_interp_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrFunc_interp) Check_error() {
-	C._wrap_func_interp_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_func_interp_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrFunc_interp) SwigIsObject() {
@@ -5659,14 +7724,14 @@ func NewModel__SWIG_0(arg1 Context, arg2 Z3_model) (_swig_ret Model) {
 	var swig_r Model
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Model)(SwigcptrModel(C._wrap_new_model__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Model)(SwigcptrModel(C._wrap_new_model__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewModel__SWIG_1(arg1 Model) (_swig_ret Model) {
 	var swig_r Model
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Model)(SwigcptrModel(C._wrap_new_model__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Model)(SwigcptrModel(C._wrap_new_model__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5683,7 +7748,7 @@ func NewModel(a ...interface{}) Model {
 
 func DeleteModel(arg1 Model) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_model_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_model_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrModel) Eval__SWIG_0(arg2 Expr, arg3 bool) (_swig_ret Expr) {
@@ -5691,7 +7756,7 @@ func (arg1 SwigcptrModel) Eval__SWIG_0(arg2 Expr, arg3 bool) (_swig_ret Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_model_eval__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_model_eval__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))))
 	return swig_r
 }
 
@@ -5699,7 +7764,7 @@ func (arg1 SwigcptrModel) Eval__SWIG_1(arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_model_eval__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_model_eval__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5717,14 +7782,14 @@ func (p SwigcptrModel) Eval(a ...interface{}) Expr {
 func (arg1 SwigcptrModel) Num_consts() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_model_num_consts_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_model_num_consts_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrModel) Num_funcs() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_model_num_funcs_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_model_num_funcs_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -5732,7 +7797,7 @@ func (arg1 SwigcptrModel) Get_const_decl(arg2 uint) (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_model_get_const_decl_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_model_get_const_decl_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5740,14 +7805,14 @@ func (arg1 SwigcptrModel) Get_func_decl(arg2 uint) (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_model_get_func_decl_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_model_get_func_decl_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrModel) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_model_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_model_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -5755,7 +7820,7 @@ func (arg1 SwigcptrModel) Get(arg2 int) (_swig_ret Func_decl) {
 	var swig_r Func_decl
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_model_Get_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_model_Get_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5763,7 +7828,7 @@ func (arg1 SwigcptrModel) Get_const_interp(arg2 Func_decl) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_model_get_const_interp_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_model_get_const_interp_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5771,7 +7836,7 @@ func (arg1 SwigcptrModel) Get_func_interp(arg2 Func_decl) (_swig_ret Func_interp
 	var swig_r Func_interp
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Func_interp)(SwigcptrFunc_interp(C._wrap_model_get_func_interp_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Func_interp)(SwigcptrFunc_interp(C._wrap_model_get_func_interp_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5779,14 +7844,14 @@ func (arg1 SwigcptrModel) Has_interp(arg2 Func_decl) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_model_has_interp_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_model_has_interp_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
 func (arg1 SwigcptrModel) String() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_model_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_model_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5795,12 +7860,12 @@ func (arg1 SwigcptrModel) String() (_swig_ret string) {
 
 func (_swig_base SwigcptrModel) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_model_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_model_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrModel) Check_error() {
-	C._wrap_model_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_model_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrModel) SwigIsObject() {
@@ -5842,7 +7907,7 @@ func (p SwigcptrStats) SwigIsStats() {
 func NewStats__SWIG_0(arg1 Context) (_swig_ret Stats) {
 	var swig_r Stats
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Stats)(SwigcptrStats(C._wrap_new_stats__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Stats)(SwigcptrStats(C._wrap_new_stats__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5850,14 +7915,14 @@ func NewStats__SWIG_1(arg1 Context, arg2 Z3_stats) (_swig_ret Stats) {
 	var swig_r Stats
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Stats)(SwigcptrStats(C._wrap_new_stats__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Stats)(SwigcptrStats(C._wrap_new_stats__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewStats__SWIG_2(arg1 Stats) (_swig_ret Stats) {
 	var swig_r Stats
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Stats)(SwigcptrStats(C._wrap_new_stats__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Stats)(SwigcptrStats(C._wrap_new_stats__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5881,13 +7946,13 @@ check_1:
 
 func DeleteStats(arg1 Stats) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_stats_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_stats_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrStats) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_stats_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_stats_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -5895,7 +7960,7 @@ func (arg1 SwigcptrStats) Key(arg2 uint) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r_p := C._wrap_stats_key_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	swig_r_p := C._wrap_stats_key_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5906,7 +7971,7 @@ func (arg1 SwigcptrStats) Is_uint(arg2 uint) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_stats_is_uint_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_stats_is_uint_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -5914,7 +7979,7 @@ func (arg1 SwigcptrStats) Is_double(arg2 uint) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_stats_is_double_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_stats_is_double_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -5922,7 +7987,7 @@ func (arg1 SwigcptrStats) Uint_value(arg2 uint) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_stats_uint_value_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_stats_uint_value_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -5930,18 +7995,18 @@ func (arg1 SwigcptrStats) Double_value(arg2 uint) (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_stats_double_value_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float64)(C._wrap_stats_double_value_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrStats) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_stats_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_stats_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrStats) Check_error() {
-	C._wrap_stats_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_stats_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrStats) SwigIsObject() {
@@ -5978,7 +8043,7 @@ func (p SwigcptrSolver) SwigIsSolver() {
 func NewSolver__SWIG_0(arg1 Context) (_swig_ret Solver) {
 	var swig_r Solver
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5986,7 +8051,7 @@ func NewSolver__SWIG_1(arg1 Context, arg2 Z3_solver_simple) (_swig_ret Solver) {
 	var swig_r Solver
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5994,7 +8059,7 @@ func NewSolver__SWIG_2(arg1 Context, arg2 Z3_solver) (_swig_ret Solver) {
 	var swig_r Solver
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -6002,7 +8067,7 @@ func NewSolver__SWIG_3(arg1 Context, arg2 string) (_swig_ret Solver) {
 	var swig_r Solver
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_57)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_57)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6014,14 +8079,14 @@ func NewSolver__SWIG_4(arg1 Context, arg2 Solver, arg3 Z3_solver_translate) (_sw
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
 func NewSolver__SWIG_5(arg1 Solver) (_swig_ret Solver) {
 	var swig_r Solver
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_5_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Solver)(SwigcptrSolver(C._wrap_new_solver__SWIG_5_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6062,29 +8127,29 @@ check_4:
 
 func DeleteSolver(arg1 Solver) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_solver_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_solver_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSolver) Set(arg2 Params) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_solver_set_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_solver_set_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSolver) Push() {
 	_swig_i_0 := arg1
-	C._wrap_solver_push_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_solver_push_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSolver) Pop__SWIG_0(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_solver_pop__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_solver_pop__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSolver) Pop__SWIG_1() {
 	_swig_i_0 := arg1
-	C._wrap_solver_pop__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_solver_pop__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrSolver) Pop(a ...interface{}) {
@@ -6102,27 +8167,27 @@ func (p SwigcptrSolver) Pop(a ...interface{}) {
 
 func (arg1 SwigcptrSolver) Reset() {
 	_swig_i_0 := arg1
-	C._wrap_solver_reset_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_solver_reset_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSolver) Add__SWIG_0(arg2 Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_solver_add__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_solver_add__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSolver) Add__SWIG_1(arg2 Expr, arg3 Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_solver_add__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_solver_add__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func (arg1 SwigcptrSolver) Add__SWIG_2(arg2 Expr, arg3 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	C._wrap_solver_add__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_58)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_solver_add__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_58)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -6152,7 +8217,7 @@ check_2:
 func (arg1 SwigcptrSolver) Check__SWIG_0() (_swig_ret Z3Check_result) {
 	var swig_r Z3Check_result
 	_swig_i_0 := arg1
-	swig_r = (Z3Check_result)(C._wrap_solver_check__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (Z3Check_result)(C._wrap_solver_check__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -6161,7 +8226,7 @@ func (arg1 SwigcptrSolver) Check__SWIG_1(arg2 uint, arg3 Expr) (_swig_ret Z3Chec
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Z3Check_result)(C._wrap_solver_check__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (Z3Check_result)(C._wrap_solver_check__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
@@ -6169,7 +8234,7 @@ func (arg1 SwigcptrSolver) Check__SWIG_2(arg2 ExprVector) (_swig_ret Z3Check_res
 	var swig_r Z3Check_result
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Z3Check_result)(C._wrap_solver_check__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (Z3Check_result)(C._wrap_solver_check__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -6190,7 +8255,7 @@ func (p SwigcptrSolver) Check(a ...interface{}) Z3Check_result {
 func (arg1 SwigcptrSolver) Get_model() (_swig_ret Model) {
 	var swig_r Model
 	_swig_i_0 := arg1
-	swig_r = (Model)(SwigcptrModel(C._wrap_solver_get_model_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Model)(SwigcptrModel(C._wrap_solver_get_model_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6200,14 +8265,14 @@ func (arg1 SwigcptrSolver) Consequences(arg2 ExprVector, arg3 ExprVector, arg4 E
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Z3Check_result)(C._wrap_solver_consequences_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (Z3Check_result)(C._wrap_solver_consequences_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSolver) Reason_unknown() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_solver_reason_unknown_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_solver_reason_unknown_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -6217,28 +8282,28 @@ func (arg1 SwigcptrSolver) Reason_unknown() (_swig_ret string) {
 func (arg1 SwigcptrSolver) Statistics() (_swig_ret Stats) {
 	var swig_r Stats
 	_swig_i_0 := arg1
-	swig_r = (Stats)(SwigcptrStats(C._wrap_solver_statistics_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Stats)(SwigcptrStats(C._wrap_solver_statistics_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSolver) Unsat_core() (_swig_ret ExprVector) {
 	var swig_r ExprVector
 	_swig_i_0 := arg1
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_solver_unsat_core_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_solver_unsat_core_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSolver) Assertions() (_swig_ret ExprVector) {
 	var swig_r ExprVector
 	_swig_i_0 := arg1
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_solver_assertions_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_solver_assertions_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSolver) Proof() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_solver_proof_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_solver_proof_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6246,7 +8311,7 @@ func (arg1 SwigcptrSolver) To_smt2__SWIG_0(arg2 string) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r_p := C._wrap_solver_to_smt2__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_61)(unsafe.Pointer(&_swig_i_1)))
+	swig_r_p := C._wrap_solver_to_smt2__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_61)(unsafe.Pointer(&_swig_i_1)))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
@@ -6259,7 +8324,7 @@ func (arg1 SwigcptrSolver) To_smt2__SWIG_0(arg2 string) (_swig_ret string) {
 func (arg1 SwigcptrSolver) To_smt2__SWIG_1() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_solver_to_smt2__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_solver_to_smt2__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -6280,14 +8345,14 @@ func (p SwigcptrSolver) To_smt2(a ...interface{}) string {
 func (arg1 SwigcptrSolver) Get_param_descrs() (_swig_ret Param_descrs) {
 	var swig_r Param_descrs
 	_swig_i_0 := arg1
-	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_solver_get_param_descrs_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_solver_get_param_descrs_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSolver) String() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_solver_String_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_solver_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -6296,12 +8361,12 @@ func (arg1 SwigcptrSolver) String() (_swig_ret string) {
 
 func (_swig_base SwigcptrSolver) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_solver_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_solver_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSolver) Check_error() {
-	C._wrap_solver_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_solver_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrSolver) SwigIsObject() {
@@ -6351,7 +8416,7 @@ func NewGoal__SWIG_0(arg1 Context, arg2 bool, arg3 bool, arg4 bool) (_swig_ret G
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1), C._Bool(_swig_i_2), C._Bool(_swig_i_3))))
+	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1), C._Bool(_swig_i_2), C._Bool(_swig_i_3))))
 	return swig_r
 }
 
@@ -6360,7 +8425,7 @@ func NewGoal__SWIG_1(arg1 Context, arg2 bool, arg3 bool) (_swig_ret Goal) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1), C._Bool(_swig_i_2))))
+	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1), C._Bool(_swig_i_2))))
 	return swig_r
 }
 
@@ -6368,14 +8433,14 @@ func NewGoal__SWIG_2(arg1 Context, arg2 bool) (_swig_ret Goal) {
 	var swig_r Goal
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
+	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))))
 	return swig_r
 }
 
 func NewGoal__SWIG_3(arg1 Context) (_swig_ret Goal) {
 	var swig_r Goal
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6383,14 +8448,14 @@ func NewGoal__SWIG_4(arg1 Context, arg2 Z3_goal) (_swig_ret Goal) {
 	var swig_r Goal
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_4_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewGoal__SWIG_5(arg1 Goal) (_swig_ret Goal) {
 	var swig_r Goal
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_5_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Goal)(SwigcptrGoal(C._wrap_new_goal__SWIG_5_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6427,19 +8492,19 @@ check_3:
 
 func DeleteGoal(arg1 Goal) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_goal_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_goal_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrGoal) Add(arg2 Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_goal_add_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_goal_add_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrGoal) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_goal_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_goal_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -6447,72 +8512,82 @@ func (arg1 SwigcptrGoal) Get(arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_goal_Get_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_goal_Get_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrGoal) Precision() (_swig_ret Z3_goal_prec) {
 	var swig_r Z3_goal_prec
 	_swig_i_0 := arg1
-	swig_r = (Z3_goal_prec)(SwigcptrZ3_goal_prec(C._wrap_goal_precision_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Z3_goal_prec)(SwigcptrZ3_goal_prec(C._wrap_goal_precision_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrGoal) Inconsistent() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_goal_inconsistent_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_goal_inconsistent_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrGoal) Depth() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_goal_depth_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_goal_depth_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrGoal) Reset() {
 	_swig_i_0 := arg1
-	C._wrap_goal_reset_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_goal_reset_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrGoal) Num_exprs() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_goal_num_exprs_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_goal_num_exprs_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrGoal) Is_decided_sat() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_goal_is_decided_sat_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_goal_is_decided_sat_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrGoal) Is_decided_unsat() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_goal_is_decided_unsat_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_goal_is_decided_unsat_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrGoal) As_expr() (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_goal_as_expr_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_goal_as_expr_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
+}
+
+func (arg1 SwigcptrGoal) String() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_goal_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
 }
 
 func (_swig_base SwigcptrGoal) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_goal_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_goal_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrGoal) Check_error() {
-	C._wrap_goal_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_goal_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrGoal) SwigIsObject() {
@@ -6536,6 +8611,7 @@ type Goal interface {
 	Is_decided_sat() (_swig_ret bool)
 	Is_decided_unsat() (_swig_ret bool)
 	As_expr() (_swig_ret Expr)
+	String() (_swig_ret string)
 	Ctx() (_swig_ret Context)
 	Check_error()
 	SwigIsObject()
@@ -6555,14 +8631,14 @@ func NewApply_result__SWIG_0(arg1 Context, arg2 Z3_apply_result) (_swig_ret Appl
 	var swig_r Apply_result
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_new_apply_result__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_new_apply_result__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewApply_result__SWIG_1(arg1 Apply_result) (_swig_ret Apply_result) {
 	var swig_r Apply_result
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_new_apply_result__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_new_apply_result__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6579,13 +8655,13 @@ func NewApply_result(a ...interface{}) Apply_result {
 
 func DeleteApply_result(arg1 Apply_result) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_apply_result_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_apply_result_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrApply_result) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_apply_result_size_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_apply_result_size_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -6593,7 +8669,7 @@ func (arg1 SwigcptrApply_result) Get(arg2 int) (_swig_ret Goal) {
 	var swig_r Goal
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Goal)(SwigcptrGoal(C._wrap_apply_result_Get_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Goal)(SwigcptrGoal(C._wrap_apply_result_Get_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -6602,7 +8678,7 @@ func (arg1 SwigcptrApply_result) Convert_model__SWIG_0(arg2 Model, arg3 uint) (_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Model)(SwigcptrModel(C._wrap_apply_result_convert_model__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Model)(SwigcptrModel(C._wrap_apply_result_convert_model__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -6610,7 +8686,7 @@ func (arg1 SwigcptrApply_result) Convert_model__SWIG_1(arg2 Model) (_swig_ret Mo
 	var swig_r Model
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Model)(SwigcptrModel(C._wrap_apply_result_convert_model__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Model)(SwigcptrModel(C._wrap_apply_result_convert_model__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -6625,14 +8701,24 @@ func (p SwigcptrApply_result) Convert_model(a ...interface{}) Model {
 	panic("No match for overloaded function call")
 }
 
+func (arg1 SwigcptrApply_result) String() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_apply_result_String_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
 func (_swig_base SwigcptrApply_result) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_apply_result_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_apply_result_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrApply_result) Check_error() {
-	C._wrap_apply_result_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_apply_result_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrApply_result) SwigIsObject() {
@@ -6648,6 +8734,7 @@ type Apply_result interface {
 	Size() (_swig_ret uint)
 	Get(arg2 int) (_swig_ret Goal)
 	Convert_model(a ...interface{}) Model
+	String() (_swig_ret string)
 	Ctx() (_swig_ret Context)
 	Check_error()
 	SwigIsObject()
@@ -6667,7 +8754,7 @@ func NewTactic__SWIG_0(arg1 Context, arg2 string) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_new_tactic__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_64)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_new_tactic__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_66)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6678,14 +8765,14 @@ func NewTactic__SWIG_1(arg1 Context, arg2 Z3_tactic) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_new_tactic__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_new_tactic__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewTactic__SWIG_2(arg1 Tactic) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_new_tactic__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_new_tactic__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6709,13 +8796,13 @@ check_2:
 
 func DeleteTactic(arg1 Tactic) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_tactic_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_tactic_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTactic) Mk_solver() (_swig_ret Solver) {
 	var swig_r Solver
 	_swig_i_0 := arg1
-	swig_r = (Solver)(SwigcptrSolver(C._wrap_tactic_mk_solver_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Solver)(SwigcptrSolver(C._wrap_tactic_mk_solver_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6723,7 +8810,7 @@ func (arg1 SwigcptrTactic) Apply(arg2 Goal) (_swig_ret Apply_result) {
 	var swig_r Apply_result
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_tactic_apply_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_tactic_apply_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -6731,127 +8818,51 @@ func (arg1 SwigcptrTactic) ApplyFct(arg2 Goal) (_swig_ret Apply_result) {
 	var swig_r Apply_result
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_tactic_ApplyFct_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Apply_result)(SwigcptrApply_result(C._wrap_tactic_ApplyFct_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTactic) Help() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_tactic_help_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_tactic_help_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
-func BAnd__SWIG_3(arg1 Tactic, arg2 Tactic) (_swig_ret Tactic) {
+func TacticAnd(arg1 Tactic, arg2 Tactic) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_BAnd__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_TacticAnd_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
-func BAnd(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return BAnd__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(int); !ok {
-			goto check_2
-		}
-		return BAnd__SWIG_1(a[0].(Expr), a[1].(int))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrTactic); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrTactic); !ok {
-			goto check_3
-		}
-		return BAnd__SWIG_3(a[0].(Tactic), a[1].(Tactic))
-	}
-check_3:
-	if argc == 2 {
-		return BAnd__SWIG_2(a[0].(int), a[1].(Expr))
-	}
-	panic("No match for overloaded function call")
-}
-
-func BOr__SWIG_3(arg1 Tactic, arg2 Tactic) (_swig_ret Tactic) {
+func TacticOr(arg1 Tactic, arg2 Tactic) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_BOr__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_TacticOr_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
-}
-
-func BOr(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return BOr__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(int); !ok {
-			goto check_2
-		}
-		return BOr__SWIG_1(a[0].(Expr), a[1].(int))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrTactic); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrTactic); !ok {
-			goto check_3
-		}
-		return BOr__SWIG_3(a[0].(Tactic), a[1].(Tactic))
-	}
-check_3:
-	if argc == 2 {
-		return BOr__SWIG_2(a[0].(int), a[1].(Expr))
-	}
-	panic("No match for overloaded function call")
 }
 
 func (arg1 SwigcptrTactic) Get_param_descrs() (_swig_ret Param_descrs) {
 	var swig_r Param_descrs
 	_swig_i_0 := arg1
-	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_tactic_get_param_descrs_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Param_descrs)(SwigcptrParam_descrs(C._wrap_tactic_get_param_descrs_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTactic) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_tactic_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_tactic_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTactic) Check_error() {
-	C._wrap_tactic_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_tactic_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrTactic) SwigIsObject() {
@@ -6879,14 +8890,14 @@ func Repeat__SWIG_0(arg1 Tactic, arg2 uint) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_repeat__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_repeat__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func Repeat__SWIG_1(arg1 Tactic) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_repeat__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_repeat__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6905,7 +8916,7 @@ func With(arg1 Tactic, arg2 Params) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_with_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_with_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -6913,7 +8924,7 @@ func Try_for(arg1 Tactic, arg2 uint) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_try_for_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_try_for_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -6930,7 +8941,7 @@ func NewProbe__SWIG_0(arg1 Context, arg2 string) (_swig_ret Probe) {
 	var swig_r Probe
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_66)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_68)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6941,7 +8952,7 @@ func NewProbe__SWIG_1(arg1 Context, arg2 float64) (_swig_ret Probe) {
 	var swig_r Probe
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
+	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
 	return swig_r
 }
 
@@ -6949,14 +8960,14 @@ func NewProbe__SWIG_2(arg1 Context, arg2 Z3_probe) (_swig_ret Probe) {
 	var swig_r Probe
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewProbe__SWIG_3(arg1 Probe) (_swig_ret Probe) {
 	var swig_r Probe
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Probe)(SwigcptrProbe(C._wrap_new_probe__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -6987,14 +8998,14 @@ check_3:
 
 func DeleteProbe(arg1 Probe) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_probe_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_probe_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrProbe) Apply(arg2 Goal) (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (float64)(C._wrap_probe_apply_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (float64)(C._wrap_probe_apply_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -7002,542 +9013,18 @@ func (arg1 SwigcptrProbe) ApplyFct(arg2 Goal) (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (float64)(C._wrap_probe_ApplyFct_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (float64)(C._wrap_probe_ApplyFct_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
-}
-
-func LessEq__SWIG_3(arg1 Probe, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_LessEq__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func LessEq__SWIG_4(arg1 Probe, arg2 float64) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_LessEq__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
-	return swig_r
-}
-
-func LessEq__SWIG_5(arg1 float64, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_LessEq__SWIG_5_z3go_73045fd9a8f87ec7(C.double(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func LessEq(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return LessEq__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(int); !ok {
-			goto check_2
-		}
-		return LessEq__SWIG_1(a[0].(Expr), a[1].(int))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		return LessEq__SWIG_3(a[0].(Probe), a[1].(Probe))
-	}
-check_3:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_4
-		}
-		if _, ok := a[1].(float64); !ok {
-			goto check_4
-		}
-		return LessEq__SWIG_4(a[0].(Probe), a[1].(float64))
-	}
-check_4:
-	if argc == 2 {
-		if _, ok := a[0].(int); !ok {
-			goto check_5
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_5
-		}
-		return LessEq__SWIG_2(a[0].(int), a[1].(Expr))
-	}
-check_5:
-	if argc == 2 {
-		return LessEq__SWIG_5(a[0].(float64), a[1].(Probe))
-	}
-	panic("No match for overloaded function call")
-}
-
-func GreaterEq__SWIG_3(arg1 Probe, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_GreaterEq__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func GreaterEq__SWIG_4(arg1 Probe, arg2 float64) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_GreaterEq__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
-	return swig_r
-}
-
-func GreaterEq__SWIG_5(arg1 float64, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_GreaterEq__SWIG_5_z3go_73045fd9a8f87ec7(C.double(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func GreaterEq(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return GreaterEq__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(int); !ok {
-			goto check_2
-		}
-		return GreaterEq__SWIG_1(a[0].(Expr), a[1].(int))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		return GreaterEq__SWIG_3(a[0].(Probe), a[1].(Probe))
-	}
-check_3:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_4
-		}
-		if _, ok := a[1].(float64); !ok {
-			goto check_4
-		}
-		return GreaterEq__SWIG_4(a[0].(Probe), a[1].(float64))
-	}
-check_4:
-	if argc == 2 {
-		if _, ok := a[0].(int); !ok {
-			goto check_5
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_5
-		}
-		return GreaterEq__SWIG_2(a[0].(int), a[1].(Expr))
-	}
-check_5:
-	if argc == 2 {
-		return GreaterEq__SWIG_5(a[0].(float64), a[1].(Probe))
-	}
-	panic("No match for overloaded function call")
-}
-
-func Less__SWIG_3(arg1 Probe, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Less__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func Less__SWIG_4(arg1 Probe, arg2 float64) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Less__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
-	return swig_r
-}
-
-func Less__SWIG_5(arg1 float64, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Less__SWIG_5_z3go_73045fd9a8f87ec7(C.double(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func Less(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return Less__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(int); !ok {
-			goto check_2
-		}
-		return Less__SWIG_1(a[0].(Expr), a[1].(int))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		return Less__SWIG_3(a[0].(Probe), a[1].(Probe))
-	}
-check_3:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_4
-		}
-		if _, ok := a[1].(float64); !ok {
-			goto check_4
-		}
-		return Less__SWIG_4(a[0].(Probe), a[1].(float64))
-	}
-check_4:
-	if argc == 2 {
-		if _, ok := a[0].(int); !ok {
-			goto check_5
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_5
-		}
-		return Less__SWIG_2(a[0].(int), a[1].(Expr))
-	}
-check_5:
-	if argc == 2 {
-		return Less__SWIG_5(a[0].(float64), a[1].(Probe))
-	}
-	panic("No match for overloaded function call")
-}
-
-func Greater__SWIG_3(arg1 Probe, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Greater__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func Greater__SWIG_4(arg1 Probe, arg2 float64) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Greater__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
-	return swig_r
-}
-
-func Greater__SWIG_5(arg1 float64, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Greater__SWIG_5_z3go_73045fd9a8f87ec7(C.double(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func Greater(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return Greater__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(int); !ok {
-			goto check_2
-		}
-		return Greater__SWIG_1(a[0].(Expr), a[1].(int))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		return Greater__SWIG_3(a[0].(Probe), a[1].(Probe))
-	}
-check_3:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_4
-		}
-		if _, ok := a[1].(float64); !ok {
-			goto check_4
-		}
-		return Greater__SWIG_4(a[0].(Probe), a[1].(float64))
-	}
-check_4:
-	if argc == 2 {
-		if _, ok := a[0].(int); !ok {
-			goto check_5
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_5
-		}
-		return Greater__SWIG_2(a[0].(int), a[1].(Expr))
-	}
-check_5:
-	if argc == 2 {
-		return Greater__SWIG_5(a[0].(float64), a[1].(Probe))
-	}
-	panic("No match for overloaded function call")
-}
-
-func Equals__SWIG_3(arg1 Probe, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Equals__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func Equals__SWIG_4(arg1 Probe, arg2 float64) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Equals__SWIG_4_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
-	return swig_r
-}
-
-func Equals__SWIG_5(arg1 float64, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Equals__SWIG_5_z3go_73045fd9a8f87ec7(C.double(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func Equals(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return Equals__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(int); !ok {
-			goto check_2
-		}
-		return Equals__SWIG_1(a[0].(Expr), a[1].(int))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		return Equals__SWIG_3(a[0].(Probe), a[1].(Probe))
-	}
-check_3:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_4
-		}
-		if _, ok := a[1].(float64); !ok {
-			goto check_4
-		}
-		return Equals__SWIG_4(a[0].(Probe), a[1].(float64))
-	}
-check_4:
-	if argc == 2 {
-		if _, ok := a[0].(int); !ok {
-			goto check_5
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_5
-		}
-		return Equals__SWIG_2(a[0].(int), a[1].(Expr))
-	}
-check_5:
-	if argc == 2 {
-		return Equals__SWIG_5(a[0].(float64), a[1].(Probe))
-	}
-	panic("No match for overloaded function call")
-}
-
-func And__SWIG_3(arg1 Probe, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_And__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func And(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return And__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(bool); !ok {
-			goto check_2
-		}
-		return And__SWIG_1(a[0].(Expr), a[1].(bool))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		return And__SWIG_3(a[0].(Probe), a[1].(Probe))
-	}
-check_3:
-	if argc == 2 {
-		return And__SWIG_2(a[0].(bool), a[1].(Expr))
-	}
-	panic("No match for overloaded function call")
-}
-
-func Or__SWIG_3(arg1 Probe, arg2 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Or__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func Or(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		if _, ok := a[1].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return Or__SWIG_0(a[0].(Expr), a[1].(Expr))
-	}
-check_1:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_2
-		}
-		if _, ok := a[1].(bool); !ok {
-			goto check_2
-		}
-		return Or__SWIG_1(a[0].(Expr), a[1].(bool))
-	}
-check_2:
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		if _, ok := a[1].(SwigcptrProbe); !ok {
-			goto check_3
-		}
-		return Or__SWIG_3(a[0].(Probe), a[1].(Probe))
-	}
-check_3:
-	if argc == 2 {
-		return Or__SWIG_2(a[0].(bool), a[1].(Expr))
-	}
-	panic("No match for overloaded function call")
-}
-
-func Not__SWIG_1(arg1 Probe) (_swig_ret Probe) {
-	var swig_r Probe
-	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Probe)(SwigcptrProbe(C._wrap_Not__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func Not(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 1 {
-		if _, ok := a[0].(SwigcptrExpr); !ok {
-			goto check_1
-		}
-		return Not__SWIG_0(a[0].(Expr))
-	}
-check_1:
-	if argc == 1 {
-		return Not__SWIG_1(a[0].(Probe))
-	}
-	panic("No match for overloaded function call")
 }
 
 func (_swig_base SwigcptrProbe) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_probe_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_probe_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrProbe) Check_error() {
-	C._wrap_probe_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_probe_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrProbe) SwigIsObject() {
@@ -7570,19 +9057,19 @@ func (p SwigcptrOptimize) SwigIsOptimize() {
 func NewOptimize(arg1 Context) (_swig_ret Optimize) {
 	var swig_r Optimize
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Optimize)(SwigcptrOptimize(C._wrap_new_optimize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Optimize)(SwigcptrOptimize(C._wrap_new_optimize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteOptimize(arg1 Optimize) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_optimize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_optimize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOptimize) Add__SWIG_0(arg2 Expr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_optimize_add__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_optimize_add__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrOptimize) Add__SWIG_1(arg2 Expr, arg3 uint) (_swig_ret Z3_optimize_handle) {
@@ -7590,7 +9077,7 @@ func (arg1 SwigcptrOptimize) Add__SWIG_1(arg2 Expr, arg3 uint) (_swig_ret Z3_opt
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_add__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_add__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -7599,7 +9086,7 @@ func (arg1 SwigcptrOptimize) Add__SWIG_2(arg2 Expr, arg3 string) (_swig_ret Z3_o
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_add__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_67)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_add__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_69)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -7629,7 +9116,7 @@ func (arg1 SwigcptrOptimize) Maximize(arg2 Expr) (_swig_ret Z3_optimize_handle) 
 	var swig_r Z3_optimize_handle
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_maximize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_maximize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -7637,45 +9124,45 @@ func (arg1 SwigcptrOptimize) Minimize(arg2 Expr) (_swig_ret Z3_optimize_handle) 
 	var swig_r Z3_optimize_handle
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_minimize_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Z3_optimize_handle)(SwigcptrZ3_optimize_handle(C._wrap_optimize_minimize_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrOptimize) Push() {
 	_swig_i_0 := arg1
-	C._wrap_optimize_push_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_optimize_push_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOptimize) Pop() {
 	_swig_i_0 := arg1
-	C._wrap_optimize_pop_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	C._wrap_optimize_pop_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOptimize) Check() (_swig_ret Z3Check_result) {
 	var swig_r Z3Check_result
 	_swig_i_0 := arg1
-	swig_r = (Z3Check_result)(C._wrap_optimize_check_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0)))
+	swig_r = (Z3Check_result)(C._wrap_optimize_check_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrOptimize) Get_model() (_swig_ret Model) {
 	var swig_r Model
 	_swig_i_0 := arg1
-	swig_r = (Model)(SwigcptrModel(C._wrap_optimize_get_model_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Model)(SwigcptrModel(C._wrap_optimize_get_model_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrOptimize) Set(arg2 Params) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_optimize_set_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_optimize_set_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrOptimize) Lower(arg2 Z3_optimize_handle) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_optimize_lower_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_optimize_lower_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -7683,35 +9170,35 @@ func (arg1 SwigcptrOptimize) Upper(arg2 Z3_optimize_handle) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_optimize_upper_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_optimize_upper_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func (arg1 SwigcptrOptimize) Assertions() (_swig_ret ExprVector) {
 	var swig_r ExprVector
 	_swig_i_0 := arg1
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_optimize_assertions_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_optimize_assertions_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrOptimize) Objectives() (_swig_ret ExprVector) {
 	var swig_r ExprVector
 	_swig_i_0 := arg1
-	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_optimize_objectives_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (ExprVector)(SwigcptrExprVector(C._wrap_optimize_objectives_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrOptimize) Statistics() (_swig_ret Stats) {
 	var swig_r Stats
 	_swig_i_0 := arg1
-	swig_r = (Stats)(SwigcptrStats(C._wrap_optimize_statistics_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Stats)(SwigcptrStats(C._wrap_optimize_statistics_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrOptimize) From_file(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_optimize_from_file_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_68)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_optimize_from_file_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_70)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -7720,7 +9207,7 @@ func (arg1 SwigcptrOptimize) From_file(arg2 string) {
 func (arg1 SwigcptrOptimize) From_string(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_optimize_from_string_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), *(*C.swig_type_69)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_optimize_from_string_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), *(*C.swig_type_71)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -7729,7 +9216,7 @@ func (arg1 SwigcptrOptimize) From_string(arg2 string) {
 func (arg1 SwigcptrOptimize) Help() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_optimize_help_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_optimize_help_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -7738,12 +9225,12 @@ func (arg1 SwigcptrOptimize) Help() (_swig_ret string) {
 
 func (_swig_base SwigcptrOptimize) Ctx() (_swig_ret Context) {
 	var swig_r Context
-	swig_r = (Context)(SwigcptrContext(C._wrap_optimize_ctx_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))))
+	swig_r = (Context)(SwigcptrContext(C._wrap_optimize_ctx_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrOptimize) Check_error() {
-	C._wrap_optimize_check_error_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_base))
+	C._wrap_optimize_check_error_z3go_267e4fc97d92833a(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrOptimize) SwigIsObject() {
@@ -7781,7 +9268,7 @@ type Optimize interface {
 func Fail_if(arg1 Probe) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_fail_if_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_fail_if_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -7789,7 +9276,7 @@ func When(arg1 Probe, arg2 Tactic) (_swig_ret Tactic) {
 	var swig_r Tactic
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_when_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_when_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -7798,14 +9285,14 @@ func Cond(arg1 Probe, arg2 Tactic, arg3 Tactic) (_swig_ret Tactic) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Tactic)(SwigcptrTactic(C._wrap_cond_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Tactic)(SwigcptrTactic(C._wrap_cond_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
 func To_real(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_to_real_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_to_real_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -7815,7 +9302,7 @@ func Function__SWIG_0(arg1 Symbol, arg2 uint, arg3 Sort, arg4 Sort) (_swig_ret F
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -7825,7 +9312,7 @@ func Function__SWIG_1(arg1 string, arg2 uint, arg3 Sort, arg4 Sort) (_swig_ret F
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_1_z3go_73045fd9a8f87ec7(*(*C.swig_type_71)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_1_z3go_267e4fc97d92833a(*(*C.swig_type_73)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7837,7 +9324,7 @@ func Function__SWIG_2(arg1 string, arg2 Sort, arg3 Sort) (_swig_ret Func_decl) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_2_z3go_73045fd9a8f87ec7(*(*C.swig_type_72)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_2_z3go_267e4fc97d92833a(*(*C.swig_type_74)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7850,7 +9337,7 @@ func Function__SWIG_3(arg1 string, arg2 Sort, arg3 Sort, arg4 Sort) (_swig_ret F
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_3_z3go_73045fd9a8f87ec7(*(*C.swig_type_73)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_3_z3go_267e4fc97d92833a(*(*C.swig_type_75)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7864,7 +9351,7 @@ func Function__SWIG_4(arg1 string, arg2 Sort, arg3 Sort, arg4 Sort, arg5 Sort) (
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_4_z3go_73045fd9a8f87ec7(*(*C.swig_type_74)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_4_z3go_267e4fc97d92833a(*(*C.swig_type_76)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7879,7 +9366,7 @@ func Function__SWIG_5(arg1 string, arg2 Sort, arg3 Sort, arg4 Sort, arg5 Sort, a
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_5_z3go_73045fd9a8f87ec7(*(*C.swig_type_75)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_5_z3go_267e4fc97d92833a(*(*C.swig_type_77)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7895,7 +9382,7 @@ func Function__SWIG_6(arg1 string, arg2 Sort, arg3 Sort, arg4 Sort, arg5 Sort, a
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7.Swigcptr()
-	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_6_z3go_73045fd9a8f87ec7(*(*C.swig_type_76)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6))))
+	swig_r = (Func_decl)(SwigcptrFunc_decl(C._wrap_function__SWIG_6_z3go_267e4fc97d92833a(*(*C.swig_type_78)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -7943,7 +9430,7 @@ func Xselect__SWIG_0(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Xselect__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Xselect__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -7951,7 +9438,7 @@ func Xselect__SWIG_1(arg1 Expr, arg2 int) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_Xselect__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_Xselect__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -7975,7 +9462,7 @@ func Store__SWIG_0(arg1 Expr, arg2 Expr, arg3 Expr) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_0_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_0_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -7984,7 +9471,7 @@ func Store__SWIG_1(arg1 Expr, arg2 int, arg3 Expr) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_1_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_1_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -7993,7 +9480,7 @@ func Store__SWIG_2(arg1 Expr, arg2 Expr, arg3 int) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_2_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_2_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -8002,7 +9489,7 @@ func Store__SWIG_3(arg1 Expr, arg2 int, arg3 int) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_3_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_store__SWIG_3_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -8045,21 +9532,21 @@ func Const_array(arg1 Sort, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_const_array_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_const_array_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func Empty_set(arg1 Sort) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_empty_set_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_empty_set_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Full_set(arg1 Sort) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_full_set_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_full_set_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -8067,7 +9554,7 @@ func Set_add(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_add_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_add_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -8075,7 +9562,7 @@ func Set_del(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_del_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_del_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -8083,7 +9570,7 @@ func Set_union(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_union_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_union_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -8091,7 +9578,7 @@ func Set_intersect(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_intersect_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_intersect_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -8099,14 +9586,14 @@ func Set_difference(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_difference_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_difference_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func Set_complement(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_complement_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_complement_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -8114,7 +9601,7 @@ func Set_member(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_member_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_member_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -8122,14 +9609,14 @@ func Set_subset(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_subset_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_set_subset_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func Empty(arg1 Sort) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_empty_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_empty_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -8137,7 +9624,7 @@ func Suffixof(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_suffixof_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_suffixof_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -8145,7 +9632,7 @@ func Prefixof(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_prefixof_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_prefixof_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -8154,14 +9641,14 @@ func Indexof(arg1 Expr, arg2 Expr, arg3 Expr) (_swig_ret Expr) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_indexof_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_indexof_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
 func To_re(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_to_re_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_to_re_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -8169,35 +9656,35 @@ func In_re(arg1 Expr, arg2 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_in_re_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_in_re_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func Plus(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_plus_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_plus_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Option(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_option_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_option_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Star(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_star_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_star_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Interpolant(arg1 Expr) (_swig_ret Expr) {
 	var swig_r Expr
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Expr)(SwigcptrExpr(C._wrap_interpolant_z3go_73045fd9a8f87ec7(C.uintptr_t(_swig_i_0))))
+	swig_r = (Expr)(SwigcptrExpr(C._wrap_interpolant_z3go_267e4fc97d92833a(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -8279,14 +9766,6 @@ type Z3_sort interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrZ3_sort) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrZ3_decl_kind uintptr
-type Z3_decl_kind interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrZ3_decl_kind) Swigcptr() uintptr {
 	return uintptr(p)
 }
 

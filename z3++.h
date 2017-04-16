@@ -18,6 +18,7 @@ for the GO interface
 %{
 #include "z3++.h"
 %}
+%include "z3.i"
 %include <std_string.i>
 %exception {
     try {
@@ -28,15 +29,35 @@ for the GO interface
     }
 }
 
-%rename(Not) operator!;
-%rename(Or) operator||;
-%rename(And) operator&&;
-%rename(Equals) operator==;
-%rename(NotEquals) operator!=;
-%rename(Less) operator<;
-%rename(LessEq) operator<=;
-%rename(Greater) operator>;
-%rename(GreaterEq) operator>=;
+%rename(TacticAnd) operator&(tactic const&, tactic const&);
+%rename(TacticOr) operator|(tactic const&, tactic const&);
+//%rename(ProbeAnd) operator&&(probe const&, probe const&);
+
+%rename(Not) operator!(expr const &);
+%rename(Or) operator||(expr const&, expr const&);
+%rename(Or) operator||(bool, expr const&);
+%rename(Or) operator||(expr const&, bool);
+%rename(And) operator&&(expr const&, expr const&);
+%rename(And) operator&&(bool, expr const&);
+%rename(And) operator&&(expr const&, bool);
+%rename(Equals) operator==(expr const&, expr const&);
+%rename(Equals) operator==(int&, expr const&);
+%rename(Equals) operator==(expr const&, int);
+%rename(NotEquals) operator!=(expr const&, expr const&);
+%rename(NotEquals) operator!=(int, expr const&);
+%rename(NotEquals) operator!=(expr const&, int);
+%rename(Less) operator<(expr const&, expr const&);
+%rename(Less) operator<(int, expr const&);
+%rename(Less) operator<(expr const&, int);
+%rename(LessEq) operator<=(expr const&, expr const&);
+%rename(LessEq) operator<=(int, expr const&);
+%rename(LessEq) operator<=(expr const&, int);
+%rename(Greater) operator>(expr const&, expr const&);
+%rename(Greater) operator>(int, expr const&);
+%rename(Greater) operator>(expr const&, int);
+%rename(GreaterEq) operator>=(expr const&, expr const&);
+%rename(GreaterEq) operator>=(int, expr const&);
+%rename(GreaterEq) operator>=(expr const&, int);
 %rename(Add) operator+;
 %rename(Subtract) operator-;
 %rename(Mult) operator*;
@@ -44,8 +65,12 @@ for the GO interface
 %rename(Get) operator[];
 %rename(ApplyFct) operator();
 %rename(BXor) operator^;
-%rename(BOr) operator|;
-%rename(BAnd) operator&;
+%rename(BOr) operator|(expr const&,expr const&);
+%rename(BOr) operator|(int,expr const&);
+%rename(BOr) operator|(expr const&, int);
+%rename(BAnd) operator&(expr const&,expr const&);
+%rename(BAnd) operator&(int, expr const&);
+%rename(BAnd) operator&(expr const&, int);
 %rename(BComp) operator~;
 
 %ignore operator<<; // We wrote extra string functions for that
@@ -1916,6 +1941,9 @@ namespace z3 {
             }
         }
         friend std::ostream & operator<<(std::ostream & out, goal const & g);
+
+        // for the golang interface
+        inline std::string String() const { return Z3_goal_to_string(ctx(), m_goal); }
     };
     inline std::ostream & operator<<(std::ostream & out, goal const & g) { out << Z3_goal_to_string(g.ctx(), g); return out; }
 
@@ -1946,6 +1974,9 @@ namespace z3 {
             return model(ctx(), new_m);
         }
         friend std::ostream & operator<<(std::ostream & out, apply_result const & r);
+        
+        // for the golang interface
+        inline std::string String() const { return Z3_apply_result_to_string(ctx(), m_apply_result); }
     };
     inline std::ostream & operator<<(std::ostream & out, apply_result const & r) { out << Z3_apply_result_to_string(r.ctx(), r); return out; }
 

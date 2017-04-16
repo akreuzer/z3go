@@ -47,7 +47,9 @@ We renamed operator that clashed with the Go-Syntax.
 | \|       | BOr    |
 | &        | BAnd   |
 | ~        | BComp (Bitwise complement) |
-
+| & (Tactics) | TacticAnd |
+| \| (Tactics) | TacticOr |
+ 
 The bitwise-(and/or/...) operator and comparison operators are still missing.
 
 Also we omitted the class `optimize` since swig had problems translating it.

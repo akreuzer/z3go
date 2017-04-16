@@ -190,13 +190,6 @@ func prove(conjecture z3.Expr) {
 	fmt.Println("failed to prove")
 	fmt.Printf("counterexample:\n%v\n", s.Get_model())
 }
-func proveWithCast(i interface{}) {
-	if expr, ok := i.(z3.Expr); ok {
-		prove(expr)
-		return
-	}
-	fmt.Println("error: can only try to prove expressions")
-}
 
 /* bitvector_example1
  * Simple bit-vector example. This example disproves that x - 10 <= 0 IFF x <= 10 for (32-bit) machine integers
@@ -208,10 +201,10 @@ func bitvectorExample1() {
 	x := c.Bv_const("x", 32)
 
 	// using signed <=
-	proveWithCast(z3.Equals(z3.LessEq(z3.Subtract(x, 10), 0), z3.LessEq(x, 10)))
+	prove(z3.Equals(z3.LessEq(z3.Subtract(x, 10), 0), z3.LessEq(x, 10)))
 
 	// using unsigned <=
-	proveWithCast(z3.Equals(z3.Ule(z3.Subtract(x, 10), 0), z3.Ule(x, 10)))
+	prove(z3.Equals(z3.Ule(z3.Subtract(x, 10), 0), z3.Ule(x, 10)))
 
 	y := c.Bv_const("y", 32)
 	prove(z3.Implies(z3.Equals(z3.Concat(x, y), z3.Concat(y, x)), z3.Equals(x, y)))
@@ -273,6 +266,13 @@ func unsatCoreExample1() {
 	c := z3.NewContext()
 	defer z3.DeleteContext(c)
 
+	// We use answer literals to track assertions.
+	// An answer literal is essentially a fresh Boolean marker
+	// that is used to track an assertion.
+	// For example, if we want to track assertion F, we
+	// create a fresh Boolean variable p and assert (p => F)
+	// Then we provide p as an argument for the check method.
+
 	p1 := c.Bool_const("p1")
 	p2 := c.Bool_const("p2")
 	p3 := c.Bool_const("p3")
@@ -296,13 +296,105 @@ func unsatCoreExample1() {
 	fmt.Println(core)
 	fmt.Printf("size: %v\n", core.Size())
 	for i := 0; uint(i) < core.Size(); i++ {
-		core.Get(i)
+		fmt.Println(core.Get(i))
 	}
 	assumptions2 := z3.NewExprVector(c)
 	defer z3.DeleteExprVector(assumptions2)
 	assumptions2.Push_back(p1)
 	assumptions2.Push_back(p3)
 	fmt.Println(s.Check(assumptions2))
+}
+
+func unsatCoreExample2() {
+	fmt.Println("unsat core example 2")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+
+	// The answer literal mechanism, described in the previous example,
+	// tracks assertions. An assertion can be a complicated
+	// formula containing containing the conjunction of many subformulas.
+
+	p1 := c.Bool_const("p1")
+	x := c.Int_const("x")
+	y := c.Int_const("y")
+	f := z3.And(z3.Greater(x, 10),
+		z3.And(z3.Greater(y, x),
+			z3.And(z3.Less(y, 5),
+				z3.Greater(y, 0))))
+
+	s := z3.NewSolver(c)
+	defer z3.DeleteSolver(s)
+	s.Add(z3.Implies(p1, f))
+	assumptions := z3.NewExprVector(c)
+	defer z3.DeleteExprVector(assumptions)
+	assumptions.Push_back(p1)
+
+	fmt.Println(s.Check(assumptions))
+	core := s.Unsat_core()
+	fmt.Println(core)
+	fmt.Printf("size: %v\n", core.Size())
+	for i := 0; uint(i) < core.Size(); i++ {
+		fmt.Println(core.Get(i))
+	}
+
+	// The core is not very informative, since p1 is tracking the formula F
+	// that is a conjunction of subformulas.
+	// Now, we use the following piece of code to break this conjunction
+	// into individual subformulas. First, we flat the conjunctions by
+	// using the method simplify.
+
+	if !f.Is_app() {
+		fmt.Println("We assume that f is an application. But it is not.")
+		return
+	}
+	qs := z3.NewExprVector(c)
+	defer z3.DeleteExprVector(qs)
+	if int(f.Decl().Decl_kind()) == z3.Z3_OP_AND {
+		fmt.Printf("f num. args (before simplify): %v\n", f.Num_args())
+		f = f.Simplify()
+		fmt.Printf("f num. args (after simplify): %v\n", f.Num_args())
+		for i := uint(0); i < f.Num_args(); i++ {
+			fmt.Printf("Creating answer literal q%v for %v\n", i, f.Arg(i))
+			qname := fmt.Sprintf("q%v", i)
+			qi := c.Bool_const(qname)
+			s.Add(z3.Implies(qi, f.Arg(i)))
+			qs.Push_back(qi)
+		}
+	} else {
+		fmt.Println("This should not happend!")
+	}
+	// The solver s already contains p1 => F
+	// To disable F, we add (not p1) as an additional assumption
+	qs.Push_back(z3.Not(p1))
+	fmt.Println(s.Check(qs))
+	core2 := s.Unsat_core()
+	fmt.Println(core2)
+	fmt.Printf("size: %v\n", core2.Size())
+	for i := 0; uint(i) < core2.Size(); i++ {
+		fmt.Println(core2.Get(i))
+	}
+}
+
+func tacticExample1() {
+	fmt.Println("tatic example 1")
+	c := z3.NewContext()
+	defer z3.DeleteContext(c)
+
+	x := c.Real_const("x")
+	y := c.Real_const("y")
+	g := z3.NewGoal(c)
+	defer z3.DeleteGoal(g)
+	g.Add(z3.Greater(x, 0))
+	g.Add(z3.Greater(y, 0))
+	g.Add(z3.Equals(x, z3.Add(y, 2)))
+	fmt.Println(g)
+	t1 := z3.NewTactic(c, "simplify")
+	defer z3.DeleteTactic(t1)
+	t2 := z3.NewTactic(c, "solve-eqs")
+	defer z3.DeleteTactic(t2)
+	t := z3.TacticAnd(t1, t2)
+	r := t.ApplyFct(g)
+	fmt.Println(r)
 }
 
 func main() {
@@ -316,4 +408,6 @@ func main() {
 	errorExample()
 	iteExample2()
 	unsatCoreExample1()
+	unsatCoreExample2()
+	tacticExample1()
 }
