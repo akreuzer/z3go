@@ -31,7 +31,6 @@ for the GO interface
 
 %rename(TacticAnd) operator&(tactic const&, tactic const&);
 %rename(TacticOr) operator|(tactic const&, tactic const&);
-//%rename(ProbeAnd) operator&&(probe const&, probe const&);
 
 %rename(Not) operator!(expr const &);
 %rename(Or) operator||(expr const&, expr const&);
@@ -41,7 +40,7 @@ for the GO interface
 %rename(And) operator&&(bool, expr const&);
 %rename(And) operator&&(expr const&, bool);
 %rename(Equals) operator==(expr const&, expr const&);
-%rename(Equals) operator==(int&, expr const&);
+%rename(Equals) operator==(int, expr const&);
 %rename(Equals) operator==(expr const&, int);
 %rename(NotEquals) operator!=(expr const&, expr const&);
 %rename(NotEquals) operator!=(int, expr const&);
@@ -72,8 +71,61 @@ for the GO interface
 %rename(BAnd) operator&(int, expr const&);
 %rename(BAnd) operator&(expr const&, int);
 %rename(BComp) operator~;
+// TODO proble operator
+%rename(ProbeNot) operator!(probe const&);
+%rename(ProbeAnd) operator&&(probe const&, probe const&);
+%rename(ProbeOr) operator||(probe const&, probe const&);
+%rename(ProbeEquals) operator==(probe const&, probe const&);
+%rename(ProbeEquals) operator==(double, probe const&);
+%rename(ProbeEquals) operator==(probe const&, double);
+%rename(ProbeNotEquals) operator!=(probe const&, probe const&);
+%rename(ProbeNotEquals) operator!=(double, probe const&);
+%rename(ProbeNotEquals) operator!=(probe const&, double);
+%rename(ProbeLess) operator<(probe const&, probe const&);
+%rename(ProbeLess) operator<(double, probe const&);
+%rename(ProbeLess) operator<(probe const&, double);
+%rename(ProbeLessEq) operator<=(probe const&, probe const&);
+%rename(ProbeLessEq) operator<=(double, probe const&);
+%rename(ProbeLessEq) operator<=(probe const&, double);
+%rename(ProbeGreater) operator>(probe const&, probe const&);
+%rename(ProbeGreater) operator>(double, probe const&);
+%rename(ProbeGreater) operator>(probe const&, double);
+%rename(ProbeGreaterEq) operator>=(probe const&, probe const&);
+%rename(ProbeGreaterEq) operator>=(double, probe const&);
+%rename(ProbeGreaterEq) operator>=(probe const&, double);
+
 
 %ignore operator<<; // We wrote extra string functions for that
+%ignore operator=;
+
+%rename(uint_val) int_val(unsigned int);
+%ignore real_val(unsigned int);
+%rename(ubv_val) bv_val(unsigned int, unsigned int);
+%rename(asBool) operator bool;
+%rename(rangeSort) range() const;
+%rename(selectExpr) select;
+
+// ignore C API conversions
+%ignore operator Z3_ast_vector;
+%ignore operator Z3_config;
+%ignore operator Z3_context;
+%ignore operator Z3_symbol;
+%ignore operator Z3_params;
+%ignore operator Z3_ast;
+%ignore operator Z3_sort;
+%ignore operator Z3_func_decl;
+%ignore operator Z3_app;
+%ignore operator Z3_func_entry;
+%ignore operator Z3_func_interp;
+%ignore operator Z3_model;
+%ignore operator Z3_stats;
+%ignore operator Z3_solver;
+%ignore operator Z3_goal;
+%ignore operator Z3_apply_result;
+%ignore operator Z3_tactic;
+%ignore operator Z3_probe;
+%ignore operator Z3_optimize;
+
 #endif
 
 #ifndef Z3PP_H_
